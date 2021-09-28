@@ -1,3 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Boxing Wizards";
+  src: url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.eot");
+  src: url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.svg#Boxing Wizards")
+      format("svg");
+}
+
 html,
 body {
   padding: 0;
