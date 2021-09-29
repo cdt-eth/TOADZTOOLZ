@@ -117,14 +117,14 @@ function FormModal() {
           Sockz Finder
         </h3>
 
-        <form>
+        <form onSubmit={(e) => handleClick(e)}>
           <input
+            autoFocus
             onChange={(e) => setSearchInput(e.target.value)}
             value={searchInput}
             className="input py-3"
             placeholder="Enter Cryptoadz id"
           />
-
           {id !== "" ? (
             <div className="pt-12 pb-6">
               {id && !isLoading ? (
@@ -164,7 +164,6 @@ function FormModal() {
           ) : (
             ""
           )}
-
           <div
             className="button text-2xl hover:opacity-75 transition duration-100"
             onClick={handleClick}
