@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import HardhatToadz from "./HardhatToadz";
 
@@ -12,7 +13,11 @@ const Header = () => {
         <HardhatToadz toadz="small-angry.png" />
       </div>
 
-      <p className="title xs:text-4xl sm:text-8xl">TOADZTOOLZ</p>
+      <img
+        className="xs:w-3/4 sm:w-1/2 m-auto"
+        src="toadztoolz.gif"
+        alt="title"
+      />
     </div>
   );
 };
