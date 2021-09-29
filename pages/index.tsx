@@ -4,10 +4,10 @@ import Tip from "./components/Tip";
 import Projects from "./components/Projects";
 import Sockz from "./components/Sockz";
 import Header from "./components/Header";
-import Toadmap from "./components/Toadmap";
+// import Toadmap from "../Toadmap";
 import dynamic from "next/dynamic";
 
-const Roadmap = dynamic(() => import("./components/Toadmap"), {
+const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
 });
 
