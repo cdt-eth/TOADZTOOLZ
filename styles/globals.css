@@ -150,3 +150,61 @@ code {
 .copy {
   font-family: "Boxing Wizards";
 }
+
+.card-special:hover,
+.card-special:focus,
+.card-special:active {
+  color: #0070f3;
+  border-color: #0070f3;
+  cursor: pointer;
+}
+
+.card-special h3 {
+  /* margin: 0 0 1rem 0; */
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card-special p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  color: #222;
+  font-size: 16px;
+  height: 56px;
+  padding: 0px 16px;
+  width: 100%;
+}
+
+.modalTitle {
+  font-size: 1.5rem;
+}
+
+.button {
+  align-items: center;
+  background: #0070f3;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 56px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
