@@ -375,9 +375,9 @@ const sockz = new ethers.Contract(
   provider
 );
 
-let wallet;
+let wallet: any;
 
-async function checkSockzOwner(id) {
+async function checkSockzOwner(id: string) {
   const sockzConnected = sockz.connect(wallet);
 
   try {
@@ -391,7 +391,7 @@ async function checkSockzOwner(id) {
   }
 }
 
-export default async (req, res) => {
+export default async (req: any, res: any) => {
   const {
     query: { id },
     method,
