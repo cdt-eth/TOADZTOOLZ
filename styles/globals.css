@@ -96,24 +96,23 @@ code {
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
+.items {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
-  max-width: 800px;
+  /* max-width: 800px; */
   margin-top: 3rem;
 }
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: left;
+  height: 250px;
+  flex: 1;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 3px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -121,9 +120,10 @@ code {
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #657f1e;
+  border-color: #657f1e;
   cursor: pointer;
+  border: 3px solid #657f1e;
 }
 
 .card h3 {
@@ -133,7 +133,7 @@ code {
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   line-height: 1.5;
 }
 
