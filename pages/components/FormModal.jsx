@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from "react-modal";
+import Link from "./Link";
 
 const customStyles = {
   content: {
@@ -26,11 +27,42 @@ const customStyles = {
 
 Modal.setAppElement("#__next");
 
-function FormModal({ sockzData, sockzId, checkSockz }) {
+// function FormModal({ sockzData, sockzId, checkSockz, isLoading }) {
+// function FormModal({ sockzData, sockzId, isLoading }) {
+function FormModal() {
   let subtitle;
-
+  // const [id, setId] = useState(sockzId);
+  const [id, setId] = useState("");
+  const [sockzData, setSockzData] = useState({});
   const [modalIsOpen, setIsOpen] = useState(false);
-  const [id, setId] = useState(sockzId);
+  const [isLoading, setIsLoading] = useState(false);
+  const [searchInput, setSearchInput] = useState("");
+
+  useEffect(() => {
+    const checkSockz = async () => {
+      const settings = {
+        method: "GET",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      };
+
+      try {
+        setIsLoading(true);
+
+        const fetchResponse = await fetch(`/api/sockz/${id}`, settings);
+        const data = await fetchResponse.json();
+
+        setSockzData(data);
+        setIsLoading(false);
+      } catch {
+        console.error("Error fetching sockz information");
+      }
+    };
+
+    checkSockz();
+  }, [id]);
 
   function openModal() {
     setIsOpen(true);
@@ -43,25 +75,32 @@ function FormModal({ sockzData, sockzId, checkSockz }) {
 
   function closeModal() {
     setIsOpen(false);
+    setId("");
+    setSearchInput("");
   }
 
-  function handleChange(e) {
-    e.preventDefault();
-    setId(e.target.value);
-  }
+  // function handleChange(e) {
+  //   e.preventDefault();
+  //   setSearchInput(e.target.value);
+  // }
 
   function handleClick(e) {
     e.preventDefault();
-    checkSockz(id);
+
+    setId(searchInput);
+    // checkSockz();
+    // setSearchInput("");
   }
+  console.log("searchInput", searchInput);
+  console.log("id", id);
 
   return (
     <>
       <div
         onClick={openModal}
-        className="xs:w-1/2 md:w-3/4 hover:cursor-pointer"
+        className="xs:w-1/2 md:w-1/3 hover:cursor-pointer"
       >
-        <img className="cursor-pointer	" src="toadz_sockz.png" alt="sockz" />
+        <img className="cursor-pointer" src="toadz_sockz.png" alt="sockz" />
       </div>
 
       <Modal
@@ -71,28 +110,65 @@ function FormModal({ sockzData, sockzId, checkSockz }) {
         style={customStyles}
         contentLabel="Sockz Tracker"
       >
-        <h3 ref={(_subtitle) => (subtitle = _subtitle)}>Enter Cryptoadz id</h3>
-
-        <p>Currently querying {id}</p>
+        <h3
+          className="enterID text-3xl"
+          ref={(_subtitle) => (subtitle = _subtitle)}
+        >
+          Sockz Finder
+        </h3>
 
         <form>
-          <input onChange={handleChange} value={id} className="input" />
-          <p>
-            {!sockzData?.sockzMinted
-              ? "Sockz available ✅"
-              : "Sockz not available ❌"}
-            <br />
-            <a
-              href={`https://opensea.io/assets/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6/${id}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              View on OpenSea
-            </a>{" "}
-            🌊
-          </p>
+          <input
+            onChange={(e) => setSearchInput(e.target.value)}
+            value={searchInput}
+            className="input py-3"
+            placeholder="Enter Cryptoadz id"
+          />
 
-          <div className="button" onClick={handleClick}>
+          {id !== "" ? (
+            <div className="pt-12 pb-6">
+              {id && !isLoading ? (
+                <div className="bg-gray-100 rounded-xl py-6">
+                  <p className="text-center modal-text mb-4 max-w-max m-auto xs:text-2xl sm:text-3xl">
+                    Cryptoadz #{id}
+                  </p>
+
+                  <div className="text-center">
+                    {!sockzData?.sockzMinted ? (
+                      <p className="w-full text-2xl ">
+                        Sockz available to claim ✅
+                      </p>
+                    ) : (
+                      <>
+                        <p className="w-full xs:text-lg sm:text-2xl ">
+                          Sockz have been claimed. ❌
+                        </p>
+                        <div className="pt-4">
+                          <a
+                            href={`https://opensea.io/assets/0x537b9af55dadcad9d22309e5b8ce35cffd8c1925/${id}`}
+                            className="cursor-pointer w-full bg-blue-500 text-white px-3 py-2 rounded-full text-sm font-bold hover:bg-blue-900 transition duration-100"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Buy on OpenSea 🌊
+                          </a>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                </div>
+              ) : (
+                <h3 className="text-center modal-text">Loading...</h3>
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+
+          <div
+            className="button text-2xl hover:opacity-75 transition duration-100"
+            onClick={handleClick}
+          >
             Search
           </div>
         </form>
