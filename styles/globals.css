@@ -263,6 +263,7 @@ h3 {
   top: 50%;
   overflow: hidden;
   left: 100%;
+  position: fixed;
   margin-top: 0px;
   margin-left: -250px;
 }
