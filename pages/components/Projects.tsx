@@ -20,6 +20,11 @@ const Projects = () => {
         text="Claim your sockz here!"
       />
       <Card
+        link="https://partybidv2.vercel.app/party/0x3E6348a0e9F230a15ef71EDc50C4eDF4C7783598"
+        title="PartyToad"
+        text="GhostsDAO's partybid on the rarest Ghost Toad"
+      />
+      <Card
         link="https://opensea.io/collection/cryptoadz-by-gremplin"
         title="Buy Toadz"
         text="Shop for Cryptoadz on OpenSea!"
