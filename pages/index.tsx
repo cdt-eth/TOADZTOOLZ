@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import FormModal from "./components/FormModal";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Tip from "./components/Tip";
 
 export default function Home() {
   return (
@@ -61,6 +63,7 @@ export default function Home() {
         </div> */}
       </main>
 
+      <Tip />
       {/* <Footer /> */}
     </div>
   );

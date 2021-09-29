@@ -29,9 +29,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* background: #061425;
-  background: #657f1e;
-  color: white; */
+  /* background: #061425; */
+  /* background: #657f1e; */
+  /* color: white; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -201,7 +201,12 @@ h3 {
 
 .modal-text {
   font-family: "Superscratchy";
-  /* font-family: "Boxing Wizards"; */
+}
+.text-wizards {
+  font-family: "Boxing Wizards";
+}
+.text-scratchy {
+  font-family: "Superscratchy";
 }
 
 .input {
@@ -248,4 +253,8 @@ h3 {
 }
 .ReactModal__Overlay {
   background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.address {
+  color: #657f1e;
 }
