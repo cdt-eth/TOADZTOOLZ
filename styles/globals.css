@@ -258,3 +258,16 @@ h3 {
 .address {
   color: #657f1e;
 }
+
+.roadmap {
+  top: 50%;
+  overflow: hidden;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: -250px;
+}
+
+.fox {
+  padding-left: 70px;
+  max-width: none !important;
+}
