@@ -11,7 +11,7 @@ const Tip = () => {
           Want to support ongoing development?
           <br /> <span className="not-italic	">Tip jar:</span>{" "}
           <span className="text-scratchy not-italic address">
-            christiantuner.eth
+            christianturner.eth
           </span>
         </p>
       </div>
