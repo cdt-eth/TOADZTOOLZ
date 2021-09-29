@@ -2,7 +2,6 @@ import Head from "next/head";
 import FormModal from "./components/FormModal";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Tip from "./components/Tip";
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
       <main className="p-3">
         <Header />
 
-        <div className="flex xs:py-7 sm:py-12 md:w-3/4">
+        <div className="flex xs:py-7 sm:py-6 md:w-3/4">
           <FormModal />
 
           <p className="self-center xs:text-2xl sm:text-4xl copy">
@@ -62,9 +61,7 @@ export default function Home() {
         </div> */}
       </main>
 
-      <Tip />
-
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
