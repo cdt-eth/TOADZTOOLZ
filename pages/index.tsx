@@ -1,44 +1,10 @@
 import Head from "next/head";
 import FormModal from "./components/FormModal";
-import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Tip from "./components/Tip";
 
 export default function Home() {
-  const [id, setId] = useState("");
-  const [sockzData, setSockzData] = useState({});
-  const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    {
-      // id && checkSockz(id);
-    }
-  }, [id, isLoading]);
-
-  // const checkSockz = async (id: string) => {
-  //   const settings = {
-  //     method: "GET",
-  //     headers: {
-  //       Accept: "application/json",
-  //       "Content-Type": "application/json",
-  //     },
-  //   };
-
-  //   try {
-  //     setIsLoading(true);
-  //     const fetchResponse = await fetch(`/api/sockz/${id}`, settings);
-
-  //     const data = await fetchResponse.json();
-
-  //     setSockzData(data);
-  //     setIsLoading(false);
-  //     // setId("");
-  //   } catch {
-  //     console.error("Error fetching loot information");
-  //   }
-  // };
-
   return (
     <div className=" ">
       <Head>
@@ -56,12 +22,8 @@ export default function Home() {
         <Header />
 
         <div className="flex xs:py-7 sm:py-12 md:w-3/4">
-          <FormModal
-            sockzData={sockzData}
-            sockzId={id}
-            // checkSockz={checkSockz}
-            isLoading={isLoading}
-          />
+          <FormModal />
+
           <p className="self-center xs:text-2xl sm:text-4xl copy">
             Check and see if your Sockz have been claimed!
           </p>
