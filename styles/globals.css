@@ -272,3 +272,13 @@ h3 {
   padding-left: 70px;
   max-width: none !important;
 }
+
+@media (max-width: 600px) {
+  .fox {
+    padding-left: 130px;
+    width: 120%;
+  }
+  .roadmap {
+    top: 32%;
+  }
+}
