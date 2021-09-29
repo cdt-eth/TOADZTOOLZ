@@ -5,7 +5,7 @@ import HardhatToadz from "./HardhatToadz";
 const Banner = () => {
   return (
     <div className="mx-9">
-      <div className="flex ">
+      <div className="flex pt-4">
         <HardhatToadz toadz="tall-toadboat.png" />
         <HardhatToadz toadz="small-bones.png" />
         <HardhatToadz toadz="small-gummyslime.png" />
