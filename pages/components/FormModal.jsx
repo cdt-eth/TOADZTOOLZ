@@ -2,7 +2,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Modal from "react-modal";
-import Link from "./Link";
 
 const customStyles = {
   content: {
@@ -27,11 +26,8 @@ const customStyles = {
 
 Modal.setAppElement("#__next");
 
-// function FormModal({ sockzData, sockzId, checkSockz, isLoading }) {
-// function FormModal({ sockzData, sockzId, isLoading }) {
 function FormModal() {
   let subtitle;
-  // const [id, setId] = useState(sockzId);
   const [id, setId] = useState("");
   const [sockzData, setSockzData] = useState({});
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -79,20 +75,11 @@ function FormModal() {
     setSearchInput("");
   }
 
-  // function handleChange(e) {
-  //   e.preventDefault();
-  //   setSearchInput(e.target.value);
-  // }
-
   function handleClick(e) {
     e.preventDefault();
 
     setId(searchInput);
-    // checkSockz();
-    // setSearchInput("");
   }
-  console.log("searchInput", searchInput);
-  console.log("id", id);
 
   return (
     <>
