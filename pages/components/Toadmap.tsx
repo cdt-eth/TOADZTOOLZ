@@ -5,11 +5,6 @@ import ModalVideo from "react-modal-video";
 const Toadmap = () => {
   const [isOpen, setOpen] = useState(false);
 
-  useEffect(() => {
-    // window is accessible here.
-    console.log("window", window);
-  }, []);
-
   return (
     <div className="relative">
       <ModalVideo
