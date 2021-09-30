@@ -122,9 +122,21 @@ function FormModal() {
 
                   <div className="text-center">
                     {!sockzData?.sockzMinted ? (
-                      <p className="w-full text-2xl ">
-                        Sockz available to claim ✅
-                      </p>
+                      <>
+                        <p className="w-full text-2xl ">
+                          Sockz available to claim ✅
+                        </p>
+                        <div className="pt-4">
+                          <a
+                            href="https://www.sockz.exchange/"
+                            className="cursor-pointer w-full bg-blue-500 text-white px-3 py-2 rounded-full text-sm font-bold hover:bg-blue-900 transition duration-100"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Claim now!
+                          </a>
+                        </div>
+                      </>
                     ) : (
                       <>
                         <p className="w-full xs:text-lg sm:text-2xl ">
