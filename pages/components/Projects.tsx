@@ -20,8 +20,8 @@ const Projects = () => {
         text="Claim your sockz here!"
       />
       <Card
-        link="https://twitter.com/ghxstdao/status/1443388604776996864"
-        title="PartyToad"
+        link="https://www.partybid.app/party/0xE43f0Bf1Fc7B5f8FA3c29b4B62294CA996C93D93"
+        title="PartyGhost"
         text="GhostsDAO's partybid on the rarest Ghost Toad"
       />
       <Card
@@ -32,7 +32,7 @@ const Projects = () => {
       <Card
         link="https://etherscan.io/address/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6"
         title="Etherscan"
-        text="Learn more by seeing exploring the deployed smart contract."
+        text="Learn more by seeing, explore the deployed smart contract."
       />
     </div>
   );
