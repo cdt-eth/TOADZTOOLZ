@@ -265,20 +265,22 @@ h3 {
   left: 100%;
   position: fixed;
   margin-top: 0px;
-  margin-left: -250px;
+  /* margin-left: -250px; */
+  margin-left: -180px !important;
 }
 
 .fox {
-  padding-left: 70px;
+  /* padding-left: 70px; */
   max-width: none !important;
 }
 
 @media (max-width: 600px) {
   .fox {
-    padding-left: 130px;
-    width: 120%;
+    /* padding-left: 130px; */
+    width: 150% !important;
   }
   .roadmap {
-    top: 32%;
+    top: 34% !important;
+    margin-left: -90px !important;
   }
 }
