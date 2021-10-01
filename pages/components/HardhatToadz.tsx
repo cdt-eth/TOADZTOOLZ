@@ -9,11 +9,15 @@ interface HardhatProps {
 const HardhatToadz = ({ toadz }: HardhatProps) => {
   const { theme, setTheme } = useTheme();
   return (
-    <img
-      className="w-1/5 flex-1"
-      src={`/hardhat/${theme === "light" ? `${toadz}` : `vibez/${toadz}`}`}
-      alt={toadz}
-    />
+    <>
+      {theme && (
+        <img
+          className="w-1/5 flex-1"
+          src={`/hardhat/${theme === "light" ? `${toadz}` : `vibez/${toadz}`}`}
+          alt={toadz}
+        />
+      )}
+    </>
   );
 };
 

@@ -90,11 +90,13 @@ function FormModal() {
         onClick={openModal}
         className="xs:w-1/2 md:w-1/3 hover:cursor-pointer"
       >
-        <img
-          className="cursor-pointer"
-          src={theme === "light" ? "toadz_sockz.png" : "vibez.png"}
-          alt="sockz"
-        />
+        {theme && (
+          <img
+            className="cursor-pointer"
+            src={theme === "light" ? "toadz_sockz.png" : "vibez.png"}
+            alt="sockz"
+          />
+        )}
       </div>
 
       <Modal

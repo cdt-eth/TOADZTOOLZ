@@ -16,11 +16,13 @@ const Banner = () => {
         <HardhatToadz toadz="small-angry.png" />
       </div>
 
-      <img
-        className="xs:w-3/4 sm:w-1/2 m-auto"
-        src={theme === "light" ? "toadztoolz.gif" : "toadztoolz-white.gif"}
-        alt="title"
-      />
+      {theme && (
+        <img
+          className="xs:w-3/4 sm:w-1/2 m-auto"
+          src={theme === "light" ? "toadztoolz.gif" : "toadztoolz-white.gif"}
+          alt="title"
+        />
+      )}
     </div>
   );
 };
