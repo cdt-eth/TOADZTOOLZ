@@ -7,7 +7,7 @@ const Vibe = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="cursor-pointer pt-5 outline-none justify-center max-w-max m-auto flex text-scratchy">
+    <div className="cursor-pointer pt-5 px-3 outline-none justify-center max-w-max m-auto flex text-scratchy">
       <button
         className="text-black dark:text-white flex outline-none vibe"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
