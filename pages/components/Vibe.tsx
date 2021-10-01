@@ -10,7 +10,7 @@ const Vibe = () => {
     <div className="cursor-pointer pt-5 px-3 outline-none justify-center max-w-max m-auto flex text-scratchy">
       {theme && (
         <button
-          className="text-black dark:text-white flex outline-none vibe"
+          className="text-black dark:text-white flex outline-none w-28 justify-center vibe"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           !Vibe M
