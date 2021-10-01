@@ -1,8 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import HardhatToadz from "./HardhatToadz";
+import { useTheme } from "next-themes";
 
 const Banner = () => {
+  const { theme, setTheme } = useTheme();
+
   return (
     <div className="mx-9">
       <div className="flex pt-4">
@@ -15,7 +18,7 @@ const Banner = () => {
 
       <img
         className="xs:w-3/4 sm:w-1/2 m-auto"
-        src="toadztoolz.gif"
+        src={theme === "light" ? "toadztoolz.gif" : "toadztoolz-white.gif"}
         alt="title"
       />
     </div>

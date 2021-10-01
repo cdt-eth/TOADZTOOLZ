@@ -120,10 +120,10 @@ code {
 .card:hover,
 .card:focus,
 .card:active {
-  color: #657f1e;
-  border-color: #657f1e;
+  color: #2c7be5;
+  border-color: #2c7be5;
   cursor: pointer;
-  border: 3px solid #657f1e;
+  border: 3px solid #2c7be5;
 }
 
 .card h3 {
@@ -194,7 +194,7 @@ h3 {
 
 /* MODAL */
 .enterID {
-  color: #657f1e !important;
+  color: #2c7be5 !important;
   font-family: "Superscratchy";
   /* font-family: "Boxing Wizards"; */
 }
@@ -230,7 +230,7 @@ h3 {
   font-family: "Boxing Wizards";
   font-family: "Superscratchy";
   background: #061425;
-  background: #657f1e;
+  background: #2c7be5;
   border-radius: 10px;
   color: #ffffff;
   cursor: pointer;
@@ -256,7 +256,7 @@ h3 {
 }
 
 .address {
-  color: #657f1e;
+  color: #2c7be5;
 }
 
 .roadmap {

@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Sockz from "./components/Sockz";
 import Header from "./components/Header";
 import dynamic from "next/dynamic";
+import Vibe from "./components/Vibe";
 
 const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
@@ -12,12 +13,11 @@ const Roadmap = dynamic(() => import("../Toadmap"), {
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white dark:bg-toadz-dark">
       <Header />
+      <Vibe />
       <Banner />
-
       <Roadmap />
-
       <Sockz />
       <Projects />
       <Tip />

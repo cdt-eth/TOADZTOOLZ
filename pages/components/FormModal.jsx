@@ -2,6 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Modal from "react-modal";
+import { useTheme } from "next-themes";
 
 const customStyles = {
   content: {
@@ -27,6 +28,8 @@ const customStyles = {
 Modal.setAppElement("#__next");
 
 function FormModal() {
+  const { theme, setTheme } = useTheme();
+
   let subtitle;
   const [id, setId] = useState("");
   const [sockzData, setSockzData] = useState({});
@@ -87,7 +90,11 @@ function FormModal() {
         onClick={openModal}
         className="xs:w-1/2 md:w-1/3 hover:cursor-pointer"
       >
-        <img className="cursor-pointer" src="toadz_sockz.png" alt="sockz" />
+        <img
+          className="cursor-pointer"
+          src={theme === "light" ? "toadz_sockz.png" : "vibez.png"}
+          alt="sockz"
+        />
       </div>
 
       <Modal
@@ -116,14 +123,14 @@ function FormModal() {
             <div className="pt-12 pb-6">
               {id && !isLoading ? (
                 <div className="bg-gray-100 rounded-xl py-6">
-                  <p className="text-center modal-text mb-4 max-w-max m-auto xs:text-2xl sm:text-3xl">
+                  <p className="text-center modal-text mb-4 max-w-max m-auto xs:text-2xl sm:text-3xl text-black">
                     Cryptoadz #{id}
                   </p>
 
                   <div className="text-center">
                     {!sockzData?.sockzMinted ? (
                       <>
-                        <p className="w-full text-2xl ">
+                        <p className="w-full text-2xl text-black">
                           Sockz available to claim ✅
                         </p>
                         <div className="pt-4">
@@ -139,7 +146,7 @@ function FormModal() {
                       </>
                     ) : (
                       <>
-                        <p className="w-full xs:text-lg sm:text-2xl ">
+                        <p className="w-full xs:text-lg sm:text-2xl text-black">
                           Sockz have been claimed. ❌
                         </p>
                         <div className="pt-4">
@@ -157,7 +164,9 @@ function FormModal() {
                   </div>
                 </div>
               ) : (
-                <h3 className="text-center modal-text">Loading...</h3>
+                <h3 className="text-center modal-text dark:text-black">
+                  Loading...
+                </h3>
               )}
             </div>
           ) : (

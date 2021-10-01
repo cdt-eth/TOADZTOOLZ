@@ -1,8 +1,12 @@
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "toadz-dark": "#061425",
+      },
+    },
     screens: {
       xs: "200px",
       sm: "640px",
