@@ -18,6 +18,25 @@ const Toolz = () => {
           />
         </Section>
 
+        <Section title="News">
+          <Item
+            name="Punks or Toadz?"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
+            link="https://thedefiant.io/cryptoadz-nft/"
+          />
+          <Item
+            name="Why My NFT Toad Brought Me Joy
+"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
+            link="https://www.nytimes.com/2021/09/20/opinion/NFT-crypto-art.html"
+          />
+          <Item
+            name="Redlion"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
+            link="https://www.redlion.news/article/cryptoadz-by-gremplin"
+          />
+        </Section>
+
         <Section title="Games">
           <Item
             name="Game 1"
