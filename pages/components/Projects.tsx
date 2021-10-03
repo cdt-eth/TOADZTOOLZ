@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="items flex m-auto sm:py-10 sm:pt-2 xs:text-lg">
       <Card
-        link="https://cryptoadz.io/"
+        link="/toolz"
         title="Derivatives"
         text="See what the Toadz community is building!"
       />
