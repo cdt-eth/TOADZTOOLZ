@@ -1,5 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Item from "./components/Toolz/Item";
+import Social from "./components/Toolz/Social";
 import Section from "./components/Toolz/Section";
 
 const Toolz = () => {
@@ -9,76 +11,94 @@ const Toolz = () => {
         Toolz
       </h1>
 
+      <Social />
+
       <div className="">
         <Section title="Deriatives">
           <Item
-            name="Deriative 1"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
-            link="https://cryptoadz.io"
+            name="CryptoFlyz"
+            description="Free mint for all toad holder. All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits."
+            link="https://twitter.com/masonlondon/status/1443576364913754116?s=20"
+          />
+          <Item
+            name="Choadz"
+            description="An homage to CrypToadz, brought to life in 3D by The Chunks."
+            link="https://choadz.com/"
+          />
+        </Section>
+
+        <Section title="Stats & Analytics">
+          <Item
+            name="Flips Finance"
+            description="Wide array of available stats with a great trait breakdown and comprehensive stat chart per toad."
+            link="https://www.flips.finance/collection/cryptoadz-by-gremplin"
+          />
+          <Item
+            name="Dune Analytics"
+            description="More in-depth vizuals taking a deeper-dive into Cryptoadz' trading volume, top holders, and other data points!"
+            link="https://dune.xyz/Artoria/Toadz-dash"
+          />
+          <Item
+            name="Rarity"
+            description="Classic tool for discovering collection's rarity and explaining asset traits and value."
+            link="https://rarity.tools/cryptoadz-by-gremplin?sort=byId"
           />
         </Section>
 
         <Section title="News">
           <Item
-            name="Punks or Toadz?"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
+            name="The Defiant • Punks or Toadz?"
+            description={`"Referential Art Project No.1 in 24-Hour Trading Volume. Another day, another NFT project, but with the strong network and idiosyncratic art behind this one, it might be in it for the long haul."
+            `}
             link="https://thedefiant.io/cryptoadz-nft/"
           />
           <Item
-            name="Why My NFT Toad Brought Me Joy
-"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
+            name="New York Times • Why My NFT Toad Brought Me Joy"
+            description={`"An economy where nobody works a bad job, where cryptocurrencies only go up in value and where financial planning for the future just involves buying more toads."`}
             link="https://www.nytimes.com/2021/09/20/opinion/NFT-crypto-art.html"
           />
           <Item
-            name="Redlion"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus varius sapien sed sagittis. Aenean pellentesque at nibh elementum tempor."
+            name="Redlion • Cryptoadz By Gremplin"
+            description={`"I think what makes Cryptoadz unique is Gremplin's referential style and irreverent artistic voice. His work is silly and fun. It comes across with an earnestness that resonates with a lot of people."`}
             link="https://www.redlion.news/article/cryptoadz-by-gremplin"
-          />
-        </Section>
-
-        <Section title="Games">
-          <Item
-            name="Game 1"
-            description="Cras blandit ultrices libero. In hac habitasse platea dictumst. Suspendisse pellentesque iaculis odio in luctus."
-            link="https://cryptoadz.io"
-          />
-          <Item
-            name="Game 2"
-            description="Sed nunc sem, accumsan sed dui vel, convallis eleifend metus. "
-            link="https://cryptoadz.io"
-          />
-        </Section>
-
-        <Section title="Resources">
-          <Item
-            name="Resource 1"
-            description="Vestibulum leo mauris, dictum eget convallis sit amet, facilisis eu odio. Nulla at ligula vehicula, scelerisque augue quis, blandit nunc."
-            link="https://cryptoadz.io"
-          />
-          <Item
-            name="Resource 2"
-            description="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-            link="https://cryptoadz.io"
-          />
-          <Item
-            name="Resource 3"
-            description="Praesent mauris nunc, vulputate rutrum bibendum at, semper ac elit. Integer egestas eget urna nec ultricies."
-            link="https://cryptoadz.io"
           />
         </Section>
 
         <Section title="Buy/Sell/Trade">
           <Item
-            name="Buy 1"
-            description="Aliquam elit magna, dictum nec mattis nec, semper ac metus."
-            link="https://cryptoadz.io"
+            name="OpenSea: Low to High"
+            description="View the current ''Floor Toadz'' and pick on up yourself!"
+            link="https://opensea.io/collection/cryptoadz-by-gremplin?search[sortAscending]=true&search[sortBy]=PRICE&search[toggles][0]=BUY_NOW"
+          />
+
+          <Item
+            name="Ghosts Market"
+            description="Buy available Ghost-body toadz."
+            link="https://www.ghosts.market/"
           />
           <Item
-            name="Sell 2"
-            description="Sed vel enim justo."
-            link="https://cryptoadz.io"
+            name="Hoodies Market"
+            description="Buy available Mysterious Hoodie toadz."
+            link="https://mystictoads-market.vercel.app/"
           />
+          <Item
+            name="Aliens Market"
+            description="Buy available Alien toadz."
+            link="https://alientoadz.market/"
+          />
+        </Section>
+
+        <Section title="Resources">
+          <Item
+            name="Subgraph Explorer"
+            description="Subgraph published to The Graph Network to allow devs to quickly query toadz data."
+            link="https://thegraph.com/legacy-explorer/subgraph/kevlee1/cryptoadz"
+          />
+        </Section>
+
+        <Section title="Games">
+          <Item name="Game 1" description="TBD" link="https://cryptoadz.io" />
+          <Item name="Game 2" description="TBD" link="https://cryptoadz.io" />
         </Section>
 
         <Section title="FAQ">
