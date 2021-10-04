@@ -14,7 +14,12 @@ const Toolz = () => {
       <Social />
 
       <div className="">
-        <Section title="Deriatives">
+        <Section title="Derivatives">
+          <Item
+            name="Sockz Exchange"
+            description="Sockz for toad holders. Sockz NFTs can be burned and redeemed for a real pair of sockz."
+            link="https://www.sockz.exchange/"
+          />
           <Item
             name="CryptoFlyz"
             description="Free mint for all toad holder. All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits."
