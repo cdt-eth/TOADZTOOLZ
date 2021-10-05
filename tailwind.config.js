@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "toadz-dark": "#061425",
+        "toadz-green": "#657F1E",
       },
     },
     screens: {
