@@ -3,6 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Modal from "react-modal";
 import { useTheme } from "next-themes";
+import Claimed from "./Claimed";
 
 const customStyles = {
   content: {
@@ -21,7 +22,7 @@ const customStyles = {
     border: "1px solid #eaeaea",
     borderRadius: "10px",
     transition: "color 0.15s ease, border-color 0.15s ease",
-    width: "400px",
+    width: "600px",
   },
 };
 
@@ -84,6 +85,9 @@ function FormModal() {
     setId(searchInput);
   }
 
+  const choadzMinted = sockzData.choadzMinted;
+  const sockzMinted = sockzData.sockzMinted;
+
   return (
     <>
       <div
@@ -104,13 +108,13 @@ function FormModal() {
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         style={customStyles}
-        contentLabel="Sockz Tracker"
+        contentLabel="Claim Center"
       >
         <h3
           className="enterID text-3xl"
           ref={(_subtitle) => (subtitle = _subtitle)}
         >
-          Sockz Finder
+          Claim Center
         </h3>
 
         <form onSubmit={(e) => handleClick(e)}>
@@ -121,6 +125,7 @@ function FormModal() {
             className="input py-3"
             placeholder="Enter Cryptoadz id"
           />
+
           {id !== "" ? (
             <div className="pt-12 pb-6">
               {id && !isLoading ? (
@@ -129,40 +134,22 @@ function FormModal() {
                     Cryptoadz #{id}
                   </p>
 
-                  <div className="text-center">
-                    {!sockzData?.sockzMinted ? (
-                      <>
-                        <p className="w-full text-2xl text-black">
-                          Sockz available to claim ✅
-                        </p>
-                        <div className="pt-4">
-                          <a
-                            href="https://www.sockz.exchange/"
-                            className="cursor-pointer w-full bg-blue-500 text-white px-3 py-2 rounded-full text-sm font-bold hover:bg-blue-900 transition duration-100"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Claim now!
-                          </a>
-                        </div>
-                      </>
-                    ) : (
-                      <>
-                        <p className="w-full xs:text-lg sm:text-2xl text-black">
-                          Sockz have been claimed. ❌
-                        </p>
-                        <div className="pt-4">
-                          <a
-                            href={`https://opensea.io/assets/0x537b9af55dadcad9d22309e5b8ce35cffd8c1925/${id}`}
-                            className="cursor-pointer w-full bg-blue-500 text-white px-3 py-2 rounded-full text-sm font-bold hover:bg-blue-900 transition duration-100"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Buy on OpenSea 🌊
-                          </a>
-                        </div>
-                      </>
-                    )}
+                  <div className="text-center ">
+                    <Claimed
+                      data={choadzMinted}
+                      asset="Choadz"
+                      address="0x172700a7dbbf92ee1db1474f956fd1078d2d0a00"
+                      id={id}
+                      url="https://choadz.com/"
+                    />
+
+                    <Claimed
+                      data={sockzMinted}
+                      asset="Sockz"
+                      address="0x537b9af55dadcad9d22309e5b8ce35cffd8c1925"
+                      id={id}
+                      url="https://www.sockz.exchange/"
+                    />
                   </div>
                 </div>
               ) : (
@@ -174,6 +161,7 @@ function FormModal() {
           ) : (
             ""
           )}
+
           <div
             className="button text-2xl hover:opacity-75 transition duration-100"
             onClick={handleClick}
