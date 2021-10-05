@@ -14,7 +14,7 @@ const Toolz = () => {
       <Social />
 
       <div className="">
-        <Section title="Derivatives">
+        <Section title="1-Per-Toad Projects">
           <Item
             name="Sockz Exchange"
             description="Sockz for toad holders. Sockz NFTs can be burned and redeemed for a real pair of sockz."
@@ -29,6 +29,24 @@ const Toolz = () => {
             name="Choadz"
             description="An homage to CrypToadz, brought to life in 3D by The Chunks."
             link="https://choadz.com/"
+          />
+        </Section>
+
+        <Section title="Derivatives">
+          <Item
+            name="ZombieToadz"
+            description="Collection of 5,555 zombie toadz."
+            link="https://opensea.io/collection/zombietoadzofficial"
+          />
+          <Item
+            name="69Toadz"
+            description="Collection of 69 swamp-inspired toadz."
+            link="https://opensea.io/collection/69toadz"
+          />
+          <Item
+            name="CholoToadz"
+            description="Collection of 500 cholo-style toadz by Blue Pastel."
+            link="https://opensea.io/collection/cholotoadz"
           />
         </Section>
 
@@ -102,11 +120,33 @@ const Toolz = () => {
         </Section>
 
         <Section title="Games">
-          <Item name="Game 1" description="TBD" link="https://cryptoadz.io" />
-          <Item name="Game 2" description="TBD" link="https://cryptoadz.io" />
+          <Item
+            name="Manny's Game"
+            description="Play Frogger as your own toad, change the id in the url to your specific toad to play!"
+            link="https://mannys.game/1?toad=35000000"
+          />
+        </Section>
+
+        <Section title="Art">
+          <Item
+            name="Cryptoadz Theme Song"
+            description="music by Bettorup"
+            link="https://twitter.com/cryptobuffalo/status/1437915763214479360?s=21"
+          />
+          <Item
+            name="Neon Toad #6294"
+            description="Custom Neon Toad art by Bryan Brinkman"
+            link="https://twitter.com/bryanbrinkman/status/1444813816718635010?s=21"
+          />
         </Section>
 
         <Section title="FAQ">
+          TBD
+          {/* <Item
+            name="Q: What is CC0?"
+            description="A: ___"
+            link="https://cryptoadz.io"
+          />
           <Item
             name="Q: Floor price?"
             description="A: 1 Toad."
@@ -121,7 +161,7 @@ const Toolz = () => {
             name="Q: !vibe?"
             description="A: !vibe."
             link="https://cryptoadz.io"
-          />
+          /> */}
         </Section>
       </div>
     </div>
