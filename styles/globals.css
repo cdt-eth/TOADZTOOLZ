@@ -225,6 +225,12 @@ h3 {
   background: #061425 !important;
 }
 
+@media (max-width: 600px) {
+  .ReactModal__Content .ReactModal__Content--after-open {
+    padding: 0 !important;
+  }
+}
+
 .button {
   align-items: center;
   font-family: "Boxing Wizards";
@@ -249,6 +255,7 @@ h3 {
   .ReactModal__Content--after-open {
     margin: 0rem !important;
     width: 90% !important;
+    padding: 2rem 1rem !important;
   }
 }
 .ReactModal__Overlay {
