@@ -48,6 +48,11 @@ const Toolz = () => {
             description="Collection of 500 cholo-style toadz by Blue Pastel."
             link="https://opensea.io/collection/cholotoadz"
           />
+          <Item
+            name="CrypTadpolez"
+            description="Unique 1/1 tadpolez by nobiscum."
+            link="https://opensea.io/collection/cryptadpolez"
+          />
         </Section>
 
         <Section title="Stats & Analytics">
@@ -113,6 +118,11 @@ const Toolz = () => {
 
         <Section title="Resources">
           <Item
+            name="Toadz World"
+            description="CrypToadz News Roundup"
+            link="https://toadz.world/"
+          />
+          <Item
             name="Subgraph Explorer"
             description="Subgraph published to The Graph Network to allow devs to quickly query toadz data."
             link="https://thegraph.com/legacy-explorer/subgraph/kevlee1/cryptoadz"
@@ -120,6 +130,11 @@ const Toolz = () => {
         </Section>
 
         <Section title="Games">
+          <Item
+            name="GREMPLAND: Cryptovoxels World"
+            description="Explore the Toadz metaverse."
+            link="https://www.cryptovoxels.com/play?coords=N@770E,356N"
+          />
           <Item
             name="Manny's Game"
             description="Play Frogger as your own toad, change the id in the url to your specific toad to play!"
@@ -137,6 +152,14 @@ const Toolz = () => {
             name="Neon Toad #6294"
             description="Custom Neon Toad art by Bryan Brinkman"
             link="https://twitter.com/bryanbrinkman/status/1444813816718635010?s=21"
+          />
+        </Section>
+
+        <Section title="Recordings">
+          <Item
+            name="Moti Monday Genesis"
+            description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/4/21."
+            link="https://soundcloud.com/user-814745690/moti-monday-genesis?si=7506edff7a104790a9fdd1d2a322228f"
           />
         </Section>
 
