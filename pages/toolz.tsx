@@ -109,7 +109,11 @@ const Toolz = () => {
             description="Buy from, sell into, or stake toadz in the vault to get rewarded on trading volume."
             link="https://nftx.io/vault/0x1999a92711cf8815b7f6b07bd34b4287d853cfba/buy/"
           />
-
+          <Item
+            name="Explorers Market"
+            description="Buy available Explorer toadz."
+            link="https://exploreringtoadz-market.vercel.app/"
+          />
           <Item
             name="Ghosts Market"
             description="Buy available Ghost-body toadz."
