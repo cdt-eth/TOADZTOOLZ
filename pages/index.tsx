@@ -6,7 +6,7 @@ import Sockz from "./components/Sockz";
 import Header from "./components/Header";
 import dynamic from "next/dynamic";
 import Vibe from "./components/Vibe";
-import FloorToadz from "./components/FloorToadz";
+// import FloorToadz from "./components/FloorToadz";
 
 const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
@@ -22,7 +22,7 @@ export default function Home() {
       <Roadmap />
       <Sockz />
       <Projects />
-      {/* <Tip /> */}
+      <Tip />
     </div>
   );
 }

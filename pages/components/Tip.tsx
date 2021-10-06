@@ -10,9 +10,7 @@ const Tip = () => {
         <p className="py-2 italic font-bold xs:text-md  sm:text-xl">
           Want to support ongoing development?
           <br /> <span className="not-italic	">Tip jar:</span>{" "}
-          <span className="text-scratchy not-italic address">
-            christianturner.eth
-          </span>
+          <span className="text-scratchy not-italic address">cdt.eth</span>
         </p>
       </div>
 
