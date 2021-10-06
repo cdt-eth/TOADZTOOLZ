@@ -75,7 +75,7 @@ const Toolz = () => {
 
         <Section title="News">
           <Item
-            name="The Defiant • Punks or Toadz?"
+            name="The Defiant • Punks or Toadz? Referential Art Project No.1 in 24-Hour Trading Volume"
             description={`"Referential Art Project No.1 in 24-Hour Trading Volume. Another day, another NFT project, but with the strong network and idiosyncratic art behind this one, it might be in it for the long haul."
             `}
             link="https://thedefiant.io/cryptoadz-nft/"
@@ -84,6 +84,11 @@ const Toolz = () => {
             name="New York Times • Why My NFT Toad Brought Me Joy"
             description={`"An economy where nobody works a bad job, where cryptocurrencies only go up in value and where financial planning for the future just involves buying more toads."`}
             link="https://www.nytimes.com/2021/09/20/opinion/NFT-crypto-art.html"
+          />
+          <Item
+            name="The Defiant • Vibe! Cryptoadz Floor Price Soars as Snoop Dogg and Other NFT Buyers Pile In"
+            description={`"Big players are taking notice. Cozomo de Medici, a Twitter account which the rapper Snoop Dogg claimed as his own, cashed out 140 ETH for  Cryptoadz #4236 which features a pattern referencing Fidenzas, the 999 Art Blocks pieces with a floor well over 100 ETH. "`}
+            link="https://thedefiant.io/cryptotoadz-discord-snoop-starry-night/"
           />
           <Item
             name="Redlion • Cryptoadz By Gremplin"
@@ -97,6 +102,12 @@ const Toolz = () => {
             name="OpenSea: Low to High"
             description="View the current ''Floor Toadz'' and pick on up yourself!"
             link="https://opensea.io/collection/cryptoadz-by-gremplin?search[sortAscending]=true&search[sortBy]=PRICE&search[toggles][0]=BUY_NOW"
+          />
+
+          <Item
+            name="NFTX Cryptoadz Valut"
+            description="Buy from, sell into, or stake toadz in the vault to get rewarded on trading volume."
+            link="https://nftx.io/vault/0x1999a92711cf8815b7f6b07bd34b4287d853cfba/buy/"
           />
 
           <Item
@@ -139,6 +150,11 @@ const Toolz = () => {
             name="Manny's Game"
             description="Play Frogger as your own toad, change the id in the url to your specific toad to play!"
             link="https://mannys.game/1?toad=35000000"
+          />
+          <Item
+            name="Cryptoadz/Arcade NFTs Collab"
+            description="Coming soon."
+            link="https://medium.com/@arcadenfts/the-cryptoadz-by-gremplin-arcade-nfts-collaboration-7c3e9398432d"
           />
         </Section>
 
