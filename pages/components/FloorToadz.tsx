@@ -26,7 +26,7 @@ const FloorToadz = () => {
 
         const data = await fetchResponse.json();
 
-        console.log("floor toadz:", data);
+        // console.log("floor toadz:", data);
         // console.log("auction:", data);
 
         setFloorToadz(data);
