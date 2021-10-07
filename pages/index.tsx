@@ -6,21 +6,24 @@ import Sockz from "./components/Sockz";
 import Header from "./components/Header";
 import dynamic from "next/dynamic";
 import Vibe from "./components/Vibe";
-// import FloorToadz from "./components/FloorToadz";
+import FloorToadz from "./components/FloorToadz";
+import { useTheme } from "next-themes";
 
 const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
 });
 
 export default function Home() {
+  const { theme, setTheme } = useTheme();
+
   return (
     <div className="bg-white dark:bg-toadz-dark">
       <Header />
       <Vibe />
       <Banner />
-      {/* <FloorToadz /> */}
-      <Roadmap />
+      {theme === "light" ? null : <Roadmap />}
       <Sockz />
+      <FloorToadz />
       <Projects />
       <Tip />
     </div>
