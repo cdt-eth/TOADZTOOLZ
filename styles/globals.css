@@ -34,6 +34,7 @@ body {
   /* color: white; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100vh;
 }
 
 .title {
@@ -290,4 +291,32 @@ h3 {
     top: 34% !important;
     margin-left: -90px !important;
   }
+}
+
+.page404 {
+  /* background-color: #0927f5; */
+  height: 100vh;
+}
+
+.blue {
+  background-color: #0927f5;
+}
+.red {
+  background-color: #ff0c0d;
+}
+
+.content {
+  height: 100vh;
+}
+
+.hooks-parent {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+
+.hooks-child {
+  width: 15rem;
+  max-width: 50%;
+  height: auto;
 }

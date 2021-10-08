@@ -13,6 +13,10 @@ const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
 });
 
+const Error = dynamic(() => import("./404"), {
+  ssr: false,
+});
+
 export default function Home() {
   const { theme, setTheme } = useTheme();
 
