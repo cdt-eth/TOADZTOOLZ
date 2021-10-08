@@ -32,7 +32,9 @@ const DVD = () => {
                 src={colorToad ? "404Toad.jpg" : "404Toad_Red.jpg"}
                 alt="404"
               />
-              <div className="text-center w-full m-auto">Go Home</div>
+              <div className="text-center text-white w-full m-auto">
+                Go Home
+              </div>
             </a>
           </Link>
         </div>
