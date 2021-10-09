@@ -3,6 +3,7 @@ import React from "react";
 import Item from "./components/Toolz/Item";
 import Social from "./components/Toolz/Social";
 import Section from "./components/Toolz/Section";
+import AnchorGroup from "./components/Toolz/AnchorGroup";
 
 const Toolz = () => {
   return (
@@ -12,9 +13,10 @@ const Toolz = () => {
       </h1>
 
       <Social />
+      <AnchorGroup />
 
       <div className="">
-        <Section title="1-Per-Toad Projects">
+        <Section title="1-Per-Toad Projects" id="projects">
           <Item
             name="Sockz Exchange"
             description="Sockz for toad holders. Sockz NFTs can be burned and redeemed for a real pair of sockz."
@@ -32,7 +34,17 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Derivatives">
+        <Section title="Derivatives" id="derivatives">
+          <Item
+            name="VanToadz"
+            description="A Swamp Full of 1/1 Toadz, brought to you by Van Coleman."
+            link="https://opensea.io/collection/van-toadz"
+          />
+          <Item
+            name="ToadzBarz"
+            description="Limited collection of 69 hungry toadz with chocolates."
+            link="https://toadz-barz.webflow.io/"
+          />
           <Item
             name="ZombieToadz"
             description="Collection of 5,555 zombie toadz."
@@ -55,7 +67,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Stats & Analytics">
+        <Section title="Stats & Analytics" id="stats">
           <Item
             name="Flips Finance"
             description="Wide array of available stats with a great trait breakdown and comprehensive stat chart per toad."
@@ -73,7 +85,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="News">
+        <Section title="News" id="news">
           <Item
             name="The Defiant • Punks or Toadz? Referential Art Project No.1 in 24-Hour Trading Volume"
             description={`"Referential Art Project No.1 in 24-Hour Trading Volume. Another day, another NFT project, but with the strong network and idiosyncratic art behind this one, it might be in it for the long haul."
@@ -97,7 +109,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Buy/Sell/Trade">
+        <Section title="Buy/Sell/Trade" id="buy">
           <Item
             name="OpenSea: Low to High"
             description="View the current ''Floor Toadz'' and pick on up yourself!"
@@ -131,7 +143,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Resources">
+        <Section title="Resources" id="resources">
           <Item
             name="Toadz World"
             description="CrypToadz News Roundup"
@@ -144,7 +156,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Games">
+        <Section title="Games" id="games">
           <Item
             name="GREMPLAND: Cryptovoxels World"
             description="Explore the Toadz metaverse."
@@ -156,13 +168,18 @@ const Toolz = () => {
             link="https://mannys.game/1?toad=35000000"
           />
           <Item
+            name="FVCK TOADZ"
+            description="Try to collect as many FVCK Crystals as possible!"
+            link="http://dumbesturl.com/games/FVCKTOADZ/"
+          />
+          <Item
             name="Cryptoadz/Arcade NFTs Collab"
             description="Coming soon."
             link="https://medium.com/@arcadenfts/the-cryptoadz-by-gremplin-arcade-nfts-collaboration-7c3e9398432d"
           />
         </Section>
 
-        <Section title="Art">
+        <Section title="Art" id="art">
           <Item
             name="Cryptoadz Theme Song"
             description="music by Bettorup"
@@ -175,7 +192,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Recordings">
+        <Section title="Recordings" id="recordings">
           <Item
             name="Moti Monday Genesis"
             description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/4/21."
@@ -183,7 +200,7 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="FAQ">
+        <Section title="FAQ" id="faq">
           TBD
           {/* <Item
             name="Q: What is CC0?"
