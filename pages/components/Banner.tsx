@@ -9,11 +9,11 @@ const Banner = () => {
   return (
     <div className="mx-9">
       <div className="flex pt-4">
-        <HardhatToadz toadz="tall-toadboat.png" />
-        <HardhatToadz toadz="small-bones.png" />
-        <HardhatToadz toadz="small-gummyslime.png" />
-        <HardhatToadz toadz="small-gorilla.png" />
-        <HardhatToadz toadz="small-angry.png" />
+        <HardhatToadz toadz="tall-toadboat" />
+        <HardhatToadz toadz="small-bones" />
+        <HardhatToadz toadz="small-gummyslime" />
+        <HardhatToadz toadz="small-gorilla" />
+        <HardhatToadz toadz="small-angry" />
       </div>
 
       {theme && (

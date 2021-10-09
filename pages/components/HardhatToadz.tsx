@@ -13,7 +13,9 @@ const HardhatToadz = ({ toadz }: HardhatProps) => {
       {theme && (
         <img
           className="w-1/5 flex-1"
-          src={`/hardhat/${theme === "light" ? `${toadz}` : `vibez/${toadz}`}`}
+          src={`/hardhat/${
+            theme === "light" ? `${toadz}.png` : `vibez/${toadz}.gif`
+          }`}
           alt={toadz}
         />
       )}
