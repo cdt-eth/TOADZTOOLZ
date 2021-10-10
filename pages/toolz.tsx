@@ -56,6 +56,11 @@ const Toolz = () => {
             link="https://toadz-barz.webflow.io/"
           />
           <Item
+            name="DOS Toadz"
+            description="Cryptoadz + DOS Character set + random color palette."
+            link="https://opensea.io/collection/dos-toadz-by-chartoadz"
+          />
+          <Item
             name="ZombieToadz"
             description="Collection of 5,555 zombie toadz."
             link="https://opensea.io/collection/zombietoadzofficial"
