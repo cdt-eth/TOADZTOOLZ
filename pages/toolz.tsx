@@ -51,6 +51,11 @@ const Toolz = () => {
             link="https://opensea.io/collection/van-toadz"
           />
           <Item
+            name="FrenToadz"
+            description="Unique 1/1 custom illustrations of Cryptoadz."
+            link="https://opensea.io/collection/frentoadz-by-affenbrot"
+          />
+          <Item
             name="ToadzBarz"
             description="Limited collection of 69 hungry toadz with chocolates."
             link="https://toadz-barz.webflow.io/"
