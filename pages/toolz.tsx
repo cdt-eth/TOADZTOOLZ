@@ -17,15 +17,25 @@ const Toolz = () => {
 
       <div className="">
         <Section title="1-Per-Toad Projects" id="projects">
+          {/* <Item
+            name="CrypTurtz"
+            description=""
+            link=""
+          /> */}
           <Item
-            name="Sockz Exchange"
-            description="Sockz for toad holders. Sockz NFTs can be burned and redeemed for a real pair of sockz."
-            link="https://www.sockz.exchange/"
+            name="Gel Toadz"
+            description="Custom gel toadz made for toad holders. The first 20 pieces will be 0.05 ETH. The next 10 pieces will be 0.10 ETH. Collections by Danny Zareto."
+            link="https://opensea.io/collection/geltoadz-by-danny-zareto"
           />
           <Item
             name="CryptoFlyz"
             description="Free mint for all toad holder. All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits."
             link="https://twitter.com/masonlondon/status/1443576364913754116?s=20"
+          />
+          <Item
+            name="Sockz Exchange"
+            description="Sockz for toad holders. Sockz NFTs can be burned and redeemed for a real pair of sockz."
+            link="https://www.sockz.exchange/"
           />
           <Item
             name="Choadz"
@@ -77,6 +87,11 @@ const Toolz = () => {
             name="Dune Analytics"
             description="More in-depth vizuals taking a deeper-dive into Cryptoadz' trading volume, top holders, and other data points!"
             link="https://dune.xyz/Artoria/Toadz-dash"
+          />
+          <Item
+            name="Compass Analytics"
+            description="Compass lets you track collection floors, ongoing mints, wallet transactions and more from one place."
+            link="https://compass.art/collections/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6/analytics"
           />
           <Item
             name="Rarity"
@@ -148,6 +163,11 @@ const Toolz = () => {
             name="Toadz World"
             description="CrypToadz News Roundup"
             link="https://toadz.world/"
+          />
+          <Item
+            name="Toadz API"
+            description="Custom API Routes by Flips.Finance to query toad data."
+            link="https://toadzapi.herokuapp.com/docs"
           />
           <Item
             name="Subgraph Explorer"
