@@ -4,27 +4,25 @@ import Item from "./components/Toolz/Item";
 import Social from "./components/Toolz/Social";
 import Section from "./components/Toolz/Section";
 import AnchorGroup from "./components/Toolz/AnchorGroup";
+import PageTitle from "./components/PageTitle";
 
 const Toolz = () => {
   return (
     <div className="bg-toadz-dark h-full text-white p-5 sm:px-10">
-      <h1 className="text-wizards text-center xs:text-5xl sm:text-6xl mb-10">
-        Toolz
-      </h1>
-
+      <PageTitle title="Toolz" />
       <Social />
       <AnchorGroup />
 
       <div className="">
         <Section title="1-Per-Toad Projects" id="projects">
-          {/* <Item
+          <Item
             name="CrypTurtz"
-            description=""
-            link=""
-          /> */}
+            description="Turtz are swamp-wise creatures, they’re here to join the !vibe"
+            link="https://twitter.com/CrypTurtz"
+          />
           <Item
             name="Gel Toadz"
-            description="Custom gel toadz made for toad holders. The first 20 pieces will be 0.05 ETH. The next 10 pieces will be 0.10 ETH. Collections by Danny Zareto."
+            description="Custom gel toadz made for toad holders. They are 0.20 ETH each and will be delivered in a week. Collection by Danny Zareto."
             link="https://opensea.io/collection/geltoadz-by-danny-zareto"
           />
           <Item
@@ -47,8 +45,13 @@ const Toolz = () => {
         <Section title="Derivatives" id="derivatives">
           <Item
             name="VanToadz"
-            description="A Swamp Full of 1/1 Toadz, brought to you by Van Coleman."
+            description="Looking inside your favorite toadz and see what makes them !vibe by @2aca71"
             link="https://opensea.io/collection/van-toadz"
+          />
+          <Item
+            name="Dissected Toadz"
+            description="A Swamp Full of 1/1 Toadz, brought to you by Van Coleman."
+            link="https://opensea.io/collection/dissected-toadz"
           />
           <Item
             name="FrenToadz"
@@ -64,6 +67,11 @@ const Toolz = () => {
             name="DOS Toadz"
             description="Cryptoadz + DOS Character set + random color palette."
             link="https://opensea.io/collection/dos-toadz-by-chartoadz"
+          />
+          <Item
+            name="ASCII CrypToadz"
+            description="Collection of ASCII toadz by tricK."
+            link="https://www.hicetnunc.xyz/trick"
           />
           <Item
             name="ZombieToadz"
