@@ -97,7 +97,7 @@ function FormModal() {
         {theme && (
           <img
             className="cursor-pointer"
-            src={theme === "light" ? "toadz_sockz.png" : "vibez.png"}
+            src={theme === "light" ? "claim.png" : "vibez.png"}
             alt="sockz"
           />
         )}
