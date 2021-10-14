@@ -260,7 +260,8 @@ h3 {
   }
 }
 .ReactModal__Overlay {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  /* background-color: rgba(0, 0, 0, 0.8) !important; */
+  backdrop-filter: blur(10px) grayscale(50%) brightness(90%);
 }
 
 .address {
@@ -319,4 +320,8 @@ h3 {
   width: 15rem;
   max-width: 50%;
   height: auto;
+}
+
+.bg {
+  background: #1a1e1d;
 }

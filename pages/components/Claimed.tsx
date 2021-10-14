@@ -4,19 +4,20 @@ interface ClaimedProps {
   data: object;
   address: string;
   id: string;
+  img: string;
   asset: string;
   url: string;
 }
-const Claimed = ({ data, asset, address, id, url }: ClaimedProps) => {
+const Claimed = ({ data, img, asset, address, id, url }: ClaimedProps) => {
   return (
     <>
       {!data ? (
-        <div className=" w-full flex mb-2 xs:pb-4">
-          <p className="flex-1 xs:text-md sm:text-xl  text-black text-right">
-            {asset} available ✅
-          </p>
+        <div className=" w-full flex mb-2 xs:pb-4 gap-4">
+          <div className="flex-1 flex justify-end xs:text-md sm:text-xl  text-black text-right">
+            <img className="xs:w-1/2 sm:w-1/3 mr-2" src={img} alt={asset} />✅
+          </div>
 
-          <div className="flex-1 self-center">
+          <div className="flex-1 self-center text-left">
             <a
               href={url}
               className="cursor-pointer w-full bg-toadz-green  text-white px-3 py-2 rounded-full text-sm font-bold hover:opacity-80 transition duration-100"
@@ -28,12 +29,12 @@ const Claimed = ({ data, asset, address, id, url }: ClaimedProps) => {
           </div>
         </div>
       ) : (
-        <div className="w-full flex mb-2 xs:pb-4">
-          <p className="flex-1 xs:text-md sm:text-xl text-black text-right">
-            {asset} claimed ❌
-          </p>
+        <div className="w-full flex mb-2 xs:pb-4 gap-4">
+          <div className="flex-1 flex justify-end xs:text-md sm:text-xl  text-black text-right">
+            <img className="xs:w-1/2 sm:w-1/3 mr-2" src={img} alt={asset} />❌
+          </div>
 
-          <div className="flex-1 self-center">
+          <div className="flex-1 self-center text-left">
             <a
               href={`https://opensea.io/assets/${address}/${id}`}
               className="cursor-pointer w-full bg-blue-500 text-white px-3 py-2 rounded-full text-sm font-bold hover:bg-blue-900 transition duration-100"
@@ -41,7 +42,6 @@ const Claimed = ({ data, asset, address, id, url }: ClaimedProps) => {
               rel="noreferrer"
             >
               OpenSea
-              {/* <img className="w-1/6" src="opensea.svg" alt="opensea" /> */}
             </a>
           </div>
         </div>
