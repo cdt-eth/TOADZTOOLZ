@@ -22,7 +22,7 @@ const Toolz = () => {
           />
           <Item
             name="Gel Toadz"
-            description="Custom gel toadz made for toad holders. They are 0.20 ETH each and will be delivered in a week. Collection by Danny Zareto."
+            description="Custom gel toadz made for toad holders. They are 0.20 ETH each and will be delivered in a week. Capped at 1,000 orders. Collection by Danny Zareto."
             link="https://opensea.io/collection/geltoadz-by-danny-zareto"
           />
           <Item
@@ -45,18 +45,23 @@ const Toolz = () => {
         <Section title="Derivatives" id="derivatives">
           <Item
             name="VanToadz"
-            description="Looking inside your favorite toadz and see what makes them !vibe by @2aca71"
+            description="A Swamp Full of 1/1 Toadz, brought to you by Van Coleman."
             link="https://opensea.io/collection/van-toadz"
           />
           <Item
             name="Dissected Toadz"
-            description="A Swamp Full of 1/1 Toadz, brought to you by Van Coleman."
+            description="Looking inside your favorite toadz and see what makes them !vibe by @2aca71."
             link="https://opensea.io/collection/dissected-toadz"
           />
           <Item
             name="FrenToadz"
             description="Unique 1/1 custom illustrations of Cryptoadz."
             link="https://opensea.io/collection/frentoadz-by-affenbrot"
+          />
+          <Item
+            name="Complex Toadz"
+            description="Hand-drawn unqiue toadz inspired by Cryptoadz."
+            link="https://opensea.io/collection/complex-toadz"
           />
           <Item
             name="ToadzBarz"
@@ -74,6 +79,11 @@ const Toolz = () => {
             link="https://www.hicetnunc.xyz/trick"
           />
           <Item
+            name="CrypTadpolez"
+            description="Unique 1/1 tadpolez by nobiscum."
+            link="https://opensea.io/collection/cryptadpolez"
+          />
+          <Item
             name="ZombieToadz"
             description="Collection of 5,555 zombie toadz."
             link="https://opensea.io/collection/zombietoadzofficial"
@@ -89,9 +99,9 @@ const Toolz = () => {
             link="https://opensea.io/collection/cholotoadz"
           />
           <Item
-            name="CrypTadpolez"
-            description="Unique 1/1 tadpolez by nobiscum."
-            link="https://opensea.io/collection/cryptadpolez"
+            name="Chunky Toadz"
+            description="Collection of 7,777 chuck toadz."
+            link="https://opensea.io/collection/chunkytoadz"
           />
         </Section>
 
