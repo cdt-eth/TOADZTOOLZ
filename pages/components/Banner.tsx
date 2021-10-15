@@ -8,7 +8,7 @@ const Banner = () => {
 
   return (
     <div className="mx-9">
-      <div className="flex pt-4">
+      <div className="flex pt-4 sm:px-40">
         <HardhatToadz toadz="tall-toadboat" />
         <HardhatToadz toadz="small-bones" />
         <HardhatToadz toadz="small-gummyslime" />
