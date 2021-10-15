@@ -23,12 +23,6 @@ const Projects = () => {
         text="GhostsDAO's partybid on the rarest Ghost Toad"
       /> */}
       <Card
-        newPage={true}
-        link="https://opensea.io/collection/cryptoadz-by-gremplin"
-        title="Buy Toadz"
-        text="Shop for Cryptoadz on OpenSea!"
-      />
-      <Card
         newPage={false}
         link="/toolz"
         title="Toolz"
@@ -36,9 +30,15 @@ const Projects = () => {
       />
       <Card
         newPage={true}
-        link="https://etherscan.io/address/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6"
-        title="Etherscan"
-        text="Learn more by seeing, explore the deployed smart contract."
+        link="https://toadz.world/"
+        title="Toadz World"
+        text="CrypToadz news round-up sent straight to your inbox weekly."
+      />
+      <Card
+        newPage={true}
+        link="/ideaz"
+        title="Ideaz"
+        text="Submit your project or idea for the site here!"
       />
     </div>
   );
