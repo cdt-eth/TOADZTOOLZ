@@ -42,17 +42,17 @@ const AnchorGroup = () => {
         <Anchor title="Art" />
       </ScrollLink>
 
-      <ScrollLink
-        to="recordings"
-        smooth={true}
-        className="xs:px-2 sm:px-4 my-2"
-      >
-        <Anchor title="Recordings" />
+      <ScrollLink to="merch" smooth={true} className="xs:px-2 sm:px-4 my-2">
+        <Anchor title="Merch" />
       </ScrollLink>
 
-      <ScrollLink to="faq" smooth={true} className="xs:px-2 sm:px-4 my-2">
-        <Anchor title="FAQ" />
+      <ScrollLink to="audio" smooth={true} className="xs:px-2 sm:px-4 my-2">
+        <Anchor title="Audio" />
       </ScrollLink>
+
+      {/* <ScrollLink to="faq" smooth={true} className="xs:px-2 sm:px-4 my-2">
+        <Anchor title="FAQ" />
+      </ScrollLink> */}
     </div>
   );
 };

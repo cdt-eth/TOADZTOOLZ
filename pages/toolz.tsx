@@ -14,7 +14,17 @@ const Toolz = () => {
       <AnchorGroup />
 
       <div className="">
-        <Section title="1-Per-Toad Projects" id="projects">
+        <Section title="Toad-Holder Projects" id="projects">
+          <Item
+            name="CryptoFlyz"
+            description="Free mint for all toad holder. All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits."
+            link="https://www.cryptoflyz.io/"
+          />
+          <Item
+            name="Creature Toadz"
+            description="First crossover project between two independently successful NFT communities, Creatures and CryptoToadz by Skirano."
+            link="https://creaturetoadz.com/"
+          />
           <Item
             name="CrypTurtz"
             description="Turtz are swamp-wise creatures, they’re here to join the !vibe"
@@ -24,11 +34,6 @@ const Toolz = () => {
             name="Gel Toadz"
             description="Custom gel toadz made for toad holders. They are 0.20 ETH each and will be delivered in a week. Capped at 1,000 orders. Collection by Danny Zareto."
             link="https://opensea.io/collection/geltoadz-by-danny-zareto"
-          />
-          <Item
-            name="CryptoFlyz"
-            description="Free mint for all toad holder. All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits."
-            link="https://twitter.com/masonlondon/status/1443576364913754116?s=20"
           />
           <Item
             name="Sockz Exchange"
@@ -84,6 +89,11 @@ const Toolz = () => {
             link="https://opensea.io/collection/cryptadpolez"
           />
           <Item
+            name="CrypGhostz"
+            description="Collection of 6,969 toadz who successfully escaped the tyrannical rule of the Evil King Gremplin and found their peace in CrypToadz heaven."
+            link="https://opensea.io/collection/crypghostz"
+          />
+          <Item
             name="ZombieToadz"
             description="Collection of 5,555 zombie toadz."
             link="https://opensea.io/collection/zombietoadzofficial"
@@ -111,6 +121,11 @@ const Toolz = () => {
             description="Wide array of available stats with a great trait breakdown and comprehensive stat chart per toad."
             link="https://www.flips.finance/collection/cryptoadz-by-gremplin"
           />
+          {/* <Item
+            name="Toadz Genome Project"
+            description=""
+            link=""
+          /> */}
           <Item
             name="Dune Analytics"
             description="More in-depth vizuals taking a deeper-dive into Cryptoadz' trading volume, top holders, and other data points!"
@@ -202,6 +217,11 @@ const Toolz = () => {
             description="Subgraph published to The Graph Network to allow devs to quickly query toadz data."
             link="https://thegraph.com/legacy-explorer/subgraph/kevlee1/cryptoadz"
           />
+          <Item
+            name="Cryptoadz Etherscan Contract"
+            description="Learn more by seeing, explore the deployed smart contract."
+            link="https://etherscan.io/address/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6"
+          />
         </Section>
 
         <Section title="Games" id="games">
@@ -210,24 +230,34 @@ const Toolz = () => {
             description="Explore the Toadz metaverse."
             link="https://www.cryptovoxels.com/play?coords=N@770E,356N"
           />
-          <Item
+          {/* <Item
             name="Manny's Game"
             description="Play Frogger as your own toad, change the id in the url to your specific toad to play!"
             link="https://mannys.game/1?toad=35000000"
-          />
+          /> */}
           <Item
             name="FVCK TOADZ"
             description="Try to collect as many FVCK Crystals as possible!"
             link="http://dumbesturl.com/games/FVCKTOADZ/"
           />
           <Item
-            name="Cryptoadz/Arcade NFTs Collab"
-            description="Coming soon."
-            link="https://medium.com/@arcadenfts/the-cryptoadz-by-gremplin-arcade-nfts-collaboration-7c3e9398432d"
+            name="Toad Runnerz"
+            description="Cryptoadz/Arcade NFTs Collab"
+            link="https://arcadenfts.com/drops/#toadrunnerz"
           />
         </Section>
 
         <Section title="Art" id="art">
+          {/* <Item
+            name="Toadz World NFT"
+            description="Backgrounds for toadz. Art by @AtticRoomBoy. Devs @k1dgalax1 @mardisant."
+            link="https://toadoshop.com/"
+          /> */}
+          <Item
+            name="Toadoshop"
+            description="Upload a background and drop in your toadz to create your own art piece by NounDoge"
+            link="https://toadoshop.com/"
+          />
           <Item
             name="Cryptoadz Theme Song"
             description="music by Bettorup"
@@ -240,17 +270,35 @@ const Toolz = () => {
           />
         </Section>
 
-        <Section title="Recordings" id="recordings">
+        <Section title="Merch" id="merch">
+          <Item
+            name="Grempland Giftshop"
+            description="Swampy souvenirs by Watermelone & bloopy911"
+            link="https://gremplandgiftshop.com/"
+          />
+        </Section>
+
+        <Section title="Audio" id="audio">
           <Item
             name="Moti Monday Genesis"
             description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/4/21."
             link="https://soundcloud.com/user-814745690/moti-monday-genesis?si=7506edff7a104790a9fdd1d2a322228f"
           />
+          <Item
+            name="Toadz Tuesday"
+            description="Toadz discussion with host Bobby 0xelrod and Moti from 10/5/21."
+            link="https://soundcloud.com/user-814745690/toadz-tuesday"
+          />
+          <Item
+            name="Moti Monday Ep. 2"
+            description="''Moti Monday'' Twitter Spaces with Motivateme.eth from 10/11/21."
+            link="https://soundcloud.com/user-814745690/moti-monday-ep-2"
+          />
         </Section>
 
-        <Section title="FAQ" id="faq">
+        {/*<Section title="FAQ" id="faq">
           TBD
-          {/* <Item
+           <Item
             name="Q: What is CC0?"
             description="A: ___"
             link="https://cryptoadz.io"
@@ -269,8 +317,8 @@ const Toolz = () => {
             name="Q: !vibe?"
             description="A: !vibe."
             link="https://cryptoadz.io"
-          /> */}
-        </Section>
+          /> 
+        </Section> */}
       </div>
     </div>
   );
