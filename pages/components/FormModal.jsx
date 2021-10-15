@@ -85,6 +85,7 @@ function FormModal() {
     setId(searchInput);
   }
 
+  const flyzMinted = sockzData.flyzMinted;
   const choadzMinted = sockzData.choadzMinted;
   const sockzMinted = sockzData.sockzMinted;
 
@@ -110,12 +111,18 @@ function FormModal() {
         style={customStyles}
         contentLabel="Claim Center"
       >
-        <h3
-          className="enterID text-3xl"
-          ref={(_subtitle) => (subtitle = _subtitle)}
-        >
-          Claim Center
-        </h3>
+        <div className="mb-4 text-center">
+          <h3
+            className="enterID text-3xl"
+            ref={(_subtitle) => (subtitle = _subtitle)}
+          >
+            Claim Center
+          </h3>
+          <p className="xs:text-sm sm:text-lg font-semibold xs:w-3/4 m-auto">
+            Below you’ll be able to claim your NFT or buy it on OpenSea if
+            they’ve already been claimed.
+          </p>
+        </div>
 
         <form onSubmit={(e) => handleClick(e)}>
           <input
@@ -134,12 +141,22 @@ function FormModal() {
                     Cryptoadz #{id}
                   </p>
 
-                  <div className="text-center ">
+                  <div className="text-center">
+                    <Claimed
+                      data={flyzMinted}
+                      asset="Flyz"
+                      address="0xf8b0a49da21e6381f1cd3cf43445800abe852179"
+                      id={id}
+                      img="cc_flyz.png"
+                      url="https://cryptoflyz.io/"
+                    />
+
                     <Claimed
                       data={choadzMinted}
                       asset="Choadz"
                       address="0x172700a7dbbf92ee1db1474f956fd1078d2d0a00"
                       id={id}
+                      img="cc_c.png"
                       url="https://choadz.com/"
                     />
 
@@ -148,6 +165,7 @@ function FormModal() {
                       asset="Sockz"
                       address="0x537b9af55dadcad9d22309e5b8ce35cffd8c1925"
                       id={id}
+                      img="cc_sockz.png"
                       url="https://www.sockz.exchange/"
                     />
                   </div>
