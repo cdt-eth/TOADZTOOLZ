@@ -1,16 +1,49 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Item from "./components/Toolz/Item";
-import Social from "./components/Toolz/Social";
+import MiniNav from "./components/Toolz/MiniNav";
 import Section from "./components/Toolz/Section";
 import AnchorGroup from "./components/Toolz/AnchorGroup";
 import PageTitle from "./components/PageTitle";
+import MiniNavLink from "./components/Toolz/MiniNavLink";
 
 const Toolz = () => {
   return (
     <div className="bg-toadz-dark h-full text-white p-5 sm:px-10">
       <PageTitle title="Toolz" />
-      <Social />
+
+      <MiniNav>
+        <MiniNavLink
+          link="/"
+          newPage={false}
+          text="Home"
+          pic="mininav/ghosts-1.png"
+          alt="home"
+        />
+
+        <MiniNavLink
+          link="https://twitter.com/cryptoadzNFT"
+          newPage={true}
+          text="Twitter"
+          pic="mininav/ghosts-4.png"
+          alt="twitter"
+        />
+        <MiniNavLink
+          link="https://discord.gg/PDVfDSDbcE"
+          newPage={true}
+          text="Discord"
+          pic="mininav/ghosts-2.png"
+          alt="discord"
+        />
+        <MiniNavLink
+          link="/ideaz"
+          newPage={false}
+          text="Ideaz"
+          pic="mininav/ghosts-3.png"
+          alt="ideaz"
+        />
+      </MiniNav>
+
       <AnchorGroup />
 
       <div className="">
@@ -87,6 +120,11 @@ const Toolz = () => {
             name="CrypTadpolez"
             description="Unique 1/1 tadpolez by nobiscum."
             link="https://opensea.io/collection/cryptadpolez"
+          />
+          <Item
+            name="Legendtoady"
+            description="A collection of Legendary Toadz that grew too big for the swamp. One added every day."
+            link="https://opensea.io/collection/legendtoady"
           />
           <Item
             name="CrypGhostz"

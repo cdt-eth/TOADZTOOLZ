@@ -8,9 +8,9 @@ interface AnchorProps {
 const Anchor = ({ title }: AnchorProps) => {
   return (
     <div className="text-center m-auto">
-      <a className="text-center cursor-pointer text-scratchy transform hover:opacity-60 transition duration-200 xs:text-xs sm:text-base">
+      <p className="text-center cursor-pointer text-scratchy transform hover:opacity-60 transition duration-200 xs:text-xs sm:text-base">
         {title}
-      </a>
+      </p>
     </div>
   );
 };
