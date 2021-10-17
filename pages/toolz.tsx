@@ -203,19 +203,24 @@ const Toolz = () => {
 
         <Section title="Resources" id="resources">
           <Item
-            name="Toadz World"
-            description="CrypToadz News Roundup"
-            link="https://toadz.world/"
-          />
-          <Item
             name="Toadz API"
             description="Custom API Routes by Flips.Finance to query toad data."
             link="https://toadzapi.herokuapp.com/docs"
           />
           <Item
+            name="Twitter Vibe Bot (Github Repo)"
+            description="The Discord !vibe bot brought to Twitter."
+            link="https://github.com/jhenthorn/vibebot2000"
+          />
+          <Item
             name="Subgraph Explorer"
             description="Subgraph published to The Graph Network to allow devs to quickly query toadz data."
             link="https://thegraph.com/legacy-explorer/subgraph/kevlee1/cryptoadz"
+          />
+          <Item
+            name="Toadz World"
+            description="CrypToadz News Roundup"
+            link="https://toadz.world/"
           />
           <Item
             name="Cryptoadz Etherscan Contract"
