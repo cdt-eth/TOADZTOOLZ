@@ -1,9 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
 import IdeaCard from "./components/IdeaCard";
+import IdeaCardGroup from "./components/IdeaCardGroup";
 import PageTitle from "./components/PageTitle";
+import MiniNav from "./components/Toolz/MiniNav";
+import MiniNavLink from "./components/Toolz/MiniNavLink";
 
-const Ideas = () => {
+const Ideaz = () => {
   const [ideas, setIdeas] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [title, setTitle] = useState("");
@@ -13,7 +17,7 @@ const Ideas = () => {
   const [descriptionError, setDescriptionError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [isDisabled, setIsDisabled] = useState(true);
-  const [response, setResponse] = useState("");
+  const [isSuccessfullySubmitted, setIsSuccessfullySubmitted] = useState(false);
 
   useEffect(() => {
     const checkBoards = async () => {
@@ -22,19 +26,17 @@ const Ideas = () => {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
-          "API-KEY": "wwFjlZyQtA2u3gQdSt0sQg",
+          "API-KEY": process.env.NEXT_PUBLIC_HELLONEXT_API_KEY,
         },
       };
 
       try {
         const fetchResponse = await fetch(
-          // "https://toadztoolz.hellonext.co/api/v3/organizations/info",
           "https://toadztoolz.hellonext.co/api/v3/feature_requests/latest",
           settings
         );
 
         const data = await fetchResponse.json();
-        // console.log("data", data);
 
         setIdeas(data.feature_requests);
       } catch {
@@ -45,7 +47,7 @@ const Ideas = () => {
     checkBoards();
   }, []);
 
-  const handleSubmit = async (e: React.SyntheticEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     setTitleError(false);
@@ -56,54 +58,30 @@ const Ideas = () => {
     if (description === "") setDescriptionError(true);
     if (email === "") setEmailError(true);
 
-    if (title && description && email) {
-      try {
-        // const body = { title, description, email, bucket_id: 5772 };
-        // const response = fetch(
-        //   "https://toadztoolz.hellonext.co/api/v3/feature_requests/latest",
-        //   {
-        //     method: "POST",
-        //     headers: {
-        //       "Content-Type": "application/json",
-        //       "API-KEY": "wwFjlZyQtA2u3gQdSt0sQg",
-        //     },
-
-        //     body: JSON.stringify(body),
-        //   }
-        // );
-
-        const body = {
-          title: title,
-          description: description,
-          email: email,
-          bucket_id: 5772,
-        };
-        const requestOptions = {
+    try {
+      const response = await fetch(
+        "https://toadztoolz.hellonext.co/api/v3/feature_requests/submit",
+        {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "API-KEY": "wwFjlZyQtA2u3gQdSt0sQg",
+            "API-KEY": process.env.NEXT_PUBLIC_HELLONEXT_API_KEY,
           },
-          body: JSON.stringify(body),
-        };
-        fetch(
-          "https://toadztoolz.hellonext.co/api/v3/feature_requests/latest",
-          requestOptions
-        )
-          .then((response) => response.json())
-          .then((res) => setResponse(res));
+          body: JSON.stringify({
+            title: title,
+            description: description,
+            email: email,
+            bucket_id: 5772,
+          }),
+        }
+      );
+      const data = await response.json();
 
-        setTitle("");
-        setDescription("");
-        setEmail("");
-
-        console.log("title:", title);
-        console.log("desc:", description);
-        console.log("email:", email);
-        console.log("response", response);
-      } catch (err) {
-        console.error(err);
-      }
+      setTitle("");
+      setDescription("");
+      setEmail("");
+    } catch (error) {
+      console.log("my error", error);
     }
   };
 
@@ -111,51 +89,78 @@ const Ideas = () => {
     if (title && description && email) setIsDisabled(false);
   }, [title, description, email]);
 
-  // function handleClick(e) {
-  //   e.preventDefault();
-
-  // console.log("title:", title);
-  // console.log("desc:", description);
-  // console.log("email:", email);
-
-  //   const requestOptions = {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify({ title: "React Hooks POST Request Example" }),
-  //   };
-
-  //   fetch(
-  //     "https://app.hellonext.co/api/v3/feature_requests/submit",
-  //     requestOptions
-  //   )
-  //     .then((response) => response.json())
-  //     .then((data) => console.log("data", data));
-
-  //   setTitle("");
-  //   setDescription("");
-  //   setEmail("");
-  // }
-
   return (
     <div className="p-5 text-white bg h-full">
       <PageTitle title="Ideaz" />
 
-      {/* <div className="mb-14">
-        <h3 className="text-center">Submit a project or idea!</h3>
+      <MiniNav>
+        <MiniNavLink
+          link="/"
+          newPage={false}
+          text="Home"
+          pic="mininav/hoodie-1.png"
+          alt="home"
+        />
+        <MiniNavLink
+          link="https://twitter.com/cryptoadzNFT"
+          newPage={true}
+          text="Twitter"
+          pic="mininav/hoodie-4.png"
+          alt="twitter"
+        />
+        <MiniNavLink
+          link="https://discord.gg/PDVfDSDbcE"
+          newPage={true}
+          text="Discord"
+          pic="mininav/hoodie-2.png"
+          alt="discord"
+        />
+        <MiniNavLink
+          link="/toolz"
+          newPage={false}
+          text="Toolz"
+          pic="mininav/hoodie-3.png"
+          alt="toolz"
+        />
+      </MiniNav>
 
-        <form onSubmit={handleSubmit} className="text-black ">
-          <div className="flex items-center">
+      <div className="mb-4  mt-4 sm:px-20">
+        <div className="text-center mb-4 sm:w-1/2 m-auto">
+          <h3 className="text-scratchy">Submit a project or idea!</h3>
+          <p className="xs:text-sm sm:text-base italic">
+            Feel free to input any email (test@test.com). It doesn't have to be
+            your personal one, but the platform requires it.
+          </p>
+        </div>
+
+        <form onSubmit={handleSubmit} className="text-black sm:w-3/4 m-auto">
+          <div className="flex items-center flex-wrap px-4 gap-2 ">
+            <div className="w-full flex gap-4">
+              <input
+                required
+                className="w-1/2 px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200 text-white"
+                type="text"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+              />
+              <input
+                required
+                className="w-1/2 px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200  text-white"
+                type="text"
+                placeholder="Title"
+                value={title}
+                onChange={(e) => {
+                  setTitle(e.target.value);
+                }}
+              />
+            </div>
+
             <input
-              className="mr-4 px-2 py-1 rounded-xl"
-              type="text"
-              placeholder="Title"
-              value={title}
-              onChange={(e) => {
-                setTitle(e.target.value);
-              }}
-            />
-            <input
-              className="mr-4 px-2 py-1 rounded-xl"
+              required
+              className="w-full px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200  text-white"
               type="text"
               placeholder="Description"
               value={description}
@@ -163,45 +168,38 @@ const Ideas = () => {
                 setDescription(e.target.value);
               }}
             />
-            <input
-              className="mr-4 px-2 py-1 rounded-xl"
-              type="text"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-            />
+
             <button
               className={`${
                 isDisabled
                   ? "pointer-events-none	cursor-not-allowed opacity-50"
                   : ""
-              }  w-1/5 px-2 py-2 bg-white rounded-full`}
+              }  xs:w-1/2 sm:w-1/5 py-2 mb-2 bg-white rounded-full`}
             >
               Add
             </button>
           </div>
         </form>
-      </div> */}
+      </div>
 
-      <div className="flex flex-wrap gap-6 flex-row-">
-        {ideas &&
-          ideas.map((idea) => {
-            return (
-              <IdeaCard
-                key={idea.id}
-                title={idea.title}
-                description={idea.description}
-                url={idea.url}
-                status={idea.status}
-              />
-            );
-          })}
+      <div className="mb-6">
+        {isSuccessfullySubmitted && (
+          <div className="text-wizards text-center text-2xl">
+            Form submitted successfully!
+          </div>
+        )}
+      </div>
+
+      <div className="flex flex-wrap gap-6 flex-row">
+        <IdeaCardGroup ideas={ideas} name="In Review" />
+        <IdeaCardGroup ideas={ideas} name="Planned" />
+        <IdeaCardGroup ideas={ideas} name="Completed" />
+        <IdeaCardGroup ideas={ideas} name="Closed" />
+
         <img src="west.png" alt="west" />
       </div>
     </div>
   );
 };
 
-export default Ideas;
+export default Ideaz;

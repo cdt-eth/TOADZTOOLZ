@@ -4,10 +4,9 @@ interface IdeaCardProps {
   title: string;
   description: string;
   url: string;
-  status: string;
 }
 
-const IdeaCard = ({ title, description, url, status }: IdeaCardProps) => {
+const IdeaCard = ({ title, description, url }: IdeaCardProps) => {
   return (
     <div
       className="
@@ -31,10 +30,7 @@ const IdeaCard = ({ title, description, url, status }: IdeaCardProps) => {
     >
       <a href={url} target="_blank" rel="noreferrer">
         <div className="flex justify-between mb-4">
-          <p className="text-left xs:w-4/6 sm:w-3/6 text-scratchy text-xl">
-            {title}
-          </p>
-          <p className=""> {status}</p>
+          <p className="text-left xs:w-full  text-scratchy text-xl">{title}</p>
         </div>
 
         <p>{description}</p>

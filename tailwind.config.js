@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "toadz-dark": "#061425",
         "toadz-green": "#657F1E",
+        "toadz-gray": "#2E3635",
       },
     },
     screens: {
