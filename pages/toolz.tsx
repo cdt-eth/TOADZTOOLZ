@@ -64,6 +64,11 @@ const Toolz = () => {
             link="https://twitter.com/CrypTurtz"
           />
           <Item
+            name="CorruptedToadz"
+            description="CorruptedToadz are created using a manual unique process of rendering an image on an old PC emulator and tinkering with the image source code to produce an actual corrupted toad with the look of an old school computer graphic."
+            link="https://www.corruptedtoadz.com/"
+          />
+          <Item
             name="Gel Toadz"
             description="Custom gel toadz made for toad holders. They are 0.20 ETH each and will be delivered in a week. Capped at 1,000 orders. Collection by Danny Zareto."
             link="https://opensea.io/collection/geltoadz-by-danny-zareto"
