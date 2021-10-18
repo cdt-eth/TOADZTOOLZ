@@ -125,11 +125,13 @@ const Ideaz = () => {
       </MiniNav>
 
       <div className="mb-4  mt-4 sm:px-20">
-        <div className="text-center mb-4 sm:w-1/2 m-auto">
+        <div className="text-center mb-4 sm:w-7/12 m-auto">
           <h3 className="text-scratchy">Submit a project or idea!</h3>
           <p className="xs:text-sm sm:text-base italic">
             Feel free to input any email (test@test.com). It doesn't have to be
-            your personal one, but the platform requires it.
+            your personal one, but the platform requires it. Also please add a
+            link to your submission so we have something to link to (i.e.
+            Website, OpenSea, Twitter etc).
           </p>
         </div>
 
@@ -162,7 +164,7 @@ const Ideaz = () => {
               required
               className="w-full px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200  text-white"
               type="text"
-              placeholder="Description"
+              placeholder="Description & Project Link"
               value={description}
               onChange={(e) => {
                 setDescription(e.target.value);
