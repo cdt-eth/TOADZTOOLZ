@@ -130,7 +130,7 @@ function FormModal() {
           >
             Claim Center
           </h3>
-          <p className="xs:text-sm sm:text-lg font-semibold xs:w-3/4 m-auto">
+          <p className="xs:text-sm sm:text-lg font-semibold text-black xs:w-3/4 m-auto">
             Below you’ll be able to claim your NFT or buy it on OpenSea if
             they’ve already been claimed.
           </p>
@@ -154,17 +154,13 @@ function FormModal() {
                   </p>
 
                   <div className="sm:flex  px-6 gap-6">
-                    {toadImg && (
-                      <img
-                        className="xs:mb-6 sm:mb-0"
-                        src={`${
-                          toadImg
-                            ? toadImg
-                            : "https://www.kurin.com/wp-content/uploads/placeholder-square.jpg"
-                        }`}
-                        alt={id}
-                      />
-                    )}
+                    <img
+                      className="xs:mb-6 sm:mb-0 xs:w-1/2 sm:w-full xs:m-auto"
+                      src={`${
+                        toadImg === undefined ? "placeholder.png" : toadImg
+                      }`}
+                      alt={id}
+                    />
 
                     <div className="text-center self-center">
                       <Claimed
