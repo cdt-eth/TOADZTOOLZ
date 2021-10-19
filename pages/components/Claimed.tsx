@@ -13,8 +13,8 @@ const Claimed = ({ data, img, asset, address, id, url }: ClaimedProps) => {
     <>
       {!data ? (
         <div className=" w-full flex mb-2 xs:pb-4 xs:gap-4 sm:gap-8">
-          <div className="flex-1 flex justify-end xs:text-md sm:text-xl  text-black text-right">
-            <img className="xs:w-1/2 sm:w-1/3 mr-2" src={img} alt={asset} />✅
+          <div className="flex-1 flex justify-center xs:text-md sm:text-xl  text-black text-right">
+            <img className="xs:w-1/2  mr-2" src={img} alt={asset} />✅
           </div>
 
           <div className="flex-1 self-center text-left">
@@ -30,8 +30,8 @@ const Claimed = ({ data, img, asset, address, id, url }: ClaimedProps) => {
         </div>
       ) : (
         <div className="w-full flex mb-2 xs:pb-4 xs:gap-4 sm:gap-8">
-          <div className="flex-1 flex justify-end xs:text-md sm:text-xl  text-black text-right">
-            <img className="xs:w-1/2 sm:w-1/3 mr-2" src={img} alt={asset} />❌
+          <div className="flex-1 flex justify-center xs:text-md sm:text-xl  text-black text-right">
+            <img className="xs:w-1/2  mr-2" src={img} alt={asset} />❌
           </div>
 
           <div className="flex-1 self-center text-left">

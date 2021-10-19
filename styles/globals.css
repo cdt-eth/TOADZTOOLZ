@@ -248,10 +248,6 @@ h3 {
   width: 100%;
 }
 
-.footer {
-  /* font-family: "Superscratchy"; */
-}
-
 @media (max-width: 600px) {
   .ReactModal__Content--after-open {
     margin: 0rem !important;
@@ -293,6 +289,8 @@ h3 {
     margin-left: -90px !important;
   }
 }
+
+/* 404 PAGE */
 
 .page404 {
   /* background-color: #0927f5; */

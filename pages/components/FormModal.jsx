@@ -22,7 +22,7 @@ const customStyles = {
     border: "1px solid #eaeaea",
     borderRadius: "10px",
     transition: "color 0.15s ease, border-color 0.15s ease",
-    width: "600px",
+    width: "700px",
   },
 };
 
@@ -37,8 +37,19 @@ function FormModal() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [searchInput, setSearchInput] = useState("");
+  const [toadImg, setToadImg] = useState("");
 
   useEffect(() => {
+    const options = { method: "GET" };
+
+    fetch(
+      `https://api.opensea.io/api/v1/asset/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6/${id}/`,
+      options
+    )
+      .then((response) => response.json())
+      .then((response) => setToadImg(response.image_preview_url))
+      .catch((err) => console.error(err));
+
     const checkSockz = async () => {
       const settings = {
         method: "GET",
@@ -64,6 +75,7 @@ function FormModal() {
     checkSockz();
   }, [id]);
 
+  // console.log(toadImg);
   function openModal() {
     setIsOpen(true);
   }
@@ -141,33 +153,47 @@ function FormModal() {
                     Cryptoadz #{id}
                   </p>
 
-                  <div className="text-center">
-                    <Claimed
-                      data={flyzMinted}
-                      asset="Flyz"
-                      address="0xf8b0a49da21e6381f1cd3cf43445800abe852179"
-                      id={id}
-                      img="cc_flyz.png"
-                      url="https://cryptoflyz.io/"
-                    />
+                  <div className="sm:flex  px-6 gap-6">
+                    {toadImg && (
+                      <img
+                        className="xs:mb-6 sm:mb-0"
+                        src={`${
+                          toadImg
+                            ? toadImg
+                            : "https://www.kurin.com/wp-content/uploads/placeholder-square.jpg"
+                        }`}
+                        alt={id}
+                      />
+                    )}
 
-                    <Claimed
-                      data={choadzMinted}
-                      asset="Choadz"
-                      address="0x172700a7dbbf92ee1db1474f956fd1078d2d0a00"
-                      id={id}
-                      img="cc_c.png"
-                      url="https://choadz.com/"
-                    />
+                    <div className="text-center self-center">
+                      <Claimed
+                        data={flyzMinted}
+                        asset="Flyz"
+                        address="0xf8b0a49da21e6381f1cd3cf43445800abe852179"
+                        id={id}
+                        img="cc_flyz.png"
+                        url="https://cryptoflyz.io/"
+                      />
 
-                    <Claimed
-                      data={sockzMinted}
-                      asset="Sockz"
-                      address="0x537b9af55dadcad9d22309e5b8ce35cffd8c1925"
-                      id={id}
-                      img="cc_sockz.png"
-                      url="https://www.sockz.exchange/"
-                    />
+                      <Claimed
+                        data={choadzMinted}
+                        asset="Choadz"
+                        address="0x172700a7dbbf92ee1db1474f956fd1078d2d0a00"
+                        id={id}
+                        img="cc.png"
+                        url="https://choadz.com/"
+                      />
+
+                      <Claimed
+                        data={sockzMinted}
+                        asset="Sockz"
+                        address="0x537b9af55dadcad9d22309e5b8ce35cffd8c1925"
+                        id={id}
+                        img="cc_sockz.png"
+                        url="https://www.sockz.exchange/"
+                      />
+                    </div>
                   </div>
                 </div>
               ) : (
