@@ -59,6 +59,11 @@ const Toolz = () => {
             link="https://creaturetoadz.com/"
           />
           <Item
+            name="StitchToadz"
+            description="Collection of small, hand-stitched & then digitally edited, amphibious creatures. Made with love by MELLIA, with a small bit of help by Matas."
+            link="https://twitter.com/MELLIAART"
+          />
+          <Item
             name="CrypTurtz"
             description="Turtz are swamp-wise creatures, they’re here to join the !vibe"
             link="https://twitter.com/CrypTurtz"
@@ -67,6 +72,11 @@ const Toolz = () => {
             name="CorruptedToadz"
             description="CorruptedToadz are created using a manual unique process of rendering an image on an old PC emulator and tinkering with the image source code to produce an actual corrupted toad with the look of an old school computer graphic."
             link="https://www.corruptedtoadz.com/"
+          />
+          <Item
+            name="ToadEggz"
+            description="ToadEggz is a collection of 6969 Eggz to be released soon exclusively for Cryptoadz holders"
+            link="https://twitter.com/ToadEggz"
           />
           <Item
             name="Gel Toadz"
@@ -127,6 +137,11 @@ const Toolz = () => {
             link="https://opensea.io/collection/cryptadpolez"
           />
           <Item
+            name="Fast Food Toadz"
+            description="The Fast Food Toadz are a curated boutique collection primary to Cryptoadz holders of Unique Fast Food Toadz."
+            link="https://opensea.io/collection/fast-food-toadz"
+          />
+          <Item
             name="Legendtoady"
             description="A collection of Legendary Toadz that grew too big for the swamp. One added every day."
             link="https://opensea.io/collection/legendtoady"
@@ -152,6 +167,11 @@ const Toolz = () => {
             link="https://opensea.io/collection/cholotoadz"
           />
           <Item
+            name="Meka Toadz"
+            description="MEKA TOADZ"
+            link="https://twitter.com/MekaToadzNFT"
+          />
+          <Item
             name="Chunky Toadz"
             description="Collection of 7,777 chuck toadz."
             link="https://opensea.io/collection/chunkytoadz"
@@ -169,6 +189,11 @@ const Toolz = () => {
             description=""
             link=""
           /> */}
+          <Item
+            name="Degen Data"
+            description="DegenData allows NFT traders to analyze historical price trends by any combination of NFT MetaData. Track wallet activity, monitor price and analyze project growth."
+            link="https://degendata.io/project/cryptoadz"
+          />
           <Item
             name="Dune Analytics"
             description="More in-depth vizuals taking a deeper-dive into Cryptoadz' trading volume, top holders, and other data points!"
@@ -341,6 +366,11 @@ const Toolz = () => {
             name="Moti Monday Ep. 2"
             description="''Moti Monday'' Twitter Spaces with Motivateme.eth from 10/11/21."
             link="https://soundcloud.com/user-814745690/moti-monday-ep-2"
+          />
+          <Item
+            name="Moti Monday Ep. 3"
+            description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/18/21."
+            link="https://soundcloud.com/user-814745690/moti-mondays-ep-3"
           />
         </Section>
 
