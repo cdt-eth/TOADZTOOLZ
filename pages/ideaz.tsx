@@ -137,49 +137,80 @@ const Ideaz = () => {
 
         <form onSubmit={handleSubmit} className="text-black sm:w-3/4 m-auto">
           <div className="flex items-center flex-wrap px-4 gap-2 ">
-            <div className="w-full flex gap-4">
-              <input
-                required
-                className="w-1/2 px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200 text-white"
-                type="text"
-                placeholder="Email"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-              />
-              <input
-                required
-                className="w-1/2 px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200  text-white"
-                type="text"
-                placeholder="Title"
-                value={title}
-                onChange={(e) => {
-                  setTitle(e.target.value);
-                }}
-              />
+            <div className="w-full flex flex-wrap gap-4">
+              <div className="w-full sm:flex gap-4">
+                <div className=" xs:w-full sm:w-1/2 text-white">
+                  <label
+                    className="placeholder-italic text-scratchy tracking-wider"
+                    htmlFor="email"
+                  >
+                    {" "}
+                    Email{" "}
+                  </label>
+                  <br />
+                  <input
+                    required
+                    id="email"
+                    className="px-2 py-2 mt-1 mb-2 w-full rounded-xl bg-toadz-gray outline-none placeholder-italic placeholder-gray-200 placeholder-opacity-50  text-white"
+                    type="text"
+                    placeholder="i.e. test@test.com"
+                    value={email}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                    }}
+                  />
+                </div>
+
+                <div className="xs:w-full sm:w-1/2 text-white ">
+                  <label
+                    className=" text-scratchy tracking-wider"
+                    htmlFor="email"
+                  >
+                    {" "}
+                    Title{" "}
+                  </label>
+                  <br />
+                  <input
+                    required
+                    className=" px-2 py-2 mt-1 mb-2 w-full  rounded-xl bg-toadz-gray outline-none placeholder-italic placeholder-gray-200 placeholder-opacity-50   text-white"
+                    type="text"
+                    placeholder="i.e. RoboToadz"
+                    value={title}
+                    onChange={(e) => {
+                      setTitle(e.target.value);
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="block w-full text-white ">
+                <label className="text-scratchy tracking-wider" htmlFor="email">
+                  {" "}
+                  Project Blurb & Link{" "}
+                </label>
+                <br />
+                <textarea
+                  required
+                  className="w-full px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none mt-1 placeholder-gray-200 placeholder-italic placeholder-opacity-50  text-white"
+                  // type="text"
+                  placeholder="i.e. Voltron, but Toadz. https://opensea.io/collection/robotoadz"
+                  value={description}
+                  onChange={(e) => {
+                    setDescription(e.target.value);
+                  }}
+                />
+              </div>
+
+              <button
+                className={`${
+                  isDisabled
+                    ? "pointer-events-none	cursor-not-allowed opacity-50"
+                    : ""
+                }  xs:w-1/2 sm:w-1/5 py-2 mb-2 bg-white rounded-full`}
+              >
+                Add
+              </button>
             </div>
-
-            <input
-              required
-              className="w-full px-2 py-2 mb-2 rounded-xl bg-toadz-gray outline-none placeholder-gray-200  text-white"
-              type="text"
-              placeholder="Description & Project Link"
-              value={description}
-              onChange={(e) => {
-                setDescription(e.target.value);
-              }}
-            />
-
-            <button
-              className={`${
-                isDisabled
-                  ? "pointer-events-none	cursor-not-allowed opacity-50"
-                  : ""
-              }  xs:w-1/2 sm:w-1/5 py-2 mb-2 bg-white rounded-full`}
-            >
-              Add
-            </button>
           </div>
         </form>
       </div>

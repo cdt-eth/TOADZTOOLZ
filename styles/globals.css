@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .placeholder-italic::placeholder {
+    @apply italic;
+  }
+}
+
 @font-face {
   font-family: "Boxing Wizards";
   src: url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.eot");
