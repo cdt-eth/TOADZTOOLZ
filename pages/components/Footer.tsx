@@ -6,8 +6,6 @@ import Tip from "./Tip";
 const Footer = () => {
   return (
     <div className="py-4 footer flex">
-      {/* <div className="bg-green-900 py-4 text-white"> */}
-
       <div>
         <img src="toadz.gif" alt="toadz-gif" />
       </div>
