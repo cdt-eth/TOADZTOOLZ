@@ -18,7 +18,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/components/FormModal.jsx"
+    "pages/components/FormModal.jsx",
+    "pages/components/IssaVibe.jsx"
   ],
   "exclude": ["node_modules"]
 }

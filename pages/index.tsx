@@ -2,12 +2,13 @@
 import Banner from "./components/Banner";
 import Tip from "./components/Tip";
 import Projects from "./components/Projects";
-import Sockz from "./components/Sockz";
+import ClaimCenter from "./components/ClaimCenter";
 import Header from "./components/Header";
 import dynamic from "next/dynamic";
 import Vibe from "./components/Vibe";
 import FloorToadz from "./components/FloorToadz";
 import { useTheme } from "next-themes";
+import IssaVibe from "./components/IssaVibe";
 
 const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
@@ -25,10 +26,11 @@ export default function Home() {
       <Header />
       <Vibe />
       <Banner />
-      {theme === "light" ? null : <Roadmap />}
-      <Sockz />
-      <FloorToadz />
       <Projects />
+      <ClaimCenter />
+      {theme === "light" ? null : <Roadmap />}
+      {theme === "light" ? null : <IssaVibe />}
+      <FloorToadz />
       <Tip />
     </div>
   );

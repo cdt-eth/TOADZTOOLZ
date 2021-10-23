@@ -12,7 +12,7 @@ const Section = ({ id, title, children }: SectionProps) => {
       <div className="pt-5 pb-2 text-scratchy text-blue-500 text-3xl">
         {title}
       </div>
-      <div className="pl-10 ">{children}</div>
+      <div className="flex flex-wrap">{children}</div>
     </div>
   );
 };

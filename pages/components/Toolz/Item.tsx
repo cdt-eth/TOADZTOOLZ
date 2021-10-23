@@ -1,43 +1,36 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 interface ItemProps {
   name: string;
   description: string;
   link: string;
+  pic: string;
 }
 
-const Item = ({ name, description, link }) => {
+const Item = ({ name, pic, description, link }) => {
   return (
-    // LIST STYLE
-    // <ul className="list-disc list-outside">
-    //   <li className="mb-4">
-    //     <a
-    //       href={link}
-    //       target="_blank"
-    //       rel="noreferrer"
-    //       className="text-blue-300 hover:text-blue-700 transition duration-200"
-    //     >
-    //       {name}
-    //     </a>
-    //     <br /> <div className="italic ml-4">{description}</div>
-    //   </li>
-    // </ul>
+    <div className="my-4 xs:w-1/2 sm:w-1/5 px-2">
+      <a
+        className="cursor-pointer "
+        href={link}
+        download={link}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="rounded-2xl transform hover:scale-105 transition duration-200"
+          src={`/toolz/${pic}`}
+          alt={name}
+        />
 
-    // OTHER STYLE
-    <ul className="list-disc list-outside">
-      <li className="mb-4">
-        <a
-          href={link}
-          download={link}
-          target="_blank"
-          rel="noreferrer"
-          className="text-blue-300 hover:text-blue-700 transition duration-200"
-        >
+        <span className="text-blue-300 xs:flex xs:justify-evenly sm:justify-start hover:text-blue-700 transition py-3 duration-200 text-scratchy">
+          {" "}
           {name}
-        </a>
-        <br /> <div className="italic ml-4">{description}</div>
-      </li>
-    </ul>
+        </span>
+      </a>
+      <div className="xs:hidden sm:block italic">{description}</div>
+    </div>
   );
 };
 

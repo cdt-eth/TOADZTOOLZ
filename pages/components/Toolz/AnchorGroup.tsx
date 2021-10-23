@@ -6,16 +6,20 @@ import Anchor from "./Anchor";
 const AnchorGroup = () => {
   return (
     <div className="flex flex-wrap justify-center mt-4 sm:px-20">
-      <ScrollLink to="projects" smooth={true} className="xs:px-2 sm:px-4 my-2">
-        <Anchor title="Projects" />
-      </ScrollLink>
-
       <ScrollLink
-        to="derivatives"
+        to="toad-holder"
         smooth={true}
         className="xs:px-2 sm:px-4 my-2"
       >
-        <Anchor title="Derivatives" />
+        <Anchor title="Toad-Holder" />
+      </ScrollLink>
+
+      <ScrollLink
+        to="open-public"
+        smooth={true}
+        className="xs:px-2 sm:px-4 my-2"
+      >
+        <Anchor title="Open-to-public" />
       </ScrollLink>
 
       <ScrollLink to="stats" smooth={true} className="xs:px-2 sm:px-4 my-2">
