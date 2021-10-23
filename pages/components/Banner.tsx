@@ -8,14 +8,6 @@ const Banner = () => {
 
   return (
     <div className="mx-9">
-      <div className="flex pt-4 sm:px-40">
-        <HardhatToadz toadz="tall-toadboat" />
-        <HardhatToadz toadz="small-bones" />
-        <HardhatToadz toadz="small-gummyslime" />
-        <HardhatToadz toadz="small-gorilla" />
-        <HardhatToadz toadz="small-angry" />
-      </div>
-
       {theme && (
         <img
           className="xs:w-3/4 sm:w-1/2 m-auto"
@@ -23,6 +15,13 @@ const Banner = () => {
           alt="title"
         />
       )}
+      <div className="flex pt-4 sm:px-40">
+        <HardhatToadz toadz="tall-toadboat" />
+        <HardhatToadz toadz="small-bones" />
+        <HardhatToadz toadz="small-gummyslime" />
+        <HardhatToadz toadz="small-gorilla" />
+        <HardhatToadz toadz="small-angry" />
+      </div>
     </div>
   );
 };
