@@ -119,7 +119,7 @@ const Toolz = () => {
             link="https://opensea.io/collection/van-toadz"
           />
           <Item
-            pic="dissectedtoadz.png"
+            pic="dissectedtoadz.jpeg"
             name="Dissected Toadz"
             description="Looking inside your favorite toadz and see what makes them !vibe by @2aca71."
             link="https://opensea.io/collection/dissected-toadz"
@@ -179,7 +179,7 @@ const Toolz = () => {
             link="https://opensea.io/collection/cryptadpolez"
           />
           <Item
-            pic="fastfoodtoadz.png"
+            pic="fastfoodtoadz.jpg"
             name="Fast Food Toadz"
             description="The Fast Food Toadz are a curated boutique collection primary to Cryptoadz holders of Unique Fast Food Toadz."
             link="https://opensea.io/collection/fast-food-toadz"
