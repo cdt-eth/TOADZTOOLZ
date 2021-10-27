@@ -137,6 +137,12 @@ const Toolz = () => {
             link="https://opensea.io/collection/complextoadz-nft"
           />
           <Item
+            name="Pop Wonder Cryptoadz #3852"
+            pic="popwonder.png"
+            description="Cryptoadz #3852 // Pop Wonder Remix"
+            link="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/12271885842822188039840568155851815734139929241518364030099885563946106617858/"
+          />
+          <Item
             pic="boredvibes.png"
             name="Bored Vibes"
             description="A hand-done derivative series mashup of NFT projects and Cryptoadz. Created with owners permission."
@@ -268,6 +274,13 @@ const Toolz = () => {
         </Section>
 
         <Section title="News" id="news">
+          <Item
+            pic="nftnow.png"
+            name="nft now • How Gremplin’s CrypToadz Took the NFT Market by Storm"
+            description={`"Over the months, Punk4156 and others have attributed the success of CrypToadz in part to its art being public domain. "
+            `}
+            link="https://nftnow.com/features/how-gremplins-cryptoadz-took-nft-market-by-storm/"
+          />
           <Item
             pic="defiant1.png"
             name="The Defiant • Punks or Toadz? Referential Art Project No.1 in 24-Hour Trading Volume"
@@ -404,6 +417,12 @@ const Toolz = () => {
             link="https://www.youtube.com/watch?v=jT_lwrjQNFw&t=2s&ab_channel=CryptoadzShow"
           />
           <Item
+            pic="ode2toad.jpg_large"
+            name="ode 2 toad"
+            description="Animation of an ode to a Nounish toad by @JackMaschka"
+            link="https://twitter.com/jackmaschka/status/1452983362902106123?s=21"
+          />
+          <Item
             pic="wizard.png"
             name="Voxels"
             description="Voxel Toadz"
@@ -474,6 +493,12 @@ const Toolz = () => {
             name="Moti Monday Ep. 3"
             description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/18/21."
             link="https://soundcloud.com/user-814745690/moti-mondays-ep-3"
+          />
+          <Item
+            pic="mm4.jpeg"
+            name="Moti Monday Ep. 4"
+            description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/26/21."
+            link="https://soundcloud.com/user-814745690/moti-mondays-ep-4"
           />
         </Section>
 
