@@ -9,6 +9,11 @@ import clothesData from "./api/traits/clothes.json";
 import backgroundData from "./api/traits/background.json";
 import accessoryOneData from "./api/traits/accessory-one.json";
 import accessoryTwoData from "./api/traits/accessory-two.json";
+import PageTitle from "./components/PageTitle";
+import MiniNav from "./components/Toolz/MiniNav";
+import MiniNavLink from "./components/Toolz/MiniNavLink";
+import Dropdown from "./components/Buildz/Dropdown";
+import Layer from "./components/Buildz/Layer";
 
 const Buildz = () => {
   const trait_eyes = "QmUdxpAFCC1G2qTKDxumMH27ZUdKUNJVGXD1h9QECbBt4F";
@@ -34,7 +39,7 @@ const Buildz = () => {
   const [body, setBody] = useState("");
   const [mouth, setMouth] = useState("");
   const [clothes, setClothes] = useState("");
-  const [backgound, setBackground] = useState("");
+  const [background, setBackground] = useState("");
   const [accessoryOne, setAccessoryOne] = useState("");
   const [accessoryTwo, setAccessoryTwo] = useState("");
 
@@ -43,258 +48,123 @@ const Buildz = () => {
   }, [clothes]);
 
   return (
-    <div className="">
-      <div>
-        <div className="flex mt-4 m-auto gap-4 mb-8 flex-wrap justify-center">
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Clothes</h1>
-            <select
-              className="m-auto w-1/2"
-              name="clothes"
-              value={clothes}
-              onChange={(e) => {
-                setClothes(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
+    <div className="p-5 bg-gray-200 xs:h-screen ">
+      <PageTitle title="Buildz" />
 
-              {clothesData &&
-                clothesData.map((clothes) => (
-                  <option
-                    key={uuidv4()}
-                    label={clothes.fileId}
-                    value={clothes.fileId}
-                  >
-                    {clothes.name}
-                  </option>
-                ))}
-            </select>
-          </div>
+      <MiniNav>
+        <MiniNavLink
+          link="/"
+          newPage={false}
+          text="Home"
+          pic="mininav/hoodie-1.png"
+          alt="home"
+        />
+        <MiniNavLink
+          link="https://twitter.com/cryptoadzNFT"
+          newPage={true}
+          text="Twitter"
+          pic="mininav/hoodie-4.png"
+          alt="twitter"
+        />
+        <MiniNavLink
+          link="https://discord.gg/PDVfDSDbcE"
+          newPage={true}
+          text="Discord"
+          pic="mininav/hoodie-2.png"
+          alt="discord"
+        />
+        <MiniNavLink
+          link="/toolz"
+          newPage={false}
+          text="Toolz"
+          pic="mininav/hoodie-3.png"
+          alt="toolz"
+        />
+        <MiniNavLink
+          link="/ideaz"
+          newPage={false}
+          text="Ideaz"
+          pic="mininav/hoodie-3.png"
+          alt="ideaz"
+        />
+      </MiniNav>
 
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Head</h1>
-            <select
-              className="m-auto w-1/2"
-              name="head"
-              value={head}
-              onChange={(e) => {
-                setHead(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
+      {/* mobile */}
+      <div className="xs:h-40 sm:h-64 relative xs:w-1/2 sm:w-1/5 m-auto my-8">
+        <div className="border-2 border-toadz-dark w-full absolute h-full"></div>
+        <Layer trait={background} traitUrl={backgroundUrl} />
+        <Layer trait={body} traitUrl={bodyUrl} />
+        <Layer trait={clothes} traitUrl={clothesUrl} />
+        <Layer trait={head} traitUrl={headUrl} />
+        <Layer trait={mouth} traitUrl={mouthUrl} />
+        <Layer trait={eyes} traitUrl={eyesUrl} />
+        <Layer trait={accessoryOne} traitUrl={accessoryOneUrl} />
+        <Layer trait={accessoryTwo} traitUrl={accessoryTwoUrl} />
+      </div>
 
-              {headData &&
-                headData.map((head) => (
-                  <option
-                    key={uuidv4()}
-                    label={head.fileId}
-                    value={head.fileId}
-                  >
-                    {head.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Body</h1>
-            <select
-              className="m-auto w-1/2"
-              name="body"
-              value={body}
-              onChange={(e) => {
-                setBody(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
-
-              {bodyData &&
-                bodyData.map((body) => (
-                  <option
-                    key={uuidv4()}
-                    label={body.fileId}
-                    value={body.fileId}
-                  >
-                    {body.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Eyes</h1>
-            <select
-              className="m-auto w-1/2"
-              name="eyes"
-              value={eyes}
-              onChange={(e) => {
-                setEyes(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
-
-              {eyesData &&
-                eyesData.map((eyes) => (
-                  <option
-                    key={uuidv4()}
-                    label={eyes.fileId}
-                    value={eyes.fileId}
-                  >
-                    {eyes.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Mouth</h1>
-            <select
-              className="m-auto w-1/2"
-              name="mouth"
-              value={mouth}
-              onChange={(e) => {
-                setMouth(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
-
-              {mouthData &&
-                mouthData.map((mouth) => (
-                  <option
-                    key={uuidv4()}
-                    label={mouth.fileId}
-                    value={mouth.fileId}
-                  >
-                    {mouth.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Background</h1>
-            <select
-              className="m-auto w-1/2"
-              name="backgound"
-              value={backgound}
-              onChange={(e) => {
-                setBackground(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
-
-              {backgroundData &&
-                backgroundData.map((backgound) => (
-                  <option
-                    key={uuidv4()}
-                    label={backgound.fileId}
-                    value={backgound.fileId}
-                  >
-                    {backgound.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Accessory 1</h1>
-            <select
-              className="m-auto w-1/2"
-              name="accessoryOne"
-              value={accessoryOne}
-              onChange={(e) => {
-                setAccessoryOne(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
-
-              {accessoryOneData &&
-                accessoryOneData.map((accessoryOne) => (
-                  <option
-                    key={uuidv4()}
-                    label={accessoryOne.fileId}
-                    value={accessoryOne.fileId}
-                  >
-                    {accessoryOne.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          <div className="border-2 py-2 mx-2 border-toadz-dark flex flex-col w-1/5">
-            <h1 className="text-center font-bold underline">Accessory 2</h1>
-            <select
-              className="m-auto w-1/2"
-              name="accessoryTwo"
-              value={accessoryTwo}
-              onChange={(e) => {
-                setAccessoryTwo(e.currentTarget.value as any);
-              }}
-            >
-              <option value="">Select option</option>
-
-              {accessoryTwoData &&
-                accessoryTwoData.map((accessoryTwo) => (
-                  <option
-                    key={uuidv4()}
-                    label={accessoryTwo.fileId}
-                    value={accessoryTwo.fileId}
-                  >
-                    {accessoryTwo.name}
-                  </option>
-                ))}
-            </select>
-          </div>
+      <div className="flex">
+        <div className="flex mt-4 m-auto gap-4 mb-8 flex-wrap sm:justify-center">
+          <Dropdown
+            title="Background"
+            traitData={backgroundData}
+            setTrait={setBackground}
+            trait={background}
+          />
+          <Dropdown
+            title="Body"
+            traitData={bodyData}
+            setTrait={setBody}
+            trait={body}
+          />
+          <Dropdown
+            title="Eyes"
+            traitData={eyesData}
+            setTrait={setEyes}
+            trait={eyes}
+          />
+          <Dropdown
+            title="Mouth"
+            traitData={mouthData}
+            setTrait={setMouth}
+            trait={mouth}
+          />
+          <Dropdown
+            title="Head"
+            traitData={headData}
+            setTrait={setHead}
+            trait={head}
+          />
+          <Dropdown
+            title="Hoodie"
+            traitData={clothesData}
+            setTrait={setClothes}
+            trait={clothes}
+          />
+          <Dropdown
+            title="Accessory 1"
+            traitData={accessoryOneData}
+            setTrait={setAccessoryOne}
+            trait={accessoryOne}
+          />
+          <Dropdown
+            title="Accessory 2"
+            traitData={accessoryTwoData}
+            setTrait={setAccessoryTwo}
+            trait={accessoryTwo}
+          />
         </div>
 
-        <div className="relative w-1/3 m-auto">
-          <div className="absolute">
-            {backgound !== "" && (
-              <img src={`${backgroundUrl}${backgound}.png`} alt={backgound} />
-            )}
-          </div>
-
-          <div className="absolute">
-            {body !== "" && <img src={`${bodyUrl}${body}.png`} alt={body} />}
-          </div>
-
-          <div className="absolute">
-            {clothes !== "" && (
-              <img src={`${clothesUrl}${clothes}.png`} alt={clothes} />
-            )}
-          </div>
-
-          <div className="absolute">
-            {head !== "" && <img src={`${headUrl}${head}.png`} alt={head} />}
-          </div>
-
-          <div className="absolute">
-            {mouth !== "" && (
-              <img src={`${mouthUrl}${mouth}.png`} alt={mouth} />
-            )}
-          </div>
-
-          <div className="absolute">
-            {eyes !== "" && <img src={`${eyesUrl}${eyes}.png`} alt={eyes} />}
-          </div>
-
-          <div className="absolute">
-            {accessoryOne !== "" && (
-              <img
-                src={`${accessoryOneUrl}${accessoryOne}.png`}
-                alt={accessoryOne}
-              />
-            )}
-          </div>
-
-          <div className="absolute">
-            {accessoryTwo !== "" && (
-              <img
-                src={`${accessoryTwoUrl}${accessoryTwo}.png`}
-                alt={accessoryTwo}
-              />
-            )}
-          </div>
+        {/* Desktop */}
+        <div className="xs:hidden sm:relative  w-1/4 m-auto">
+          <div className="border-2 border-toadz-dark w-full absolute h-full"></div>
+          <Layer trait={background} traitUrl={backgroundUrl} />
+          <Layer trait={body} traitUrl={bodyUrl} />
+          <Layer trait={clothes} traitUrl={clothesUrl} />
+          <Layer trait={head} traitUrl={headUrl} />
+          <Layer trait={mouth} traitUrl={mouthUrl} />
+          <Layer trait={eyes} traitUrl={eyesUrl} />
+          <Layer trait={accessoryOne} traitUrl={accessoryOneUrl} />
+          <Layer trait={accessoryTwo} traitUrl={accessoryTwoUrl} />
         </div>
       </div>
     </div>
