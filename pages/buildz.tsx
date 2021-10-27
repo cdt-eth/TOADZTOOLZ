@@ -90,7 +90,7 @@ const Buildz = () => {
       </MiniNav>
 
       {/* mobile */}
-      <div className="xs:h-40 sm:h-64 relative xs:w-1/2 sm:w-1/5 m-auto my-8">
+      <div className="xs:h-40 text-black sm:h-64 relative xs:w-1/2 sm:w-1/5 m-auto my-8">
         <div className="border-2 border-toadz-dark w-full absolute h-full"></div>
         <Layer trait={background} traitUrl={backgroundUrl} />
         <Layer trait={body} traitUrl={bodyUrl} />

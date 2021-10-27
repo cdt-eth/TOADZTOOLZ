@@ -12,7 +12,7 @@ const Dropdown = ({ title, traitData, setTrait, trait }: DropdownProps) => {
   //   const [trait, setTrait] = useState("");
 
   return (
-    <div className="sm:py-2 w-full  mx-2 sm:mt-4 border-toadz-dark flex xs:flex-row sm:flex-col xs:1/2 sm:w-1/5">
+    <div className="sm:py-2 w-full text-black mx-2 sm:mt-4 border-toadz-dark flex xs:flex-row sm:flex-col xs:1/2 sm:w-1/5">
       <h1 className="sm:text-center text-scratchy text-sm xs:w-1/3 sm:w-full">
         {title}
       </h1>
