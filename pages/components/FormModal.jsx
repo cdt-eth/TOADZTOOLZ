@@ -62,7 +62,7 @@ function FormModal() {
       try {
         setIsLoading(true);
 
-        const fetchResponse = await fetch(`/api/sockz/${id}`, settings);
+        const fetchResponse = await fetch(`/api/claimcenter/${id}`, settings);
         const data = await fetchResponse.json();
 
         setSockzData(data);

@@ -18,11 +18,13 @@
     "react": "17.0.2",
     "react-audio-player": "^0.17.0",
     "react-dom": "17.0.2",
+    "react-dropdown-select": "^4.7.4",
     "react-dvd-screensaver": "^0.0.4",
     "react-modal": "^3.14.3",
     "react-modal-video": "1.2.8",
     "react-scroll": "^1.8.4",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "@types/react": "17.0.24",

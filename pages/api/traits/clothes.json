@@ -1,0 +1,30 @@
+[
+  {
+    "fileId": "accessory-hoodie-force",
+    "name": "force-hoodie-a"
+  },
+  {
+    "fileId": "accessory-hoodie-grey",
+    "name": "grey-hoodie-a"
+  },
+  {
+    "fileId": "accessory-hoodie-slime",
+    "name": "slime-hoodie-a"
+  },
+  {
+    "fileId": "clothes-hoodie-force",
+    "name": "force-hoodie-b"
+  },
+  {
+    "fileId": "clothes-hoodie-grey",
+    "name": "grey-hoodie-b"
+  },
+  {
+    "fileId": "clothes-hoodie-slime",
+    "name": "slime-hoodie-b"
+  },
+  {
+    "fileId": "clothes-none",
+    "name": "clothes-none"
+  }
+]
