@@ -91,9 +91,9 @@ const Ideaz = () => {
 
   return (
     <div className="p-5 text-white bg h-full">
-      <PageTitle title="Ideaz" />
+      <PageTitle passedClass="" title="Ideaz" />
 
-      <MiniNav>
+      <MiniNav passedClass="">
         <MiniNavLink
           link="/"
           newPage={false}

@@ -49,9 +49,9 @@ const Buildz = () => {
 
   return (
     <div className="p-5 bg-gray-200 xs:h-screen ">
-      <PageTitle title="Buildz" />
+      <PageTitle passedClass="text-black" title="Buildz" />
 
-      <MiniNav>
+      <MiniNav passedClass="text-black">
         <MiniNavLink
           link="/"
           newPage={false}

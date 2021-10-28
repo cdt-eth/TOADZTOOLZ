@@ -10,9 +10,9 @@ import MiniNavLink from "./components/Toolz/MiniNavLink";
 const Toolz = () => {
   return (
     <div className="bg-toadz-dark h-full text-white p-5 sm:px-10">
-      <PageTitle title="Toolz" />
+      <PageTitle passedClass="" title="Toolz" />
 
-      <MiniNav>
+      <MiniNav passedClass="">
         <MiniNavLink
           link="/"
           newPage={false}
