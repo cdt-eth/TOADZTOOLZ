@@ -119,6 +119,7 @@ function FormModal() {
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
+        C
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Claim Center"
@@ -172,14 +173,14 @@ function FormModal() {
                         url="https://cryptoflyz.io/"
                       />
 
-                      <Claimed
+                      {/* <Claimed
                         data={choadzMinted}
                         asset="Choadz"
                         address="0x172700a7dbbf92ee1db1474f956fd1078d2d0a00"
                         id={id}
                         img="cc.png"
                         url="https://choadz.com/"
-                      />
+                      /> */}
 
                       <Claimed
                         data={sockzMinted}
