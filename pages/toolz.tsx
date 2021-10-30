@@ -113,6 +113,12 @@ const Toolz = () => {
 
         <Section title="Open-to-Public Projects" id="open-public">
           <Item
+            pic="toadzworldz.png"
+            name="Toadz World"
+            description="No roadmap. Just backgrounds. Mint soon. CC0. "
+            link="https://www.toadzworld.com/"
+          />
+          <Item
             pic="vantoadz.jpeg"
             name="VanToadz"
             description="A Swamp Full of 1/1 Toadz, brought to you by Van Coleman."
