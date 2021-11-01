@@ -84,7 +84,12 @@ const Toolz = () => {
             description="AI-generated Toadz. Every CrypToad owner can commission one unique AI Toad and incorporate some custom theme in the image."
             link="https://aitoadz.xyz/"
           />
-
+          <Item
+            pic="toadzworldz.png"
+            name="Toadz World"
+            description="No roadmap. Just backgrounds. 1 Toad = 1 TW. Mint soon. CC0."
+            link="https://www.toadzworld.com/"
+          />
           <Item
             name="ToadEggz"
             pic="toadeggz.jpeg"
@@ -112,12 +117,6 @@ const Toolz = () => {
         </Section>
 
         <Section title="Open-to-Public Projects" id="open-public">
-          <Item
-            pic="toadzworldz.png"
-            name="Toadz World"
-            description="No roadmap. Just backgrounds. Mint soon. CC0. "
-            link="https://www.toadzworld.com/"
-          />
           <Item
             pic="vantoadz.jpeg"
             name="VanToadz"
