@@ -136,6 +136,18 @@ const Toolz = () => {
             link="https://opensea.io/collection/frentoadz-by-affenbrot"
           />
           <Item
+            pic="doodle.jpeg"
+            name="Doodle Toads"
+            description="9,000 procedurally generated, hand drawn #NFTs."
+            link="https://twitter.com/DoodleToads"
+          />
+          <Item
+            pic="hero.png"
+            name="Hero Toadz"
+            description="A group of amphibious heroes and villains by @lanx_eth"
+            link="https://opensea.io/collection/hero-toadz"
+          />
+          <Item
             pic="complextoadz.jpeg"
             name="Complex Toadz"
             description="Hand-drawn unqiue toadz inspired by Cryptoadz."
@@ -379,6 +391,18 @@ const Toolz = () => {
             link="https://toadz.world/"
           />
           <Item
+            pic="choadzvoxelz.png"
+            name="Choadz Voxelz"
+            description="1) Download .vox file. 2) Convert to .OBJ using #MagicaVoxel. 3) Upload to Shapeways and print."
+            link="https://chunks.world/choadz"
+          />
+          <Item
+            pic="songkit.png"
+            name="Issa Vibe Song Kit"
+            description="Includes song, instrumental, acapella and open verse versions- all copyright free for use."
+            link="https://supertight.app.box.com/s/gtflqlrfzg7rt09do0z6ixayrmln3voq"
+          />
+          <Item
             pic="etherscan.jpeg"
             name="Cryptoadz Etherscan Contract"
             description="Learn more by seeing, explore the deployed smart contract."
@@ -504,6 +528,12 @@ const Toolz = () => {
             name="Moti Monday Ep. 4"
             description="''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/26/21."
             link="https://soundcloud.com/user-814745690/moti-mondays-ep-4"
+          />
+          <Item
+            pic="mm5.jpeg"
+            name="Moti Monday Ep. 5"
+            description="''Moti Monday'' Twitter Spaces with Motivateme.eth from 11/1/21."
+            link="https://soundcloud.com/user-814745690/moti-monday-ep-5?si=d5a06cccb735472e962c92673827c0ec"
           />
         </Section>
 
