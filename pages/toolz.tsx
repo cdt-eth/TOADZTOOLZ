@@ -70,7 +70,7 @@ const Toolz = () => {
             name="CrypTurtz"
             pic="crypturtz.png"
             description="Turtz are swamp-wise creatures, they’re here to join the !vibe"
-            link="https://twitter.com/CrypTurtz"
+            link="https://crypturtz.io/"
           />
           <Item
             name="CorruptedToadz"
@@ -135,12 +135,7 @@ const Toolz = () => {
             description="Unique 1/1 custom illustrations of Cryptoadz."
             link="https://opensea.io/collection/frentoadz-by-affenbrot"
           />
-          <Item
-            pic="doodle.jpeg"
-            name="Doodle Toads"
-            description="9,000 procedurally generated, hand drawn #NFTs."
-            link="https://twitter.com/DoodleToads"
-          />
+
           <Item
             pic="hero.png"
             name="Hero Toadz"
@@ -403,6 +398,12 @@ const Toolz = () => {
             link="https://toadz.world/"
           />
           <Item
+            pic="etherscan.jpeg"
+            name="Cryptoadz Etherscan Contract"
+            description="Learn more by seeing, explore the deployed smart contract."
+            link="https://etherscan.io/address/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6"
+          />
+          <Item
             pic="choadzvoxelz.png"
             name="Choadz Voxelz"
             description="1) Download .vox file. 2) Convert to .OBJ using #MagicaVoxel. 3) Upload to Shapeways and print."
@@ -420,12 +421,6 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             name="Issa Vibe Song Kit"
             description="Includes song, instrumental, acapella and open verse versions- all copyright free for use."
             link="https://supertight.app.box.com/s/gtflqlrfzg7rt09do0z6ixayrmln3voq"
-          />
-          <Item
-            pic="etherscan.jpeg"
-            name="Cryptoadz Etherscan Contract"
-            description="Learn more by seeing, explore the deployed smart contract."
-            link="https://etherscan.io/address/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6"
           />
         </Section>
 
