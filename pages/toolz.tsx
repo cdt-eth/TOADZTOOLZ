@@ -154,6 +154,12 @@ const Toolz = () => {
             link="https://opensea.io/collection/complextoadz-nft"
           />
           <Item
+            name="NobiToadz"
+            pic="nobitoadz.jpeg"
+            description="NobiToadz by @0xnobiscum"
+            link="https://twitter.com/NobiToadz"
+          />
+          <Item
             name="Pop Wonder Cryptoadz #3852"
             pic="popwonder.png"
             description="Cryptoadz #3852 // Pop Wonder Remix"
@@ -200,6 +206,12 @@ const Toolz = () => {
             name="CrypTadpolez"
             description="Unique 1/1 tadpolez by nobiscum."
             link="https://opensea.io/collection/cryptadpolez"
+          />
+          <Item
+            pic="abstract.jpg"
+            name="Cryptoadz Abstract"
+            description="Non-figurative works utilizing Cryptotoadz for generative abstract experimentation."
+            link="https://opensea.io/collection/cryptoadzabstract?search[sortAscending]=true&search[sortBy]=PRICE"
           />
           <Item
             pic="fastfoodtoadz.jpg"
@@ -395,6 +407,13 @@ const Toolz = () => {
             name="Choadz Voxelz"
             description="1) Download .vox file. 2) Convert to .OBJ using #MagicaVoxel. 3) Upload to Shapeways and print."
             link="https://chunks.world/choadz"
+          />
+          <Item
+            pic="stickers.png"
+            name="Cryptoadz Stickers"
+            description="iMessage stickers in the iOS App Store."
+            link="https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393
+https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
           />
           <Item
             pic="songkit.png"
