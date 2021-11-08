@@ -179,6 +179,12 @@ const Toolz = () => {
             link="https://objkt.com/profile/tz1Qwv2m1MzVwUkGgVZb7EGoKV8n9RtBc3Jh/creations"
           />
           <Item
+            pic="punktoadz.jpeg"
+            name="Punk Toadz 3D"
+            description="Small collection of 3D PunkToadz."
+            link="https://opensea.io/collection/punktoadz3d"
+          />
+          <Item
             pic="toadbarz.png"
             name="ToadzBarz"
             description="Limited collection of 69 hungry toadz with chocolates."
