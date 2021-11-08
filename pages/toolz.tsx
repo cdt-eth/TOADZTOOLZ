@@ -254,7 +254,7 @@ const Toolz = () => {
             pic="mekatoadz.jpeg"
             name="Meka Toadz"
             description="MEKA TOADZ"
-            link="https://twitter.com/MekaToadzNFT"
+            link="https://twitter.com/MekaToadz"
           />
           <Item
             pic="chunkytoadz.png"
