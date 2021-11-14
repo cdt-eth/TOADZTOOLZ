@@ -8,7 +8,6 @@ import dynamic from "next/dynamic";
 import Vibe from "./components/Vibe";
 import FloorToadz from "./components/FloorToadz";
 import { useTheme } from "next-themes";
-import IssaVibe from "./components/IssaVibe";
 
 const Roadmap = dynamic(() => import("../Toadmap"), {
   ssr: false,
@@ -29,7 +28,6 @@ export default function Home() {
       <Projects />
       <ClaimCenter />
       {theme === "light" ? null : <Roadmap />}
-      {theme === "light" ? null : <IssaVibe />}
       <FloorToadz />
       <Tip />
     </div>
