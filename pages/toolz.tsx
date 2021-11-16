@@ -91,6 +91,12 @@ const Toolz = () => {
             link="https://www.toadzworld.com/"
           />
           <Item
+            name="TexToadz"
+            pic="textoadz.jpeg"
+            description="Textoadtz are individually created by hand with scripting & coding."
+            link="https://www.textoadz.com/"
+          />
+          <Item
             name="ToadEggz"
             pic="toadeggz.jpeg"
             description="ToadEggz is a collection of 6969 Eggz to be released soon exclusively for Cryptoadz holders."
@@ -177,6 +183,18 @@ const Toolz = () => {
             name="Tezoadz"
             description="When toadz die, they cross over to the underworld and continue the !darkvibe in the dark swampz of tez."
             link="https://objkt.com/profile/tz1Qwv2m1MzVwUkGgVZb7EGoKV8n9RtBc3Jh/creations"
+          />
+          <Item
+            pic="artoadz.jpeg"
+            name="ArToadz"
+            description="555 toadz, made in the style of the works of various famous artists."
+            link="https://opensea.io/collection/artoadz"
+          />
+          <Item
+            pic="toadheadz.jpeg"
+            name="ToadHeadz"
+            description="Small amphibious two-legged creatures trying to escape the tyrannical rule of the Evil King Gremplin."
+            link="https://opensea.io/collection/toadheadz"
           />
           <Item
             pic="punktoadz.jpeg"
@@ -513,8 +531,14 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
           <Item
             pic="grempland.png"
             name="Grempland Giftshop"
-            description="Swampy souvenirs by Watermelone & bloopy911"
+            description="Swampy souvenirs by Watermelone & bloopy911."
             link="https://gremplandgiftshop.com/"
+          />
+          <Item
+            pic="toadheadzmerch.jpeg"
+            name="ToadHeadz Shop"
+            description="This one-stop-print-shop for your favourite NFTs is brought to you by ToadHeadz team/"
+            link="https://toadheadz.com/pages/nft-collections"
           />
         </Section>
 
