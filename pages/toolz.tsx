@@ -191,7 +191,7 @@ const Toolz = () => {
             link="https://opensea.io/collection/artoadz"
           />
           <Item
-            pic="toadheadz.jpeg"
+            pic="toadheadz.png"
             name="ToadHeadz"
             description="Small amphibious two-legged creatures trying to escape the tyrannical rule of the Evil King Gremplin."
             link="https://opensea.io/collection/toadheadz"
