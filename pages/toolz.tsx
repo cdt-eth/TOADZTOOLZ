@@ -496,6 +496,12 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             link="https://twitter.com/jackmaschka/status/1452983362902106123?s=21"
           />
           <Item
+            pic="mosaic.jpeg"
+            name="Toadenza Mosaic"
+            description="Toadenza mosaic created with all 6,969 toadz."
+            link="https://twitter.com/itsorawan/status/1460971599906017280"
+          />
+          <Item
             pic="wizard.png"
             name="Voxels"
             description="Voxel Toadz"

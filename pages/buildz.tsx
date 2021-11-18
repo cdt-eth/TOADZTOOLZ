@@ -48,13 +48,13 @@ const Buildz = () => {
     console.log(clothes);
   }, [clothes]);
 
-  function handleClick() {
-    const image = canvas.toDataUrl();
-    const link = document.createElement("a");
-    link.href = image;
-    link.download = "image.png";
-    link.click();
-  }
+  // function handleClick() {
+  //   const image = canvas.toDataUrl();
+  //   const link = document.createElement("a");
+  //   link.href = image;
+  //   link.download = "image.png";
+  //   link.click();
+  // }
 
   return (
     <div className="p-5 bg-gray-200 xs:h-full ">
@@ -110,9 +110,9 @@ const Buildz = () => {
         <Layer trait={accessoryTwo} traitUrl={accessoryTwoUrl} />
       </div>
 
-      <div className="text-center">
+      {/* <div className="text-center">
         <button onClick={handleClick}>Download</button>
-      </div>
+      </div> */}
 
       <div className="flex">
         <div className="flex mt-4 m-auto gap-4 mb-8 flex-wrap sm:justify-center">
