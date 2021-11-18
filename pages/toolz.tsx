@@ -136,6 +136,12 @@ const Toolz = () => {
             link="https://opensea.io/collection/dissected-toadz"
           />
           <Item
+            pic="noadz.png"
+            name="Noadz"
+            description="Nouns + Toadz = Noadz."
+            link="https://opensea.io/collection/noadz"
+          />
+          <Item
             pic="frentoadz.jpeg"
             name="FrenToadz"
             description="Unique 1/1 custom illustrations of Cryptoadz."
@@ -478,10 +484,10 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             link="https://toadoshop.com/"
           /> */}
           <Item
-            pic="issa.png"
-            name={`"Issa !Vibe" song`}
-            description="Issa !Vibe Official Lyric Video"
-            link="https://www.youtube.com/watch?v=jT_lwrjQNFw&t=2s&ab_channel=CryptoadzShow"
+            pic="show.png"
+            name="Cryptoadz Show"
+            description="2 Toadz, 1 mission: become rap superstars."
+            link="https://mmm.page/cryptoadz.main"
           />
           <Item
             pic="ode2toad.jpg_large"
@@ -507,23 +513,45 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             description="Upload a background and drop in your toadz to create your own art piece by NounDoge"
             link="https://toadoshop.com/"
           />
-          <Item
-            pic="show.png"
-            name="Cryptoadz Show"
-            description="2 Toadz, 1 mission: become rap superstars."
-            link="https://mmm.page/cryptoadz.main"
-          />
-          <Item
-            pic="themesong.png"
-            name="Cryptoadz Theme Song"
-            description="music by Bettorup"
-            link="https://twitter.com/cryptobuffalo/status/1437915763214479360?s=21"
-          />
+
           <Item
             pic="light.png"
             name="Neon Toad #6294"
             description="Custom Neon Toad art by Bryan Brinkman"
             link="https://twitter.com/bryanbrinkman/status/1444813816718635010?s=21"
+          />
+        </Section>
+
+        <Section title="Music" id="music">
+          <Item
+            pic="issa.png"
+            name={`"Issa !Vibe" song`}
+            description="Issa !Vibe Official Lyric Video by Cryptoadz.show"
+            link="https://www.youtube.com/watch?v=jT_lwrjQNFw&t=2s&ab_channel=CryptoadzShow"
+          />
+          <Item
+            pic="toadenza.jpeg"
+            name="Toadenza"
+            description="by Cryptoadz.show"
+            link="https://soundcloud.com/cryptoadz/toadenza"
+          />
+          <Item
+            pic="themesong.png"
+            name="Cryptoadz Theme Song"
+            description="by Bettorup"
+            link="https://twitter.com/cryptobuffalo/status/1437915763214479360?s=21"
+          />
+          <Item
+            pic="freestyle.jpeg"
+            name="Toadchella 1.0 Freestyle"
+            description="by Cryptoadz.show"
+            link="https://soundcloud.com/cryptoadz/toadchella"
+          />
+          <Item
+            pic="vibinboyz.png"
+            name="''VIBIN' BOYZ'' - Island Boys CrypToadz SwampMixxx"
+            description="by Cryptoadz.show"
+            link="https://www.youtube.com/watch?v=Ky9as98uapE&ab_channel=CryptoadzShow"
           />
         </Section>
 

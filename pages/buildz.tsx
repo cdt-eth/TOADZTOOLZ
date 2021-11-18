@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
+import mergeImages from "merge-images";
+
 import eyesData from "./api/traits/eyes.json";
 import headData from "./api/traits/head.json";
 import bodyData from "./api/traits/body.json";
@@ -47,8 +48,16 @@ const Buildz = () => {
     console.log(clothes);
   }, [clothes]);
 
+  function handleClick() {
+    const image = canvas.toDataUrl();
+    const link = document.createElement("a");
+    link.href = image;
+    link.download = "image.png";
+    link.click();
+  }
+
   return (
-    <div className="p-5 bg-gray-200 xs:h-screen ">
+    <div className="p-5 bg-gray-200 xs:h-full ">
       <PageTitle passedClass="text-black" title="Buildz" />
 
       <MiniNav passedClass="text-black">
@@ -90,8 +99,7 @@ const Buildz = () => {
       </MiniNav>
 
       {/* mobile */}
-      <div className="xs:h-40 text-black sm:h-64 relative xs:w-1/2 sm:w-1/5 m-auto my-8">
-        <div className="border-2 border-toadz-dark w-full absolute h-full"></div>
+      <div className="xs:h-40 text-black sm:h-64 relative xs:w-1/2 sm:w-1/5 m-auto my-8 ">
         <Layer trait={background} traitUrl={backgroundUrl} />
         <Layer trait={body} traitUrl={bodyUrl} />
         <Layer trait={clothes} traitUrl={clothesUrl} />
@@ -100,6 +108,10 @@ const Buildz = () => {
         <Layer trait={eyes} traitUrl={eyesUrl} />
         <Layer trait={accessoryOne} traitUrl={accessoryOneUrl} />
         <Layer trait={accessoryTwo} traitUrl={accessoryTwoUrl} />
+      </div>
+
+      <div className="text-center">
+        <button onClick={handleClick}>Download</button>
       </div>
 
       <div className="flex">

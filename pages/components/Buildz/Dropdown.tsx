@@ -17,7 +17,7 @@ const Dropdown = ({ title, traitData, setTrait, trait }: DropdownProps) => {
         {title}
       </h1>
       <select
-        className="xs:m-auto sm:mt-2 bg-transparent outline-none xs:text-left w-2/3  sm:w-1/2"
+        className="cursor-pointer xs:m-auto sm:mt-2 bg-transparent outline-none xs:text-left w-2/3  sm:w-1/2"
         name={trait}
         value={trait}
         onChange={(e) => {

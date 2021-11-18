@@ -76,6 +76,7 @@ const Ideaz = () => {
         }
       );
       const data = await response.json();
+      console.log(data);
 
       setTitle("");
       setDescription("");
