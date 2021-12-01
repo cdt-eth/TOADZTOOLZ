@@ -145,7 +145,7 @@ const Toolz = () => {
             link="https://opensea.io/collection/van-toadz"
           />
           <Item
-            pic="dissectedtoadz.jpeg"
+            pic="dissectedtoadz.png"
             name="Dissected Toadz"
             description="Looking inside your favorite toadz and see what makes them !vibe by @2aca71."
             link="https://opensea.io/collection/dissected-toadz"
