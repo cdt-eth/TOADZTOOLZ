@@ -85,6 +85,19 @@ const Toolz = () => {
             link="https://aitoadz.xyz/"
           />
           <Item
+            pic="croakz.jpeg"
+            name="Croakz"
+            description="6,969 Unique CROAKZ."
+            link="https://www.croakz.io/"
+          />
+
+          <Item
+            pic="evotoadz.jpeg"
+            name="Evotoadz"
+            description="No roadmap. Just backgrounds. 1 Toad = 1 TW. Mint soon. CC0."
+            link="https://twitter.com/EvoToadz"
+          />
+          <Item
             pic="toadzworldz.png"
             name="Toadz World"
             description="No roadmap. Just backgrounds. 1 Toad = 1 TW. Mint soon. CC0."
@@ -183,6 +196,54 @@ const Toolz = () => {
             name="Paper Vibes"
             description="A hand-done derivative series mashup of NFT projects and Cryptoadz. Created with owners permission."
             link=" https://opensea.io/collection/papervibes"
+          />
+          <Item
+            pic="babytoads.png"
+            name="Baby Toads"
+            description="6,969 procedurally generated Baby Toad NFTs."
+            link="https://opensea.io/collection/babytoads"
+          />
+          <Item
+            pic="xtoadz.jpeg"
+            name="XTOADZ"
+            description="XCOPY x Cryptoadz in an epic mashup remix toadz collection that'll rip your only socks off."
+            link="https://twitter.com/XTOADZNFT"
+          />
+          <Item
+            pic="peaceful.jpeg"
+            name="Peaceful Toadz"
+            description="10,000 unique Peaceful Toadz."
+            link="https://www.peacefultoadz.com/"
+          />
+          <Item
+            pic="degen.jpeg"
+            name="Degen GAN Toadz"
+            description="Small, AI-generated tributes to CrypToadz and Bastard GAN Punks."
+            link="https://www.degentoadz.io/"
+          />
+          <Item
+            pic="loafz.jpeg"
+            name="Loafz"
+            description="Chonky, loveable pets from the future. There are 15 unique species each with a wildly different personality to match."
+            link="https://www.loafz.co/"
+          />
+          <Item
+            pic="trippytoadz.png"
+            name="Trippy Toadz"
+            description="These GREMPLIN inspired Toadz have swamp party vibes. Grab your glow sticks and join the fun."
+            link="https://opensea.io/collection/trippy-toadz"
+          />
+          <Item
+            pic="baller.jpeg"
+            name="Baller Toadz"
+            description="250 toadz balling out in the metaverse. Build your best team for upcoming 2v2 tournament challenges."
+            link="https://opensea.io/collection/ballertoadz"
+          />
+          <Item
+            pic="cryptopolz.png"
+            name="Cryptopolz"
+            description="The prequel to the cryptoadz."
+            link="https://opensea.io/collection/cryptopolz"
           />
           <Item
             pic="tezoadz.jpeg"
@@ -441,10 +502,16 @@ const Toolz = () => {
           />
           <Item
             pic="stickers.png"
-            name="Cryptoadz Stickers"
+            name="Cryptoadz Stickers (iOS)"
             description="iMessage stickers in the iOS App Store."
             link="https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393
 https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
+          />
+          <Item
+            pic="stickers2.png"
+            name="Cryptoadz Stickers (Telegram)"
+            description="42 CrypToadz Telegram stickers."
+            link="https://t.me/addstickers/cryptoadz"
           />
           <Item
             pic="songkit.png"
@@ -542,6 +609,12 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             link="https://soundcloud.com/cryptoadz/toadenza"
           />
           <Item
+            pic="gm.jpeg"
+            name="gm gm gm"
+            description="by Cryptoadz.show"
+            link="https://soundcloud.com/cryptoadz/gm-gm-gm"
+          />
+          <Item
             pic="themesong.png"
             name="Cryptoadz Theme Song"
             description="by Bettorup"
@@ -615,29 +688,14 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
           />
         </Section>
 
-        {/*<Section title="FAQ" id="faq">
-          TBD
-           <Item
-            name="Q: What is CC0?"
-            description="A: ___"
-            link="https://cryptoadz.io"
-          />
+        <Section title="Video" id="video">
           <Item
-            name="Q: Floor price?"
-            description="A: 1 Toad."
-            link="https://cryptoadz.io"
+            pic="cooltimes.png"
+            name="CrypToadz's Metaverse Play & The Power of Public Domain"
+            description="Cooltimes interview with MotivateMe"
+            link="https://www.youtube.com/watch?app=desktop&v=YteCxaiXRxU&ab_channel=Cooltimes"
           />
-          <Item
-            name="Q: Roadmap?"
-            description="A: Toadmap."
-            link="https://cryptoadz.io"
-          />
-          <Item
-            name="Q: !vibe?"
-            description="A: !vibe."
-            link="https://cryptoadz.io"
-          /> 
-        </Section> */}
+        </Section>
       </div>
     </div>
   );
