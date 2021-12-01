@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
 import { useDvdScreenSaver } from "react-dvd-screensaver";
+import Header from "./pages/components/Header";
 
 const DVD = () => {
   const [impactCount, setImpactCount] = useState<number>(0);
@@ -21,6 +22,7 @@ const DVD = () => {
 
   return (
     <div className="page404">
+      <Header title="404" />
       <div
         ref={dvdScreenSaver.parentRef}
         className={`hooks-parent ${colorToad ? "blue" : "red"}`}

@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="bg-white dark:bg-toadz-dark">
-      <Header />
+      <Header title="TOADZTOOLZ" />
       <Vibe />
       <Banner />
       <Projects />

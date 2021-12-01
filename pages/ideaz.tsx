@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
+import Header from "./components/Header";
 import IdeaCard from "./components/IdeaCard";
 import IdeaCardGroup from "./components/IdeaCardGroup";
 import PageTitle from "./components/PageTitle";
@@ -92,6 +93,7 @@ const Ideaz = () => {
 
   return (
     <div className="p-5 text-white bg h-full">
+      <Header title="IDEAZ" />
       <PageTitle passedClass="" title="Ideaz" />
 
       <MiniNav passedClass="">

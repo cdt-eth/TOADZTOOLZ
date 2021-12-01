@@ -6,10 +6,12 @@ import Section from "./components/Toolz/Section";
 import AnchorGroup from "./components/Toolz/AnchorGroup";
 import PageTitle from "./components/PageTitle";
 import MiniNavLink from "./components/Toolz/MiniNavLink";
+import Header from "./components/Header";
 
 const Toolz = () => {
   return (
     <div className="bg-toadz-dark h-full text-white p-5 sm:px-10">
+      <Header title="TOOLZ" />
       <PageTitle passedClass="" title="Toolz" />
 
       <MiniNav passedClass="">
