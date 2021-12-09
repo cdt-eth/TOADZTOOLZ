@@ -170,6 +170,30 @@ const Toolz = () => {
             link="https://opensea.io/collection/hero-toadz"
           />
           <Item
+            pic="santa.jpeg"
+            name="SantaToadz"
+            description="Holiday spirit infused CrypToadz derivatives high on lollipop dust, funky milk and that special kind of cookies."
+            link="https://santatoadz.io/"
+          />
+          <Item
+            pic="boney.jpg_small"
+            name="The Boneys"
+            description="1000 Randomly generated bags of bones with some special 1/1s."
+            link="https://opensea.io/collection/theboneys"
+          />
+          <Item
+            pic="swamp.png"
+            name="Swampverse"
+            description="Where 9600 toads croak."
+            link="https://swamps.io/"
+          />
+          <Item
+            pic="nounpunks.png"
+            name="NounPunks"
+            description="Group 9969 of beings inspired by the world of LarvaLabs and SuperGremplin that bridge the autonomy of separate cultures."
+            link="https://opensea.io/collection/nounpunks-eth"
+          />
+          <Item
             pic="complextoadz.jpeg"
             name="Complex Toadz"
             description="Hand-drawn unqiue toadz inspired by Cryptoadz."
@@ -525,12 +549,17 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
 
         <Section title="Games" id="games">
           <Item
+            pic="toadblockz.png"
+            name="Toad Blocks"
+            description="A tribute game to the entire NFT space with love aimed at Art Blocks, Cryptoadz, Nimbuds and Sea Hams."
+            link="http://wackyverse.xyz/games/toadblocks/"
+          />
+          <Item
             pic="gremp.png"
             name="GREMPLAND: Cryptovoxels World"
             description="Explore the Toadz metaverse."
             link="https://www.cryptovoxels.com/play?coords=N@770E,356N"
           />
-
           <Item
             pic="fvck.png"
             name="FVCK TOADZ"
@@ -617,6 +646,12 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             link="https://soundcloud.com/cryptoadz/gm-gm-gm"
           />
           <Item
+            pic="dickbutt.jpeg"
+            name="DICKBUTT"
+            description="by Cryptoadz.show"
+            link="https://soundcloud.com/cryptoadz/cryptoadz-dickbutt"
+          />
+          <Item
             pic="themesong.png"
             name="Cryptoadz Theme Song"
             description="by Bettorup"
@@ -644,9 +679,15 @@ https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
             link="https://gremplandgiftshop.com/"
           />
           <Item
+            pic="ybz.jpeg"
+            name="YBZ"
+            description="Wear What You Vibe With!"
+            link="https://wearybz.com/collections/toadz"
+          />
+          <Item
             pic="toadheadzmerch.jpeg"
             name="ToadHeadz Shop"
-            description="This one-stop-print-shop for your favourite NFTs is brought to you by ToadHeadz team/"
+            description="This one-stop-print-shop for your favourite NFTs is brought to you by ToadHeadz team."
             link="https://toadheadz.com/pages/nft-collections"
           />
         </Section>
