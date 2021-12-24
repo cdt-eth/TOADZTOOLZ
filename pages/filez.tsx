@@ -35,7 +35,7 @@ const Filez = () => {
         />
         <MiniNavLink
           link="/ideaz"
-          newPage={true}
+          newPage={false}
           text="Ideaz"
           pic="mininav/filez/4.png"
           alt="ideaz"
