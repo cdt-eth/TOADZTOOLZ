@@ -113,10 +113,10 @@ const Ideaz = () => {
         />
         <MiniNavLink
           link="https://discord.gg/PDVfDSDbcE"
-          newPage={true}
-          text="Discord"
+          newPage={false}
+          text="Filez"
           pic="mininav/hoodie-2.png"
-          alt="discord"
+          alt="filez"
         />
         <MiniNavLink
           link="/toolz"

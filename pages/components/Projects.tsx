@@ -11,10 +11,10 @@ const Projects = () => {
         text="Full list of resources & projects from the Toadz!"
       />
       <Card
-        newPage={true}
-        link="https://toadz.world/"
-        title="Toadz World"
-        text="CrypToadz news round-up sent straight to your inbox weekly."
+        newPage={false}
+        link="/ideaz"
+        title="Filez"
+        text="Download all Cryptoadz assets."
       />
       <Card
         newPage={false}

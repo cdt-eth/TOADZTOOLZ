@@ -47,7 +47,7 @@ const Filez = () => {
           <h3 className="text-scratchy text-center">Download Toadz Assets</h3>
           <p className="xs:text-sm sm:text-base italic">
             Feel free to download and use all these assets in your own project.
-            If you have any assets you'd like to add to this page{" "}
+            If you have any assets you would like to add to this page{" "}
             <a
               className="underline"
               href="https://twitter.com/cdt_eth"
