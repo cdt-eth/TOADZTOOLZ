@@ -24,18 +24,18 @@ const Toolz = () => {
         />
 
         <MiniNavLink
-          link="https://twitter.com/cryptoadzNFT"
-          newPage={true}
-          text="Twitter"
+          link="/buildz"
+          newPage={false}
+          text="Buildz"
           pic="mininav/ghosts-4.png"
-          alt="twitter"
+          alt="buildz"
         />
         <MiniNavLink
-          link="https://discord.gg/PDVfDSDbcE"
-          newPage={true}
-          text="Discord"
+          link="/filez"
+          newPage={false}
+          text="Filez"
           pic="mininav/ghosts-2.png"
-          alt="discord"
+          alt="filez"
         />
         <MiniNavLink
           link="/ideaz"

@@ -105,11 +105,11 @@ const Ideaz = () => {
           alt="home"
         />
         <MiniNavLink
-          link="https://twitter.com/cryptoadzNFT"
-          newPage={true}
-          text="Twitter"
+          link="/buildz"
+          newPage={false}
+          text="Buildz"
           pic="mininav/hoodie-4.png"
-          alt="twitter"
+          alt="buildz"
         />
         <MiniNavLink
           link="/filez"

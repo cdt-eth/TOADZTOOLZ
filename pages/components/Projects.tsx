@@ -12,6 +12,12 @@ const Projects = () => {
       />
       <Card
         newPage={false}
+        link="/buildz"
+        title="Buildz"
+        text="Create your own Cryptoadz with the new Toad Builder."
+      />
+      <Card
+        newPage={false}
         link="/filez"
         title="Filez"
         text="Download all Cryptoadz assets."
