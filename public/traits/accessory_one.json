@@ -1,0 +1,42 @@
+[
+  {
+    "fileId": "accessory-fastfood",
+    "name": "drive-thru"
+  },
+  {
+    "fileId": "accessory-explorer-a",
+    "name": "explorer"
+  },
+  {
+    "fileId": "accessory-flies-one",
+    "name": "flies-one"
+  },
+  {
+    "fileId": "accessory-flies-two",
+    "name": "flies-two"
+  },
+  {
+    "fileId": "accessory-flies-three",
+    "name": "flies-three"
+  },
+  {
+    "fileId": "accessory-flies-four",
+    "name": "flies-four"
+  },
+  {
+    "fileId": "accessory-mouthoverride-flylick",
+    "name": "flylick"
+  },
+  {
+    "fileId": "accessory-hoodie-mysterious",
+    "name": "mysterioius-hoodie"
+  },
+  {
+    "fileId": "accessory-none",
+    "name": "none"
+  },
+  {
+    "fileId": "accessory-swampspots",
+    "name": "toxic-lumps"
+  }
+]

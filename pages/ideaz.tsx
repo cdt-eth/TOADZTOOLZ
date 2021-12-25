@@ -112,7 +112,7 @@ const Ideaz = () => {
           alt="twitter"
         />
         <MiniNavLink
-          link="https://discord.gg/PDVfDSDbcE"
+          link="/filez"
           newPage={false}
           text="Filez"
           pic="mininav/hoodie-2.png"

@@ -1,0 +1,46 @@
+[
+  {
+    "fileId": "floor-blush",
+    "name": "blush"
+  },
+  {
+    "fileId": "floor-frontbeard",
+    "name": "chocolate"
+  },
+  {
+    "fileId": "floor-cigarette-just-for-the-looks",
+    "name": "just-for-the-looks"
+  },
+  {
+    "fileId": "floor-cigarette-short",
+    "name": "cigarette-short"
+  },
+  {
+    "fileId": "floor-cigarette-long",
+    "name": "cigarette-long"
+  },
+  {
+    "fileId": "floor-earring",
+    "name": "earring"
+  },
+  {
+    "fileId": "floor-mole",
+    "name": "mole"
+  },
+  {
+    "fileId": "floor-none",
+    "name": "none"
+  },
+  {
+    "fileId": "floor-shackles",
+    "name": "shackles"
+  },
+  {
+    "fileId": "floor-watch",
+    "name": "watch"
+  },
+  {
+    "fileId": "floor-zit",
+    "name": "zit"
+  }
+]

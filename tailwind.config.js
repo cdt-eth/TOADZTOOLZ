@@ -7,7 +7,9 @@ module.exports = {
         "toadz-dark": "#061425",
         "toadz-green": "#657F1E",
         "toadz-gray": "#2E3635",
+        "toadz-lightgray": "#e0e0e0",
         "nouns-warm": "#E1D8D5",
+        "nouns-cool": "#D4D7E1",
       },
     },
     screens: {

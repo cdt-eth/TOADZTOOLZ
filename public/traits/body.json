@@ -1,0 +1,134 @@
+[
+  {
+    "fileId": "body-normal-albino",
+    "name": "albino"
+  },
+  {
+    "fileId": "body-alien",
+    "name": "alien"
+  },
+  {
+    "fileId": "body-normal-red",
+    "name": "angry"
+  },
+  {
+    "fileId": "body-normal-ape",
+    "name": "ape"
+  },
+  {
+    "fileId": "body-bone-blood",
+    "name": "blood-bones"
+  },
+  {
+    "fileId": "body-thick-slime",
+    "name": "booger"
+  },
+  {
+    "fileId": "body-bone-ghost",
+    "name": "ghost-bones"
+  },
+  {
+    "fileId": "body-thick-grape",
+    "name": "berry"
+  },
+  {
+    "fileId": "body-bone-white",
+    "name": "bones"
+  },
+  {
+    "fileId": "body-cat-blue",
+    "name": "blue-cat"
+  },
+  {
+    "fileId": "body-normal-otherape",
+    "name": "chimp"
+  },
+  {
+    "fileId": "body-normal-creepy",
+    "name": "creepy"
+  },
+  {
+    "fileId": "body-dog",
+    "name": "dog"
+  },
+  {
+    "fileId": "body-normal-gargoyle",
+    "name": "gargoyle"
+  },
+  {
+    "fileId": "body-normal-ghost",
+    "name": "ghost"
+  },
+  {
+    "fileId": "body-normal-greatape",
+    "name": "gorilla"
+  },
+  {
+    "fileId": "body-gremplin-a",
+    "name": "gremplin-blue"
+  },
+  {
+    "fileId": "body-gremplin-b",
+    "name": "gremplin-green"
+  },
+  {
+    "fileId": "body-normal-blueberry",
+    "name": "gummy-blue"
+  },
+  {
+    "fileId": "body-normal-peach",
+    "name": "gummy-peach"
+  },
+  {
+    "fileId": "body-normal-raspberry",
+    "name": "gummy-raspberry"
+  },
+  {
+    "fileId": "body-normal-slime",
+    "name": "gummy-slime"
+  },
+  {
+    "fileId": "body-normal-hypnotic",
+    "name": "hypnotic"
+  },
+  {
+    "fileId": "body-cat-lasagna",
+    "name": "lasagna"
+  },
+  {
+    "fileId": "body-normal-normal-left",
+    "name": "normal-left"
+  },
+  {
+    "fileId": "body-normal-normal-right",
+    "name": "normal-right"
+  },
+  {
+    "fileId": "body-normal-socks",
+    "name": "only-socks"
+  },
+  {
+    "fileId": "body-normal-pale",
+    "name": "pasty"
+  },
+  {
+    "fileId": "body-thick-gross",
+    "name": "pox"
+  },
+  {
+    "fileId": "body-normal-sleep",
+    "name": "sleepy"
+  },
+  {
+    "fileId": "body-normal-robot",
+    "name": "toadbot"
+  },
+  {
+    "fileId": "body-thick-toadenza",
+    "name": "toadenza"
+  },
+  {
+    "fileId": "body-undead",
+    "name": "undead"
+  }
+]

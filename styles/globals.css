@@ -329,9 +329,121 @@ h3 {
 .bg {
   background: #1a1e1d;
 }
-
-.canvas {
+canvas {
   width: 400px;
   height: 400px;
   border: 3px solid red;
+}
+
+@media (max-width: 600px) {
+  canvas {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+/* 
+
+*/
+
+/* @font-face {
+  font-family: "Londrina";
+  src: url(assets/font/LondrinaSolid-Regular.ttf);
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(assets/font/HelveticaNeueMedium.ttf);
+} */
+/* * {
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 0;x
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Londrina;
+  font-size: 23px;
+} */
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+.selectionWrap {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 30px;
+}
+@media (max-width: 600px) {
+  .selectionWrap {
+    grid-template-columns: auto;
+  }
+}
+.optionsWrap {
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: auto;
+  font-size: 15px;
+  display: flex;
+  padding: 8px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.mySelector {
+  display: flex;
+  width: 190px;
+  height: 30px;
+}
+.mySelector {
+  margin: 10px 0;
+}
+label {
+  text-transform: capitalize;
+  font-family: "Superscratchy";
+  font-size: 20px;
+}
+.canvasWrap {
+  margin-top: 30px;
+}
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 3px dotted black;
+}
+.export {
+  height: 50px;
+  width: 181px;
+  background: grey;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 6px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+  font-family: "Superscratchy";
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #bfbb98;
+  color: black;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 200ms;
+  background: whitesmoke;
+}
+.export:hover {
+  background: #c2c2c2;
+  color: black;
 }
