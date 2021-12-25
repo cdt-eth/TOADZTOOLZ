@@ -31,7 +31,7 @@ const DVD = () => {
           <Link href="/" passHref>
             <a className="text-scratchy cursor-pointer">
               <img
-                src={colorToad ? "404Toad.jpg" : "404Toad_Red.jpg"}
+                src={colorToad ? "/404Toad.jpg" : "/404Toad_Red.jpg"}
                 alt="404"
               />
               <div className="text-center text-white w-full m-auto">
