@@ -12,7 +12,7 @@ const Projects = () => {
       />
       <Card
         newPage={false}
-        link="/ideaz"
+        link="/filez"
         title="Filez"
         text="Download all Cryptoadz assets."
       />
