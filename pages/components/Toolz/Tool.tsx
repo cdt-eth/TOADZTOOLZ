@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-interface ItemProps {
+interface ToolProps {
   name: string;
+  pic: string;
   description: string;
   link: string;
-  pic: string;
 }
 
-const Item = ({ name, pic, description, link }) => {
-  return (
-    <div className="my-4 xs:w-1/2 sm:w-1/5 px-2">
+const Tool = ({ name, pic, description, link }: ToolProps) => {
+  return pic ? (
+    <div className="my-4 xs:w-1/2 sm:w-1/5 px-2 ">
       <a
         className="cursor-pointer "
         href={link}
@@ -31,7 +31,9 @@ const Item = ({ name, pic, description, link }) => {
       </a>
       <div className="xs:hidden sm:block italic">{description}</div>
     </div>
+  ) : (
+    <></>
   );
 };
 
-export default Item;
+export default Tool;

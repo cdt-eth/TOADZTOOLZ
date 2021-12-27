@@ -1,0 +1,717 @@
+[
+  {
+    "title": "Toad-Holder Projects",
+    "id": "toad-holder",
+    "children": [
+      {
+        "name": "CryptoFlyz",
+        "image": "cf.jpg",
+        "description": "All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits.",
+        "link": "https://opensea.io/collection/cryptoflyz"
+      },
+      {
+        "name": "Creature Toadz",
+        "pic": "creaturetoadz.png",
+        "description": "First crossover project between two independently successful NFT communities, Creatures and CryptoToadz by Skirano.",
+        "link": "https://opensea.io/collection/creaturetoadz"
+      },
+      {
+        "name": "StitchToadz",
+        "pic": "stitchtoadz.jpeg",
+        "description": "Small, hand-stitched & then digitally edited, amphibious creatures. Made with love by MELLIA, with help by Matas.",
+        "link": "https://twitter.com/MELLIAART"
+      },
+      {
+        "name": "CrypTurtz",
+        "pic": "crypturtz.png",
+        "description": "Turtz are swamp-wise creatures, they're here to join the !vibe",
+        "link": "https://crypturtz.io/"
+      },
+      {
+        "name": "CorruptedToadz",
+        "pic": "corruptedtoadz.jpeg",
+        "description": "Created using a manual unique process of rendering an image on an old PC emulator and tinkering with the image source code.",
+        "link": "https://www.corruptedtoadz.com/"
+      },
+      {
+        "name": "AI Toadz",
+        "pic": "aitoadz.png",
+        "description": "AI-generated Toadz. Every CrypToad owner can commission one unique AI Toad and incorporate some custom theme in the image.",
+        "link": "https://aitoadz.xyz/"
+      },
+      {
+        "pic": "croakz.jpeg",
+        "name": "Croakz",
+        "description": "6,969 Unique CROAKZ.",
+        "link": "https://www.croakz.io/"
+      },
+      {
+        "pic": "evotoadz.jpeg",
+        "name": "Evotoadz",
+        "description": "No roadmap. Just backgrounds. 1 Toad = 1 TW. Mint soon. CC0.",
+        "link": "https://twitter.com/EvoToadz"
+      },
+      {
+        "pic": "toadzworldz.png",
+        "name": "Toadz World",
+        "description": "No roadmap. Just backgrounds. 1 Toad = 1 TW. Mint soon. CC0.",
+        "link": "https://www.toadzworld.com/"
+      },
+      {
+        "name": "TexToadz",
+        "pic": "textoadz.jpeg",
+        "description": "Textoadtz are individually created by hand with scripting & coding",
+        "link": "https://www.textoadz.com/"
+      },
+      {
+        "name": "ToadEggz",
+        "pic": "toadeggz.jpeg",
+        "description": "ToadEggz is a collection of 6969 Eggz to be released soon exclusively for Cryptoadz holders.",
+        "link": "https://twitter.com/ToadEggz"
+      },
+      {
+        "name": "Gel Toadz",
+        "pic": "geltoadz.jpeg",
+        "description": "Custom gel toadz made for toad holders. They are 0.20 ETH each and will be delivered in a week. Capped at 1,000 orders. Collection by Danny Zareto.",
+        "link": "https://opensea.io/collection/geltoadz-by-danny-zareto"
+      },
+      {
+        "name": "Sockz",
+        "pic": "sockz.jpeg",
+        "description": "Sockz for toad holders. Sockz NFTs can be burned and redeemed for a real pair of sockz.",
+        "link": "https://www.sockz.exchange/"
+      },
+      {
+        "name": "Choadz",
+        "pic": "choadz.jpg",
+        "description": "An homage to CrypToadz, brought to life in 3D by The Chunks.",
+        "link": "https://choadz.com/"
+      }
+    ]
+  },
+  {
+    "title": "Open-to-Public Projects",
+    "id": "open-public",
+    "children": [
+      {
+        "pic": "vantoadz.jpeg",
+        "name": "VanToadz",
+        "description": "A Swamp Full of 1/1 Toadz, brought to you by Van Coleman.",
+        "link": "https://opensea.io/collection/van-toadz"
+      },
+      {
+        "pic": "dissectedtoadz.png",
+        "name": "Dissected Toadz",
+        "description": "Looking inside your favorite toadz and see what makes them !vibe by @2aca71.",
+        "link": "https://opensea.io/collection/dissected-toadz"
+      },
+
+      {
+        "pic": "noadz.png",
+        "name": "Noadz",
+        "description": "Nouns + Toadz = Noadz.",
+        "link": "https://opensea.io/collection/noadz"
+      },
+
+      {
+        "pic": "frentoadz.jpeg",
+        "name": "FrenToadz",
+        "description": "Unique 1/1 custom illustrations of Cryptoadz.",
+        "link": "https://opensea.io/collection/frentoadz-by-affenbrot"
+      },
+      {
+        "pic": "hero.png",
+        "name": "Hero Toadz",
+        "description": "A group of amphibious heroes and villains by @lanx_eth",
+        "link": "https://opensea.io/collection/hero-toadz"
+      },
+      {
+        "pic": "santa.jpeg",
+        "name": "SantaToadz",
+        "description": "Holiday spirit infused CrypToadz derivatives high on lollipop dust, funky milk and that special kind of cookies.",
+        "link": "https://santatoadz.io/"
+      },
+      {
+        "pic": "boney.jpg_small",
+        "name": "The Boneys",
+        "description": "1000 Randomly generated bags of bones with some special 1/1s.",
+        "link": "https://opensea.io/collection/theboneys"
+      },
+
+      {
+        "pic": "swamp.png",
+        "name": "Swampverse",
+        "description": "Where 9600 toads croak.",
+        "link": "https://swamps.io/"
+      },
+      {
+        "pic": "nounpunks.png",
+        "name": "NounPunks",
+        "description": "Group 9969 of beings inspired by the world of LarvaLabs and SuperGremplin that bridge the autonomy of separate cultures.",
+        "link": "https://opensea.io/collection/nounpunks-eth"
+      },
+
+      {
+        "pic": "complextoadz.jpeg",
+        "name": "Complex Toadz",
+        "description": "Hand-drawn unqiue toadz inspired by Cryptoadz.",
+        "link": "https://opensea.io/collection/complextoadz-nft"
+      },
+
+      {
+        "name": "NobiToadz",
+        "pic": "nobitoadz.jpeg",
+        "description": "NobiToadz by @0xnobiscum",
+        "link": "https://twitter.com/NobiToadz"
+      },
+
+      {
+        "name": "Pop Wonder Cryptoadz #3852",
+        "pic": "popwonder.png",
+        "description": "Cryptoadz #3852 // Pop Wonder Remix",
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/12271885842822188039840568155851815734139929241518364030099885563946106617858/"
+      },
+      {
+        "pic": "boredvibes.png",
+        "name": "Bored Vibes",
+        "description": "A hand-done derivative series mashup of NFT projects and Cryptoadz. Created with owners permission.",
+        "link": "https://opensea.io/collection/bored-vibes"
+      },
+      {
+        "pic": "papervibes.png",
+        "name": "Paper Vibes",
+        "description": "A hand-done derivative series mashup of NFT projects and Cryptoadz. Created with owners permission.",
+        "link": " https://opensea.io/collection/papervibes"
+      },
+      {
+        "pic": "babytoads.png",
+        "name": "Baby Toads",
+        "description": "6,969 procedurally generated Baby Toad NFTs.",
+        "link": "https://opensea.io/collection/babytoads"
+      },
+      {
+        "pic": "xtoadz.jpeg",
+        "name": "XTOADZ",
+        "description": "XCOPY x Cryptoadz in an epic mashup remix toadz collection that'll rip your only socks off.",
+        "link": "https://twitter.com/XTOADZNFT"
+      },
+      {
+        "pic": "peaceful.jpeg",
+        "name": "Peaceful Toadz",
+        "description": "10,000 unique Peaceful Toadz.",
+        "link": "https://www.peacefultoadz.com/"
+      },
+      {
+        "pic": "degen.jpeg",
+        "name": "Degen GAN Toadz",
+        "description": "Small, AI-generated tributes to CrypToadz and Bastard GAN Punks.",
+        "link": "https://www.degentoadz.io/"
+      },
+      {
+        "pic": "loafz.jpeg",
+        "name": "Loafz",
+        "description": "Chonky, loveable pets from the future. There are 15 unique species each with a wildly different personality to match.",
+        "link": "https://www.loafz.co/"
+      },
+      {
+        "pic": "trippytoadz.png",
+        "name": "Trippy Toadz",
+        "description": "These GREMPLIN inspired Toadz have swamp party vibes. Grab your glow sticks and join the fun.",
+        "link": "https://opensea.io/collection/trippy-toadz"
+      },
+      {
+        "pic": "baller.jpeg",
+        "name": "Baller Toadz",
+        "description": "250 toadz balling out in the metaverse. Build your best team for upcoming 2v2 tournament challenges.",
+        "link": "https://opensea.io/collection/ballertoadz"
+      },
+      {
+        "pic": "cryptopolz.png",
+        "name": "Cryptopolz",
+        "description": "The prequel to the cryptoadz.",
+        "link": "https://opensea.io/collection/cryptopolz"
+      },
+      {
+        "pic": "tezoadz.jpeg",
+        "name": "Tezoadz",
+        "description": "When toadz die, they cross over to the underworld and continue the !darkvibe in the dark swampz of tez.",
+        "link": "https://objkt.com/profile/tz1Qwv2m1MzVwUkGgVZb7EGoKV8n9RtBc3Jh/creations"
+      },
+      {
+        "pic": "artoadz.jpeg",
+        "name": "ArToadz",
+        "description": "555 toadz, made in the style of the works of various famous artists.",
+        "link": "https://opensea.io/collection/artoadz"
+      },
+      {
+        "pic": "toadheadz.png",
+        "name": "ToadHeadz",
+        "description": "Small amphibious two-legged creatures trying to escape the tyrannical rule of the Evil King Gremplin.",
+        "link": "https://opensea.io/collection/toadheadz"
+      },
+      {
+        "pic": "punktoadz.jpeg",
+        "name": "Punk Toadz 3D",
+        "description": "Small collection of 3D PunkToadz.",
+        "link": "https://opensea.io/collection/punktoadz3d"
+      },
+      {
+        "pic": "toadbarz.png",
+        "name": "ToadzBarz",
+        "description": "Limited collection of 69 hungry toadz with chocolates.",
+        "link": "https://opensea.io/collection/toadz-barz"
+      },
+      {
+        "pic": "dostoadz.png",
+        "name": "DOS Toadz",
+        "description": "Cryptoadz + DOS Character set + random color palette.",
+        "link": "https://opensea.io/collection/dos-toadz-by-chartoadz"
+      },
+      {
+        "pic": "asciitoadz.png",
+        "name": "ASCII CrypToadz",
+        "description": "Collection of ASCII toadz by tricK.",
+        "link": "https://www.hicetnunc.xyz/trick"
+      },
+      {
+        "pic": "cryptadpolez.png",
+        "name": "CrypTadpolez",
+        "description": "Unique 1/1 tadpolez by nobiscum.",
+        "link": "https://opensea.io/collection/cryptadpolez"
+      },
+      {
+        "pic": "abstract.jpg",
+        "name": "Cryptoadz Abstract",
+        "description": "Non-figurative works utilizing Cryptotoadz for generative abstract experimentation.",
+        "link": "https://opensea.io/collection/cryptoadzabstract?search[sortAscending]=true&search[sortBy]=PRICE"
+      },
+      {
+        "pic": "fastfoodtoadz.jpg",
+        "name": "Fast Food Toadz",
+        "description": "The Fast Food Toadz are a curated boutique collection primary to Cryptoadz holders of Unique Fast Food Toadz.",
+        "link": "https://opensea.io/collection/fast-food-toadz"
+      },
+      {
+        "pic": "legentoady.png",
+        "name": "Legendtoady",
+        "description": "A collection of Legendary Toadz that grew too big for the swamp. One added every day.",
+        "link": "https://opensea.io/collection/legendtoady"
+      },
+      {
+        "pic": "crypghostz.png",
+        "name": "CrypGhostz",
+        "description": "Collection of 6,969 toadz who found their peace in CrypToadz heaven.",
+        "link": "https://opensea.io/collection/crypghostz"
+      },
+      {
+        "pic": "zombietoadz.png",
+        "name": "ZombieToadz",
+        "description": "Collection of 5,555 zombie toadz.",
+        "link": "https://opensea.io/collection/zombietoadzofficial"
+      },
+      {
+        "pic": "69toadz.png",
+        "name": "69Toadz",
+        "description": "Collection of 69 swamp-inspired toadz.",
+        "link": "https://opensea.io/collection/69toadz"
+      },
+      {
+        "pic": "cholotoadz.png",
+        "name": "CholoToadz",
+        "description": "Collection of 500 cholo-style toadz by Blue Pastel.",
+        "link": "https://opensea.io/collection/cholotoadz"
+      },
+      {
+        "pic": "mekatoadz.jpeg",
+        "name": "Meka Toadz",
+        "description": "MEKA TOADZ",
+        "link": "https://twitter.com/MekaToadz"
+      },
+      {
+        "pic": "chunkytoadz.png",
+        "name": "Chunky Toadz",
+        "description": "Collection of 7,777 chuck toadz.",
+        "link": "https://opensea.io/collection/chunkytoadz"
+      }
+    ]
+  },
+  {
+    "title": "Stats & Analytics",
+    "id": "stats",
+    "children": [
+      {
+        "pic": "flipsfinance.png",
+        "name": "Flips Finance",
+        "description": "Wide array of available stats with a great trait breakdown and comprehensive stat chart per toad.",
+        "link": "https://www.flips.finance/collection/cryptoadz-by-gremplin"
+      },
+      {
+        "pic": "degendata.png",
+        "name": "Degen Data",
+        "description": "DegenData allows NFT traders to analyze historical price trends by any combination of NFT MetaData. Track wallet activity, monitor price and analyze project growth.",
+        "link": "https://degendata.io/project/cryptoadz"
+      },
+      {
+        "pic": "dune.png",
+        "name": "Dune Analytics",
+        "description": "More in-depth vizuals taking a deeper-dive into Cryptoadz' trading volume, top holders, and other data points!",
+        "link": "https://dune.xyz/Artoria/Toadz-dash"
+      },
+      {
+        "pic": "compass.png",
+        "name": "Compass Analytics",
+        "description": "Compass lets you track collection floors, ongoing mints, wallet transactions and more from one place.",
+        "link": "https://compass.art/collections/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6/analytics"
+      },
+      {
+        "pic": "rarity.png",
+        "name": "Rarity",
+        "description": "Classic tool for discovering collection's rarity and explaining asset traits and value.",
+        "link": "https://rarity.tools/cryptoadz-by-gremplin?sort=byId"
+      }
+    ]
+  },
+  {
+    "title": "News",
+    "id": "news",
+    "children": [
+      {
+        "pic": "nftnow.png",
+        "name": "nft now • How Gremplin’s CrypToadz Took the NFT Market by Storm",
+        "description": "''Over the months, Punk4156 and others have attributed the success of CrypToadz in part to its art being public domain.''",
+        "link": "https://nftnow.com/features/,how-gremplins-cryptoadz-took-nft-market-by-storm/"
+      },
+      {
+        "pic": "defiant1.png",
+        "name": "The Defiant • Punks or Toadz? Referential Art Project No.1 in 24-Hour Trading Volume",
+        "description": "''Another day, another NFT project, but with the strong network and idiosyncratic art behind this one, it might be in it for the long haul.''",
+        "link": "https://thedefiant.io/cryptoadz-nft/"
+      },
+      {
+        "pic": "nyt.png",
+        "name": "New York Times • Why My NFT Toad Brought Me Joy",
+        "description": "''An economy where nobody works a bad job, where cryptocurrencies only go up in value and where financial planning for the future just involves buying more toads.''",
+        "link": "https://www.nytimes.com/2021/09/20/opinion/NFT-crypto-art.html"
+      },
+      {
+        "pic": "defiant2.png",
+        "name": "The Defiant • Vibe! Cryptoadz Floor Price Soars as Snoop Dogg and Other NFT Buyers Pile In",
+        "description": "''Cozomo de Medici, a Twitter account which the rapper Snoop Dogg claimed as his own, cashed out 140 ETH for Cryptoadz #4236.''",
+        "link": "https://thedefiant.io/cryptotoadz-discord-snoop-starry-night/"
+      },
+      {
+        "pic": "redlion.png",
+        "name": "Redlion • Cryptoadz By Gremplin",
+        "description": "''I think what makes Cryptoadz unique is Gremplin's referential style and irreverent artistic voice.''",
+        "link": "https://www.redlion.news/article/cryptoadz-by-gremplin"
+      }
+    ]
+  },
+  {
+    "title": "Buy/Sell/Trade",
+    "id": "buy",
+    "children": [
+      {
+        "pic": "opensea.png",
+        "name": "OpenSea: Low to High",
+        "description": "View the current ''Floor Toadz'' and pick on up yourself!",
+        "link": "https://opensea.io/collection/cryptoadz-by-gremplin?search[sortAscending]=true&search[sortBy]=PRICE&search[toggles][0]=BUY_NOW"
+      },
+      {
+        "pic": "nftx.png",
+        "name": "NFTX Cryptoadz Valut",
+        "description": "Buy from, sell into, or stake toadz in the vault to get rewarded on trading volume.",
+        "link": "https://nftx.io/vault/0x1999a92711cf8815b7f6b07bd34b4287d853cfba/buy/"
+      },
+      {
+        "pic": "explorer.png",
+        "name": "Explorers Market",
+        "description": "Buy available Explorer toadz.",
+        "link": "https://exploreringtoadz-market.vercel.app/"
+      },
+      {
+        "pic": "ghost.png",
+        "name": "Ghosts Market",
+        "description": "Buy available Ghost-body toadz.",
+        "link": "https://www.ghosts.market/"
+      },
+      {
+        "pic": "hoodie.png",
+        "name": "Hoodies Market",
+        "description": "Buy available Mysterious Hoodie toadz.",
+        "link": "https://mystictoads-market.vercel.app/"
+      },
+      {
+        "pic": "alien.png",
+        "name": "Aliens Market",
+        "description": "Buy available Alien toadz.",
+        "link": "https://alientoadz.market/"
+      }
+    ]
+  },
+
+  {
+    "title": "Resources",
+    "id": "resources",
+    "children": [
+      {
+        "pic": "api.png",
+        "name": "Toadz API",
+        "description": "Custom API Routes by Flips.Finance to query toad data.",
+        "link": "https://toadzapi.herokuapp.com/docs"
+      },
+      {
+        "pic": "vibebot.png",
+        "name": "Twitter Vibe Bot (Github Repo)",
+        "description": "The Discord !vibe bot brought to Twitter.",
+        "link": "https://github.com/jhenthorn/vibebot2000"
+      },
+      {
+        "pic": "graph.png",
+        "name": "Subgraph Explorer",
+        "description": "Subgraph published to The Graph Network to allow devs to quickly query toadz data.",
+        "link": "https://thegraph.com/legacy-explorer/subgraph/kevlee1/cryptoadz"
+      },
+      {
+        "pic": "toadzworld.png",
+        "name": "Toadz World",
+        "description": "CrypToadz News Roundup",
+        "link": "https://toadz.world/"
+      },
+      {
+        "pic": "etherscan.jpeg",
+        "name": "Cryptoadz Etherscan Contract",
+        "description": "Learn more by seeing, explore the deployed smart contract.",
+        "link": "https://etherscan.io/address/0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6"
+      },
+      {
+        "pic": "choadzvoxelz.png",
+        "name": "Choadz Voxelz",
+        "description": "1) Download .vox file. 2) Convert to .OBJ using #MagicaVoxel 3) Upload to Shapeways and print.",
+        "link": "https://chunks.world/choadz"
+      },
+      {
+        "pic": "stickers.png",
+        "name": "Cryptoadz Stickers (iOS)",
+        "description": "iMessage stickers in the iOS App Store.",
+        "link": "https://apps.apple.com/us/app/cryptoadz-stickers/id1592387393"
+      },
+      {
+        "pic": "stickers2.png",
+        "name": "Cryptoadz Stickers (Telegram)",
+        "description": "42 CrypToadz Telegram stickers.",
+        "link": "https://t.me/addstickers/cryptoadz"
+      },
+      {
+        "pic": "songkit.png",
+        "name": "Issa Vibe Song Kit",
+        "description": "Includes song, instrumental, acapella and open verse versions- all copyright free for use.",
+        "link": "https://supertight.app.box.com/s/gtflqlrfzg7rt09do0z6ixayrmln3voq"
+      }
+    ]
+  },
+  {
+    "title": "Games",
+    "id": "games",
+    "children": [
+      {
+        "pic": "toadblockz.png",
+        "name": "Toad Blocks",
+        "description": "A tribute game to the entire NFT space with love aimed at Art Blocks Cryptoadz, Nimbuds and Sea Hams.",
+        "link": "http://wackyverse.xyz/games/toadblocks/"
+      },
+      {
+        "pic": "gremp.png",
+        "name": "GREMPLAND: Cryptovoxels World",
+        "description": "Explore the Toadz metaverse.",
+        "link": "https://www.cryptovoxels.com/play?coords=N@770E,356N"
+      },
+      {
+        "pic": "fvck.png",
+        "name": "FVCK TOADZ",
+        "description": "Try to collect as many FVCK Crystals as possible!",
+        "link": "http://dumbesturl.com/games/FVCKTOADZ/"
+      },
+      {
+        "pic": "toadrunnerz.png",
+        "name": "Toad Runnerz",
+        "description": "Cryptoadz/Arcade NFTs Collab",
+        "link": "https://arcadenfts.com/drops/#toadrunnerz"
+      }
+    ]
+  },
+  {
+    "title": "Art",
+    "id": "art",
+    "children": [
+      {
+        "pic": "show.png",
+        "name": "Cryptoadz Show",
+        "description": "2 Toadz, 1 mission: become rap superstars.",
+        "link": "https://mmm.page/cryptoadz.main"
+      },
+      {
+        "pic": "ode2toad.jpg_large",
+        "name": "ode 2 toad",
+        "description": "Animation of an ode to a Nounish toad by @JackMaschka",
+        "link": "https://twitter.com/jackmaschka/status/1452983362902106123?s=21"
+      },
+      {
+        "pic": "mosaic.jpeg",
+        "name": "Toadenza Mosaic",
+        "description": "Toadenza mosaic created with all 6,969 toadz.",
+        "link": "https://twitter.com/itsorawan/status/1460971599906017280"
+      },
+      {
+        "pic": "wizard.png",
+        "name": "Voxels",
+        "description": "Voxel Toadz",
+        "link": "https://twitter.com/SEETHEWIZARD69/status/1445389166213279744"
+      },
+      {
+        "pic": "kopper.png",
+        "name": "Physical Toadz",
+        "description": "Physical Toadz made out of beads",
+        "link": "https://twitter.com/kopperkitty/status/1441403748308357120"
+      },
+      {
+        "pic": "toadoshop.png",
+        "name": "Toadoshop",
+        "description": "Upload a background and drop in your toadz to create your own art piece by NounDoge",
+        "link": "https://toadoshop.com/"
+      },
+      {
+        "pic": "light.png",
+        "name": "Neon Toad #6294",
+        "description": "Custom Neon Toad art by Bryan Brinkman",
+        "link": "https://twitter.com/bryanbrinkman/status/1444813816718635010?s=21"
+      }
+    ]
+  },
+  {
+    "title": "Music",
+    "id": "music",
+    "children": [
+      {
+        "pic": "issa.png",
+        "name": "''Issa !Vibe'' song",
+        "description": "Issa !Vibe Official Lyric Video by Cryptoadz.show",
+        "link": "https://www.youtube.com/watch?v=jT_lwrjQNFw&t=2s&ab_channel=CryptoadzShow"
+      },
+      {
+        "pic": "toadenza.jpeg",
+        "name": "Toadenza",
+        "description": "by Cryptoadz.show",
+        "link": "https://soundcloud.com/cryptoadz/toadenza"
+      },
+      {
+        "pic": "gm.jpeg",
+        "name": "gm gm gm",
+        "description": "by Cryptoadz.show",
+        "link": "https://soundcloud.com/cryptoadz/gm-gm-gm"
+      },
+      {
+        "pic": "dickbutt.jpeg",
+        "name": "DICKBUTT",
+        "description": "by Cryptoadz.show",
+        "link": "https://soundcloud.com/cryptoadz/cryptoadz-dickbutt"
+      },
+      {
+        "pic": "choadz.jpg",
+        "name": "Cryptoadz Theme Song",
+        "description": "by Bettorup",
+        "link": "https://twitter.com/cryptobuffalo/status/1437915763214479360?s=21"
+      },
+      {
+        "pic": "freestyle.jpeg",
+        "name": "Toadchella 1.0 Freestyle",
+        "description": "by Cryptoadz.show",
+        "link": "https://soundcloud.com/cryptoadz/toadchella"
+      },
+      {
+        "pic": "vibinboyz.png",
+        "name": "''VIBIN' BOYZ'' - Island Boys CrypToadz SwampMixxx",
+        "description": "by Cryptoadz.show",
+        "link": "https://www.youtube.com/watch?v=Ky9as98uapE&ab_channel=CryptoadzShow"
+      }
+    ]
+  },
+  {
+    "title": "Merch",
+    "id": "merch",
+    "children": [
+      {
+        "pic": "grempland.png",
+        "name": "Grempland Giftshop",
+        "description": "Swampy souvenirs by Watermelone & bloopy911.",
+        "link": "https://gremplandgiftshop.com/"
+      },
+      {
+        "pic": "ybz.jpeg",
+        "name": "YBZ",
+        "description": "Wear What You Vibe With!",
+        "link": "https://wearybz.com/collections/toadz"
+      },
+      {
+        "pic": "toadheadzmerch.jpeg",
+        "name": "ToadHeadz Shop",
+        "description": "This one-stop-print-shop for your favourite NFTs is brought to you by ToadHeadz team.",
+        "link": "https://toadheadz.com/pages/nft-collections"
+      }
+    ]
+  },
+  {
+    "title": "Audio",
+    "id": "audio",
+    "children": [
+      {
+        "pic": "mm1.jpeg",
+        "name": "Moti Monday Genesis",
+        "description": "''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/4/21.",
+        "link": "https://soundcloud.com/user-814745690/moti-monday-genesis?si=7506edff7a104790a9fdd1d2a322228f"
+      },
+      {
+        "pic": "tt.jpeg",
+        "name": "Toadz Tuesday",
+        "description": "Toadz discussion with host Bobby 0xelrod and Moti from 10/5/21.",
+        "link": "https://soundcloud.com/user-814745690/toadz-tuesday"
+      },
+      {
+        "pic": "mm2.jpeg",
+        "name": "Moti Monday Ep. 2",
+        "description": "''Moti Monday'' Twitter Spaces with Motivateme.eth from 10/11/21.",
+        "link": "https://soundcloud.com/user-814745690/moti-monday-ep-2"
+      },
+      {
+        "pic": "mm3.jpeg",
+        "name": "Moti Monday Ep. 3",
+        "description": "''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/18/21.",
+        "link": "https://soundcloud.com/user-814745690/moti-mondays-ep-3"
+      },
+      {
+        "pic": "mm4.jpeg",
+        "name": "Moti Monday Ep. 4",
+        "description": "''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/26/21.",
+        "link": "https://soundcloud.com/user-814745690/moti-mondays-ep-4"
+      },
+      {
+        "pic": "mm5.jpeg",
+        "name": "Moti Monday Ep. 5",
+        "description": "''Moti Monday'' Twitter Spaces with Motivateme.eth from 11/1/21.",
+        "link": "https://soundcloud.com/user-814745690/moti-monday-ep-5?si=d5a06cccb735472e962c92673827c0ec"
+      }
+    ]
+  },
+  {
+    "title": "Video",
+    "id": "video",
+    "children": [
+      {
+        "pic": "cooltimes.png",
+        "name": "CrypToadz's Metaverse Play & The Power of Public Domain",
+        "description": "Cooltimes interview with MotivateMe",
+        "link": "https://www.youtube.com/watch?app=desktop&v=YteCxaiXRxU&ab_channel=Cooltimes"
+      }
+    ]
+  }
+]
