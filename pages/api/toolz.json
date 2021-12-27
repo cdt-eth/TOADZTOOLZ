@@ -63,6 +63,13 @@
         "description": "Textoadtz are individually created by hand with scripting & coding",
         "link": "https://www.textoadz.com/"
       },
+
+      {
+        "name": "ToadzOnTapes",
+        "pic": "tapes.png",
+        "description": "69 MINUTES OF GENERATED !VIBE MUSIC FOR EVERY TOAD.",
+        "link": "tapesxyz.com/toadz"
+      },
       {
         "name": "ToadEggz",
         "pic": "toadeggz.jpeg",
@@ -310,6 +317,24 @@
         "link": "https://opensea.io/collection/zombietoadzofficial"
       },
       {
+        "pic": "ganoadz.jpeg",
+        "name": "GANoadz",
+        "description": "Fusing Noadz with NFT art wising GAN and various digital media.",
+        "link": "https://opensea.io/collection/ganoadz"
+      },
+      {
+        "pic": "touns.png",
+        "name": "Touns",
+        "description": "Toadz + Nouns = Touns.",
+        "link": "https://opensea.io/collection/tounswtf"
+      },
+      {
+        "pic": "cryptosnailz.jpeg",
+        "name": "CryptoSnailz",
+        "description": "Collection of 6,969 snailz.",
+        "link": "https://www.cryptosnailz.com/"
+      },
+      {
         "pic": "69toadz.png",
         "name": "69Toadz",
         "description": "Collection of 69 swamp-inspired toadz.",
@@ -514,6 +539,12 @@
     "title": "Games",
     "id": "games",
     "children": [
+      {
+        "pic": "toadzgotchi.png",
+        "name": "Toadzgotchi",
+        "description": "Take care of your swampy frem. Tend and level toadz",
+        "link": "https://toadzgotchi.com/"
+      },
       {
         "pic": "toadblockz.png",
         "name": "Toad Blocks",
