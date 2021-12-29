@@ -37,7 +37,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="">
-      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-14">
+      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-14 bg-toadz-lightgray">
         <div className="space-y-12">
           <ul
             role="list"
