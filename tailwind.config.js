@@ -12,6 +12,7 @@ module.exports = {
         "toadz-lightgrey": "#E9ECEF",
         "nouns-warm": "#E1D8D5",
         "nouns-cool": "#D4D7E1",
+        dark: "#1a1e1d",
         toolz: "#BFBB98",
         ideaz: "#A79FF3",
         buildz: "#E59487",

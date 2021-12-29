@@ -94,7 +94,7 @@ const Ideaz = () => {
 
   return (
     <>
-      <Nav color="toadz-ideaz" />
+      <Nav color="dark" />
       <div className="p-5 text-white bg h-full">
         <Header title="IDEAZ" />
         {/* <PageTitle passedClass="" title="Ideaz" /> */}
