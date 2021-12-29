@@ -268,6 +268,7 @@ h3 {
 
 .address {
   color: #2c7be5;
+  color: #7d7d7d;
 }
 
 .roadmap {
@@ -378,7 +379,9 @@ body {
 }
 @media (max-width: 600px) {
   .selectionWrap {
-    grid-template-columns: auto;
+    margin-top: 15px;
+    grid-template-columns: auto auto;
+    margin: 50px 0px 20px 0px !important;
   }
 }
 .optionsWrap {
@@ -390,6 +393,15 @@ body {
   padding: 8px;
   margin-bottom: 20px;
   flex-direction: column;
+}
+@media (max-width: 600px) {
+  .optionsWrap {
+    width: 130px;
+    padding: 0px;
+  }
+  .optionsWrap select {
+    padding: 4px;
+  }
 }
 .mySelector {
   display: flex;

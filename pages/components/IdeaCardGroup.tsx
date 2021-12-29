@@ -8,7 +8,7 @@ interface IdeaCardGroupProps {
 
 const IdeaCardGroup = ({ ideas, name }: IdeaCardGroupProps) => {
   return (
-    <div className="px-4 xs:w-full">
+    <div className="px-4 w-full m-auto">
       <h2 className="text-scratchy text-3xl mb-6">{name}</h2>
 
       <div className="flex flex-wrap xs:gap-none sm:gap-8">

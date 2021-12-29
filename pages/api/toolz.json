@@ -5,7 +5,13 @@
     "children": [
       {
         "name": "CryptoFlyz",
-        "image": "cf.jpg",
+        "image": "creaturetoadz.png",
+        "description": "First crossover project between two independently successful NFT communities, Creatures and CryptoToadz by Skirano.",
+        "link": "https://opensea.io/collection/creaturetoadz"
+      },
+      {
+        "name": "CryptoFlyz",
+        "pic": "cf.jpg",
         "description": "All the toad traits that you love painstakingly retuned to fit the aerodynamic body of a fly, plus some new bonus traits.",
         "link": "https://opensea.io/collection/cryptoflyz"
       },
@@ -329,6 +335,12 @@
         "link": "https://opensea.io/collection/tounswtf"
       },
       {
+        "pic": "vibetoadz.jpeg",
+        "name": "Vibe Toadz",
+        "description": "Animated toadz with tube lighting on Polygon and Ethereum chains.",
+        "link": "https://opensea.io/collection/vibetoadz"
+      },
+      {
         "pic": "cryptosnailz.jpeg",
         "name": "CryptoSnailz",
         "description": "Collection of 6,969 snailz.",
@@ -437,6 +449,12 @@
     "id": "buy",
     "children": [
       {
+        "pic": "swampz.png",
+        "name": "Swampz.io",
+        "description": "Swampz.io is an NFT Exchange that supports secondary sales of Cryptoadz and derivatives like Cryptoflyz.",
+        "link": "https://swampz.io/"
+      },
+      {
         "pic": "opensea.png",
         "name": "OpenSea: Low to High",
         "description": "View the current ''Floor Toadz'' and pick on up yourself!",
@@ -542,7 +560,7 @@
       {
         "pic": "toadzgotchi.png",
         "name": "Toadzgotchi",
-        "description": "Take care of your swampy frem. Tend and level toadz",
+        "description": "Tamagotchi-inspired P2E CrypToadz game. Your toad, come to life. Level up your toad to earn rewards! Coming to your neighborhood Toys 'R' Us. Q1 2022.",
         "link": "https://toadzgotchi.com/"
       },
       {

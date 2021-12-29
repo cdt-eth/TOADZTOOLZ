@@ -4,19 +4,22 @@ import Item from "./components/Toolz/Tool";
 import MiniNav from "./components/Toolz/MiniNav";
 import Section from "./components/Toolz/Section";
 import AnchorGroup from "./components/Toolz/AnchorGroup";
-import PageTitle from "./components/PageTitle";
-import MiniNavLink from "./components/Toolz/MiniNavLink";
+// import PageTitle from "./components/PageTitle";
+// import MiniNavLink from "./components/Toolz/MiniNavLink";
 import Header from "./components/Header";
 import toolz from "./api/toolz.json";
 import ToolzGroup from "./components/ToolzGroup";
+import Nav from "./components/Nav";
 
 const Toolz = () => {
   return (
-    <div className="bg-toadz-dark h-full text-white p-5 sm:px-10">
-      <Header title="TOOLZ" />
-      <PageTitle passedClass="" title="Toolz" />
+    <>
+      <Nav color="toadz-dark" />
+      <div className="bg-toadz-dark h-full text-white p-5 sm:px-10">
+        <Header title="TOOLZ" />
+        {/* <PageTitle passedClass="" title="Toolz" /> */}
 
-      <MiniNav passedClass="">
+        {/* <MiniNav passedClass="">
         <MiniNavLink
           link="/"
           newPage={false}
@@ -46,19 +49,24 @@ const Toolz = () => {
           pic="mininav/ghosts-3.png"
           alt="ideaz"
         />
-      </MiniNav>
+      </MiniNav> */}
 
-      <AnchorGroup />
+        <AnchorGroup />
 
-      <div>
-        {toolz &&
-          toolz.map((section) => (
-            <Section title={section.title} id={section.id} key={section.title}>
-              <ToolzGroup section={section.children} />
-            </Section>
-          ))}
+        <div>
+          {toolz &&
+            toolz.map((section) => (
+              <Section
+                title={section.title}
+                id={section.id}
+                key={section.title}
+              >
+                <ToolzGroup section={section.children} />
+              </Section>
+            ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
