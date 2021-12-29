@@ -9,24 +9,28 @@ const projects = [
     description: "Every project being built in the Toadz community.",
     imageUrl: "/projects/1.png",
     link: "/toolz",
+    class: "toolzbg",
   },
   {
     name: "Ideaz",
     description: "Create your own Cryptoadz with the new Toad Builder.",
     imageUrl: "/projects/3.png",
     link: "/ideaz",
+    class: "ideazbg",
   },
   {
     name: "Buildz",
     description: "Submit your project or idea for the site here!",
     imageUrl: "/projects/2.png",
     link: "/buildz",
+    class: "buildzbg",
   },
   {
     name: "Filez",
     description: "Download all Cryptoadz assets, fonts, and metadata.",
     imageUrl: "/projects/4.png",
     link: "/filez",
+    class: "filezbg",
   },
 ];
 

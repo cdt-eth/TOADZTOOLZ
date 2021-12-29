@@ -4,7 +4,7 @@ import React from "react";
 const ProjectCard = ({ project }) => {
   return project ? (
     <div
-      className={`cursor-pointer rounded-xl px-4 py-6 bg-${project.name.toLowerCase()}  transform hover:scale-105 transition duration-200`}
+      className={`cursor-pointer rounded-xl px-4 py-6  ${project.class}  transform hover:scale-105 transition duration-200`}
     >
       <div className="space-y-4">
         <div className="aspect-w-3 aspect-h-2">

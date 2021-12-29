@@ -462,3 +462,16 @@ canvas {
 .darkbg {
   background: #1a1e1d;
 }
+
+.toolzbg {
+  background: #bfbb98 !important;
+}
+.ideazbg {
+  background: #a79ff3 !important;
+}
+.buildzbg {
+  background: #e59487 !important;
+}
+.filezbg {
+  background: #7d7d7d !important;
+}
