@@ -2,7 +2,7 @@
 import React from "react";
 
 const ProjectCard = ({ project }) => {
-  return (
+  return project ? (
     <div
       className={`cursor-pointer rounded-xl px-4 py-6 bg-${project.name.toLowerCase()}  transform hover:scale-105 transition duration-200`}
     >
@@ -29,6 +29,8 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
     </div>
+  ) : (
+    <></>
   );
 };
 

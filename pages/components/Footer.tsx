@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "./Link";
-import Tip from "./Tip";
+import Credit from "./Credit";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
 
       <div className="self-center">
-        <Tip />
+        <Credit />
 
         <br />
 
