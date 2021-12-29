@@ -10,7 +10,7 @@ function classNames(...classes) {
 }
 
 interface NavProps {
-  color: string;
+  color?: string;
   light?: boolean;
 }
 
@@ -18,7 +18,7 @@ export default function Nav({ color, light }: NavProps) {
   const { theme, setTheme } = useTheme();
 
   return (
-    <Disclosure as="nav" className={`bg-${color ? color : "dark"}`}>
+    <Disclosure as="nav" className={`${color ? `bg-${color}` : "darkbg"}`}>
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

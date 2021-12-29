@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <>
-      <Nav color="dark" />
+      <Nav />
       <div className="bg-toadz-lightgray w-full dark:bg-toadz-dark h-screen">
         <Header title="TOADZTOOLZ" />
 
