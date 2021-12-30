@@ -79,7 +79,7 @@ const Filez = () => {
                 />
                 <Download
                   text="All Toadz (svg)"
-                  file="/downloads/vector-toadz-no-bg.zip"
+                  file="/downloads/vectorToads-noBG.zip"
                   right
                 />
               </span>
