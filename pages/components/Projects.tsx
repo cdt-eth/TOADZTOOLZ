@@ -20,14 +20,14 @@ const projects = [
   },
   {
     name: "Buildz",
-    description: "Submit your project or idea for the site here!",
+    description: "Submit your project or idea for the site!",
     imageUrl: "/projects/2.png",
     link: "/buildz",
     class: "buildzbg",
   },
   {
     name: "Filez",
-    description: "Download all Cryptoadz assets, fonts, and metadata.",
+    description: "Download all assets, fonts, and metadata.",
     imageUrl: "/projects/4.png",
     link: "/filez",
     class: "filezbg",
