@@ -113,6 +113,11 @@ const Filez = () => {
                 <Download
                   text="Toad Metadata"
                   file="/downloads/all-data.json"
+                  
+                />
+                <Download
+                  text="Flyz Metadata"
+                  file="/downloads/flyzOutputData.json"
                   right
                 />
               </span>
