@@ -13,14 +13,14 @@ const projects = [
   },
   {
     name: "Ideaz",
-    description: "Create your own Cryptoadz with the new Toad Builder.",
+    description: "Submit your project or idea for the site!",
     imageUrl: "/projects/3.png",
     link: "/ideaz",
     class: "ideazbg",
   },
   {
     name: "Buildz",
-    description: "Submit your project or idea for the site!",
+    description: "Create your own Cryptoadz with the new Toad Builder.",
     imageUrl: "/projects/2.png",
     link: "/buildz",
     class: "buildzbg",
