@@ -3,12 +3,13 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
   return project ? (
-    <div
+    <a
+      href={project.link}
       className={`cursor-pointer rounded-xl px-4 py-6  ${project.class}  transform hover:scale-105 transition duration-200`}
     >
       <div className="space-y-4">
         <div className="aspect-w-3 aspect-h-2">
-          <a href={project.link} className="text-gray-400 hover:text-gray-500">
+          <a className="text-gray-400 hover:text-gray-500">
             <img
               className="object-cover rounded-lg"
               src={project.imageUrl}
@@ -28,7 +29,7 @@ const ProjectCard = ({ project }) => {
           </div>
         </div>
       </div>
-    </div>
+    </a>
   ) : (
     <></>
   );
