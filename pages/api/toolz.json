@@ -233,6 +233,36 @@
         "link": "https://opensea.io/collection/trippy-toadz"
       },
       {
+        "pic": "wiredbeast.jpg",
+        "name": "Wired Beast",
+        "description": "Wired Beast presents a timeless aesthetic look, aims to grow into a globally recognized brand with a strong community.",
+        "link": "https://wiredbeast.io/"
+      },
+      {
+        "pic": "degendary.jpg",
+        "name": "Degendary",
+        "description": "DEGENDARY is a collection of 300 small degen creatures inspired by Nouns and Cryptoadz.",
+        "link": "https://opensea.io/collection/degendary"
+      },
+      {
+        "pic": "distorted.jpg",
+        "name": "Distorted Toadz",
+        "description": "Toadz that have been distorted as they traversed the ever-expanding metaverse.",
+        "link": "https://twitter.com/distortedtoadz"
+      },
+      {
+        "pic": "loottoadz.jpg",
+        "name": "Loot Toadz",
+        "description": "100% On-Chain NFT on ERC721 Standard with Token Utility.",
+        "link": "https://twitter.com/loottoadz"
+      },
+      {
+        "pic": "unexistingtoadz.jpg",
+        "name": "Unexisting Toadz",
+        "description": "We trained a GAN neural network to create Cryptoadz which do not exist!",
+        "link": "https://thistoadzdoesnotexist.com/"
+      },
+      {
         "pic": "baller.jpeg",
         "name": "Baller Toadz",
         "description": "250 toadz balling out in the metaverse. Build your best team for upcoming 2v2 tournament challenges.",
