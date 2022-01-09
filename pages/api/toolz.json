@@ -750,6 +750,12 @@
     "id": "audio",
     "children": [
       {
+        "pic": "bpp.png",
+        "name": "THE BAD POSTURE PODCAST: MotivateMe.Eth",
+        "description": "Cryptoadz community manager on building great communities, the power of CC0, and why so many choose to remain pseudonymous in Web3.",
+        "link": "https://badposture.substack.com/p/bp2-motivatemeeth"
+      },
+      {
         "pic": "mm1.jpeg",
         "name": "Moti Monday Genesis",
         "description": "''Moti Monday'' Twitter Spaces with Motivateme.eth hosted by Deeze from 10/4/21.",
