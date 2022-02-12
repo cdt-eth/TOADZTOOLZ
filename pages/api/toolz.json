@@ -139,6 +139,49 @@
         "link": "https://opensea.io/collection/hero-toadz"
       },
       {
+        "pic": "bf.jpeg",
+        "name": "Bullfrug Mutant Club",
+        "description": "A collection of characters that drank Dr. Bullfrug's purple potion and were transformed into Mutants.",
+        "link": "https://opensea.io/collection/bullfrug-mutant-club"
+      },
+      {
+        "pic": "cryptoadpunks.jpeg",
+        "name": "CrypToad Punks",
+        "description": "6969 Toad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 project. 80% of sales goes directly to CrypToadz treasury.",
+        "link": "https://twitter.com/cryptoadpunks"
+      },
+      {
+        "pic": "0xtoadz.jpeg",
+        "name": "0xToadz",
+        "description": "An Expansion Pack of 5,555 Uniquely Reconstructed Toadz Vibing in a honey swamp near you.",
+        "link": "https://twitter.com/ExpansionToadz"
+      },
+      {
+        "pic": "orangugang.png",
+        "name": "Orangugang",
+        "description": "10,000 Orangutans were programmatically, randomly generated, stored as ERC-721 tokens on the Ethereum blockchain, and hosted on IPFS.",
+        "link": "https://www.orangugang.com/"
+      },
+      {
+        "pic": "butttoadz.png",
+        "name": "Butt Toadz",
+        "description": "A collection  of 6969 small amphibious creatures trying to escape the tyrannical rule of the evil King Coltrane.",
+        "link": "https://opensea.io/collection/buttoadz"
+      },
+      {
+        "pic": "trippy.png",
+        "name": "Trippy GAN Toadz",
+        "description": "A plague of 5,038 visually disturbing Trippy GAN Toadz squatting on the blockchain. A derivative project created by a GAN machine learning process using real pieces of actual CrypToadz.",
+        "link": "https://opensea.io/collection/trippy-gan-toadz"
+      },
+      {
+        "pic": "magic.png",
+        "name": "Magic Toadz",
+        "description": "Small community based project of 1444 Magic Toads from the ethereum swamp.",
+        "link": "https://twitter.com/magictoadsnft"
+      },
+
+      {
         "pic": "santa.jpeg",
         "name": "SantaToadz",
         "description": "Holiday spirit infused CrypToadz derivatives high on lollipop dust, funky milk and that special kind of cookies.",

@@ -1,5 +1,6 @@
 import React from "react";
 import Tool from "./Toolz/Tool";
+import { v4 as uuidv4 } from "uuid";
 
 const ToolzGroup = ({ section }) => {
   return (
@@ -7,7 +8,7 @@ const ToolzGroup = ({ section }) => {
       {section &&
         section.map((tool) => (
           <Tool
-            key={tool.name}
+            key={uuidv4()}
             name={tool.name}
             pic={tool.pic}
             description={tool.description}
