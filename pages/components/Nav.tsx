@@ -64,7 +64,7 @@ export default function Nav({ color, light }: NavProps) {
                     </a>
 
                     <a
-                      href="https://addressform.io/form/toadztools/ideaz"
+                      href="https://addressform.io/form/toadztoolz"
                       target="_blank"
                       rel="noreferrer"
                     >

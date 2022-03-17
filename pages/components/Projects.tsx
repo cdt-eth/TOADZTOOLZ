@@ -14,7 +14,7 @@ const projects = [
     name: "Ideaz",
     description: "Submit your project or idea for the site!",
     imageUrl: "/projects/3.png",
-    link: "https://addressform.io/form/toadztools/ideaz",
+    link: "https://addressform.io/form/toadztoolz",
     class: "ideazbg",
   },
   {
