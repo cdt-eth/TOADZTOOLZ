@@ -5,7 +5,7 @@ const Credit = () => {
   return (
     <div className="w-auto xs:px-4 bg-toadz-lightgray pb-6 ">
       <div className="text-center flex gap-2 items-center justify-center">
-        <img className="" src="/cdt/5398.png" alt="bones" />
+        <img className="" src="/cdt/5342.png" alt="toadenza" />
         <p className="py-2 italic font-semibold xs:text-md  sm:text-xl">
           <span className="not-italic">built by </span>{" "}
           <a

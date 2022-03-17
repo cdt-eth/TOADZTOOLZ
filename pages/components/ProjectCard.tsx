@@ -5,6 +5,8 @@ const ProjectCard = ({ project }) => {
   return project ? (
     <a
       href={project.link}
+      target={project.name === "Ideaz" ? "_blank" : "_self"}
+      rel="noreferrer"
       className={`cursor-pointer rounded-xl px-4 py-6  ${project.class}  transform hover:scale-105 transition duration-200`}
     >
       <div className="space-y-4">

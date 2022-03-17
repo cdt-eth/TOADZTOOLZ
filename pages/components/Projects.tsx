@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import ProjectCard from "./ProjectCard";
-// import Card from "./Card";
 
 const projects = [
   {
@@ -15,7 +14,7 @@ const projects = [
     name: "Ideaz",
     description: "Submit your project or idea for the site!",
     imageUrl: "/projects/3.png",
-    link: "/ideaz",
+    link: "https://addressform.io/form/toadztools/ideaz",
     class: "ideazbg",
   },
   {

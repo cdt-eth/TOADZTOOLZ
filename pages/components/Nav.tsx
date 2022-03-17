@@ -63,7 +63,11 @@ export default function Nav({ color, light }: NavProps) {
                       </p>
                     </a>
 
-                    <a href="/ideaz">
+                    <a
+                      href="https://addressform.io/form/toadztools/ideaz"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <p
                         className={`cursor-pointer text-scratchy  hover:bg-gray-700 ${
                           light
