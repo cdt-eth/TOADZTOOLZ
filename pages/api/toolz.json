@@ -107,6 +107,30 @@
     "id": "open-public",
     "children": [
       {
+        "pic": "blitoadz.jpeg",
+        "name": "Blitoadz",
+        "description": "Blitoadz is an on-chain collection of 5,600 unique NFTs. They are, effectively, blitzed CrypToadz.",
+        "link": "https://twitter.com/blitoadz"
+      },
+      {
+        "pic": "swampcat.png",
+        "name": "SwampCatz",
+        "description": "SwampCatz is a collection of 6,969 programmatically generated adorable feline creatures vibing in the metaverse. No roadmap, no utility, just !meow.",
+        "link": "https://opensea.io/collection/swampcatz"
+      },
+      {
+        "pic": "avax.png",
+        "name": "AVAXCryptoadz",
+        "description": "AVAX Cryptoadz is our tribute to the CC0 movement and our passion for growing the Avalanche Network by spreading !vibe.",
+        "link": "https://avaxcryptoadz.com/"
+      },
+      {
+        "pic": "VIBERS.jpeg",
+        "name": "VIBERS",
+        "description": "For the culture. An ode to Cryptoadz and other iconic NFT collections. CC0.",
+        "link": "https://twitter.com/VibersNFT"
+      },
+      {
         "pic": "vantoadz.jpeg",
         "name": "VanToadz",
         "description": "A Swamp Full of 1/1 Toadz, brought to you by Van Coleman.",
